@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 19.879814848274904,
   "positions": {
     "BTCUSDT": {
       "signal": "donchian_breakout",
@@ -8,13 +8,6 @@
       "units": 0.00033054296396783906,
       "notional": 20.0,
       "opened_at": "2026-06-26T15:41:19.030069+00:00"
-    },
-    "SOLUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 72.17,
-      "units": 0.2768463350422613,
-      "notional": 20.0,
-      "opened_at": "2026-06-26T15:41:20.470618+00:00"
     },
     "ZECUSDT": {
       "signal": "donchian_breakout",
@@ -38,9 +31,22 @@
       "opened_at": "2026-06-26T15:41:29.432553+00:00"
     }
   },
-  "history": [],
-  "runs": 8,
-  "updated_at": "2026-06-26T19:18:36.984264+00:00",
-  "equity": 100.3498,
-  "total_return_pct": 0.3498
+  "history": [
+    {
+      "symbol": "SOLUSDT",
+      "signal": "donchian_breakout",
+      "entry_price": 72.17,
+      "exit_price": 71.88,
+      "units": 0.2768463350422613,
+      "pnl": -0.1202,
+      "return_pct": -0.6009,
+      "reason": "signal",
+      "opened_at": "2026-06-26T15:41:20.470618+00:00",
+      "closed_at": "2026-06-26T21:06:01.872847+00:00"
+    }
+  ],
+  "runs": 9,
+  "updated_at": "2026-06-26T21:06:23.856046+00:00",
+  "equity": 99.9273,
+  "total_return_pct": -0.0727
 }
