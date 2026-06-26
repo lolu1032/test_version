@@ -16,7 +16,7 @@ the git history *is* your trade log. No API key required (all market data is pub
 | `signals.py` | 8 indicators (SMA, EMA, RSI, MACD, Bollinger, ATR, Stochastic, Donchian) + 6 signal factories. Pure stdlib. |
 | `backtest.py` | No-lookahead backtest engine (win rate / return / max drawdown / fees). |
 | `test_all.py` | 57 deterministic unit tests defining correctness of the above. |
-| `data.py` | Public Binance REST: klines + liquid-symbol discovery (stdlib `urllib`). |
+| `data.py` | Public Binance REST: klines + liquid-symbol discovery (stdlib `urllib`). Uses `data-api.binance.vision` so it works from US-based CI runners (`api.binance.com` returns HTTP 451 there). Override with `BINANCE_BASE`. |
 | `run_backtest.py` | Runs every signal over historical data and ranks them. **Use this to decide which signal to run live.** |
 | `scanner.py` | The 15-minute cron entry point: scan → paper trade → update `ledger.json`. |
 | `notion_sync.py` | Optional best-effort push of a summary row to a Notion database. |

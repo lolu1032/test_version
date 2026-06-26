@@ -6,11 +6,15 @@ public data, so no authentication is involved.
 """
 
 import json
+import os
 import time
 import urllib.request
 import urllib.error
 
-BASE = "https://api.binance.com"
+# data-api.binance.vision is Binance's public market-data domain: same /api/v3/*
+# routes, no API key, and (unlike api.binance.com) NOT geo-blocked -- so it works
+# from US-based CI runners like GitHub Actions, which otherwise get HTTP 451.
+BASE = os.getenv("BINANCE_BASE", "https://data-api.binance.vision")
 
 # Leveraged tokens and obvious non-spot oddities we never want to paper-trade.
 _EXCLUDE_SUFFIXES = ("UPUSDT", "DOWNUSDT", "BULLUSDT", "BEARUSDT")
