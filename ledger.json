@@ -1,10 +1,46 @@
 {
   "starting_cash": 100.0,
-  "cash": 100.0,
-  "positions": {},
+  "cash": 0.0,
+  "positions": {
+    "BTCUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 60446.0,
+      "units": 0.00033054296396783906,
+      "notional": 20.0,
+      "opened_at": "2026-06-26T15:41:19.030069+00:00"
+    },
+    "SOLUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 72.17,
+      "units": 0.2768463350422613,
+      "notional": 20.0,
+      "opened_at": "2026-06-26T15:41:20.470618+00:00"
+    },
+    "ZECUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 413.53,
+      "units": 0.04831572074577419,
+      "notional": 20.0,
+      "opened_at": "2026-06-26T15:41:22.723856+00:00"
+    },
+    "DOGEUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.07522,
+      "units": 265.6208455198086,
+      "notional": 20.0,
+      "opened_at": "2026-06-26T15:41:23.842835+00:00"
+    },
+    "SUIUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.695,
+      "units": 28.748201438848923,
+      "notional": 20.0,
+      "opened_at": "2026-06-26T15:41:29.432553+00:00"
+    }
+  },
   "history": [],
-  "runs": 5,
-  "updated_at": "2026-06-26T13:29:06.941211+00:00",
-  "equity": 100.0,
-  "total_return_pct": 0.0
+  "runs": 6,
+  "updated_at": "2026-06-26T15:41:35.569207+00:00",
+  "equity": 99.9,
+  "total_return_pct": -0.1
 }
