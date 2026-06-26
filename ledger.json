@@ -1,18 +1,10 @@
 {
-  "starting_cash": 1000.0,
-  "cash": 800.0,
-  "positions": {
-    "AAVEUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 84.54,
-      "units": 2.363378282469837,
-      "notional": 200.0,
-      "opened_at": "2026-06-26T04:41:46.953257+00:00"
-    }
-  },
+  "starting_cash": 100.0,
+  "cash": 100.0,
+  "positions": {},
   "history": [],
-  "runs": 2,
-  "updated_at": "2026-06-26T04:45:19.510552+00:00",
-  "equity": 999.3746,
-  "total_return_pct": -0.0625
+  "runs": 1,
+  "updated_at": "2026-06-26T04:53:17.279213+00:00",
+  "equity": 100.0,
+  "total_return_pct": 0.0
 }

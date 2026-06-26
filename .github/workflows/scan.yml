@@ -29,6 +29,7 @@ jobs:
       - name: Run scanner (paper trade)
         env:
           STRATEGY: donchian_breakout
+          STARTING_CASH: "100"
           TOP_N: "30"
           MAX_POSITIONS: "5"
           POSITION_PCT: "0.20"

@@ -44,7 +44,7 @@ POSITION_PCT = float(os.getenv("POSITION_PCT", "0.20"))  # of starting cash / tr
 INTERVAL = os.getenv("INTERVAL", "15m")
 KLINE_LIMIT = int(os.getenv("KLINE_LIMIT", "200"))
 FEE_RATE = float(os.getenv("FEE_RATE", "0.001"))
-STARTING_CASH = float(os.getenv("STARTING_CASH", "1000.0"))
+STARTING_CASH = float(os.getenv("STARTING_CASH", "100.0"))
 LEDGER_PATH = os.getenv("LEDGER_PATH", "ledger.json")
 
 # Optional safety exits (off by default so live == backtest). Set to e.g. 0.10

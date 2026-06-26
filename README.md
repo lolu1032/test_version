@@ -58,7 +58,7 @@ not in the code. The trade ledger is fine to be public (it's fake money).
 | `TOP_N` | `30` | how many top-volume coins to scan |
 | `MAX_POSITIONS` | `5` | max simultaneous open positions |
 | `POSITION_PCT` | `0.20` | fraction of starting cash per trade |
-| `STARTING_CASH` | `1000` | virtual starting balance (USDT) |
+| `STARTING_CASH` | `100` | virtual starting balance (USDT) |
 | `FEE_RATE` | `0.001` | simulated fee per side (0.1%) |
 | `TAKE_PROFIT` / `STOP_LOSS` | off | optional safety exits, e.g. `0.10` / `0.05` |
 
