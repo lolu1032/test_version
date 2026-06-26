@@ -1,0 +1,54 @@
+name: paper-trade-scan
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub may delay scheduled runs under load; that's fine
+    # for a 15-minute paper strategy.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # allow manual runs from the Actions tab
+
+# Let the job push ledger.json back to the repo.
+permissions:
+  contents: write
+
+# Never run two scans at once (they'd both edit ledger.json).
+concurrency:
+  group: paper-trade-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run scanner (paper trade)
+        env:
+          STRATEGY: donchian_breakout
+          TOP_N: "30"
+          MAX_POSITIONS: "5"
+          POSITION_PCT: "0.20"
+        run: python3 scanner.py
+
+      - name: Push summary to Notion (optional)
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          STRATEGY: donchian_breakout
+        run: python3 notion_sync.py
+
+      - name: Commit ledger
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ledger.json
+          if git diff --staged --quiet; then
+            echo "No ledger changes."
+          else
+            git commit -m "paper-trade scan $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
