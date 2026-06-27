@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 39.87167747523582,
+  "cash": 0.0,
   "positions": {
     "BTCUSDT": {
       "signal": "donchian_breakout",
@@ -22,6 +22,20 @@
       "units": 28.748201438848923,
       "notional": 20.0,
       "opened_at": "2026-06-26T15:41:29.432553+00:00"
+    },
+    "XRPUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 1.0663,
+      "units": 18.7376910813092,
+      "notional": 20.0,
+      "opened_at": "2026-06-27T14:13:00.908472+00:00"
+    },
+    "NEARUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 1.856,
+      "units": 10.6960160548279,
+      "notional": 19.87167747523582,
+      "opened_at": "2026-06-27T14:13:04.176821+00:00"
     }
   },
   "history": [
@@ -50,8 +64,8 @@
       "closed_at": "2026-06-27T09:16:43.442034+00:00"
     }
   ],
-  "runs": 16,
-  "updated_at": "2026-06-27T12:19:12.420165+00:00",
-  "equity": 99.6438,
-  "total_return_pct": -0.3562
+  "runs": 17,
+  "updated_at": "2026-06-27T14:13:21.679760+00:00",
+  "equity": 99.8897,
+  "total_return_pct": -0.1103
 }
