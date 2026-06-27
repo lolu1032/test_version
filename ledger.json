@@ -1,14 +1,7 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 59.495677513415075,
   "positions": {
-    "BTCUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 60446.0,
-      "units": 0.00033054296396783906,
-      "notional": 20.0,
-      "opened_at": "2026-06-26T15:41:19.030069+00:00"
-    },
     "ZECUSDT": {
       "signal": "donchian_breakout",
       "entry_price": 413.53,
@@ -16,26 +9,12 @@
       "notional": 20.0,
       "opened_at": "2026-06-26T15:41:22.723856+00:00"
     },
-    "SUIUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 0.695,
-      "units": 28.748201438848923,
-      "notional": 20.0,
-      "opened_at": "2026-06-26T15:41:29.432553+00:00"
-    },
     "XRPUSDT": {
       "signal": "donchian_breakout",
       "entry_price": 1.0663,
       "units": 18.7376910813092,
       "notional": 20.0,
       "opened_at": "2026-06-27T14:13:00.908472+00:00"
-    },
-    "NEARUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 1.856,
-      "units": 10.6960160548279,
-      "notional": 19.87167747523582,
-      "opened_at": "2026-06-27T14:13:04.176821+00:00"
     }
   },
   "history": [
@@ -62,10 +41,46 @@
       "reason": "signal",
       "opened_at": "2026-06-26T15:41:23.842835+00:00",
       "closed_at": "2026-06-27T09:16:43.442034+00:00"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "signal": "donchian_breakout",
+      "entry_price": 60446.0,
+      "exit_price": 60203.13,
+      "units": 0.00033054296396783906,
+      "pnl": -0.1202,
+      "return_pct": -0.6009,
+      "reason": "signal",
+      "opened_at": "2026-06-26T15:41:19.030069+00:00",
+      "closed_at": "2026-06-27T19:43:48.873022+00:00"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "signal": "donchian_breakout",
+      "entry_price": 1.856,
+      "exit_price": 1.85,
+      "units": 10.6960160548279,
+      "pnl": -0.1038,
+      "return_pct": -0.5225,
+      "reason": "signal",
+      "opened_at": "2026-06-27T14:13:04.176821+00:00",
+      "closed_at": "2026-06-27T19:43:54.092998+00:00"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "signal": "donchian_breakout",
+      "entry_price": 0.695,
+      "exit_price": 0.6911,
+      "units": 28.748201438848923,
+      "pnl": -0.152,
+      "return_pct": -0.7599,
+      "reason": "signal",
+      "opened_at": "2026-06-26T15:41:29.432553+00:00",
+      "closed_at": "2026-06-27T19:43:58.547300+00:00"
     }
   ],
-  "runs": 20,
-  "updated_at": "2026-06-27T18:02:10.810720+00:00",
-  "equity": 100.073,
-  "total_return_pct": 0.073
+  "runs": 21,
+  "updated_at": "2026-06-27T19:44:09.609176+00:00",
+  "equity": 98.6638,
+  "total_return_pct": -1.3362
 }
