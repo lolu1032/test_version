@@ -161,22 +161,9 @@
       "equity": 98.4516
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-06-28T17:09:55.227375+00:00",
-      "action": "BUY",
-      "symbol": "EURIUSDC",
-      "price": 1.1403,
-      "stop_loss": 1.106091,
-      "take_profit": 1.197315,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 98.4516
-    }
-  ],
-  "runs": 3,
-  "updated_at": "2026-06-28T17:09:55.227405+00:00",
-  "equity": 98.4516,
-  "total_return_pct": -1.5484
+  "last_run_events": [],
+  "runs": 4,
+  "updated_at": "2026-06-28T18:18:02.125175+00:00",
+  "equity": 98.1082,
+  "total_return_pct": -1.8918
 }
