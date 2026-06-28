@@ -19,6 +19,9 @@ BASE = os.getenv("BINANCE_BASE", "https://data-api.binance.vision")
 # Leveraged tokens and obvious non-spot oddities we never want to paper-trade.
 _EXCLUDE_SUFFIXES = ("UPUSDT", "DOWNUSDT", "BULLUSDT", "BEARUSDT")
 
+# Quote assets treated as ~1 USDT for converting non-USDT pairs into USDT terms.
+_STABLE_QUOTES = {"USDT", "USDC", "FDUSD", "TUSD", "DAI", "USDP", "BUSD"}
+
 
 def _get(path, params=None, retries=3, backoff=1.0):
     """GET a JSON endpoint with simple retry/backoff."""
@@ -60,6 +63,64 @@ def get_klines(symbol, interval="15m", limit=500):
             }
         )
     return candles
+
+
+def get_all_coins(min_usdt_volume=0.0):
+    """Return (almost) every tradeable spot COIN, deduped by base asset.
+
+    Scans all spot TRADING pairs across every quote currency (USDT, BTC, ETH,
+    ...), converts each pair's quote volume + price into USDT terms, and keeps
+    the single most-liquid pair per base coin. So "all coins" stays coherent --
+    one entry per coin (not the same coin five times via five quote markets),
+    priced in USDT so the paper ledger has one currency.
+
+    Returns a list of dicts: {symbol, base, quote, usdt_rate, usdt_volume},
+    sorted by USDT volume (high first). usdt_rate converts the pair's native
+    price into USDT (1.0 for stable-quoted pairs).
+    """
+    tickers = _get("/api/v3/ticker/24hr")
+    info = _get("/api/v3/exchangeInfo")
+
+    price = {}
+    qvol = {}
+    for t in tickers:
+        sym = t.get("symbol", "")
+        try:
+            price[sym] = float(t.get("lastPrice", 0) or 0)
+            qvol[sym] = float(t.get("quoteVolume", 0) or 0)
+        except (TypeError, ValueError):
+            continue
+
+    def quote_to_usdt(quote):
+        if quote in _STABLE_QUOTES:
+            return 1.0
+        p = price.get(quote + "USDT")
+        return p if p else None
+
+    best = {}  # base -> (usdt_volume, symbol, quote, usdt_rate)
+    for s in info.get("symbols", []):
+        if s.get("status") != "TRADING" or not s.get("isSpotTradingAllowed"):
+            continue
+        sym = s["symbol"]
+        if sym.endswith(_EXCLUDE_SUFFIXES):
+            continue
+        base, quote = s["baseAsset"], s["quoteAsset"]
+        rate = quote_to_usdt(quote)
+        if not rate or sym not in price or price[sym] <= 0:
+            continue
+        usdt_vol = qvol.get(sym, 0.0) * rate
+        if usdt_vol < min_usdt_volume:
+            continue
+        if base not in best or usdt_vol > best[base][0]:
+            best[base] = (usdt_vol, sym, quote, rate)
+
+    coins = [
+        {"symbol": sym, "base": base, "quote": quote,
+         "usdt_rate": rate, "usdt_volume": vol}
+        for base, (vol, sym, quote, rate) in best.items()
+    ]
+    coins.sort(key=lambda c: c["usdt_volume"], reverse=True)
+    return coins
 
 
 def get_usdt_symbols(top_n=30, min_quote_volume=5_000_000.0):

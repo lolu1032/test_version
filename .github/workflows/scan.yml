@@ -30,9 +30,10 @@ jobs:
         env:
           STRATEGY: donchian_breakout
           STARTING_CASH: "100"
-          TOP_N: "30"
-          MAX_POSITIONS: "5"
-          POSITION_PCT: "0.20"
+          MIN_USDT_VOLUME: "0"     # 0 = scan every coin
+          MAX_POSITIONS: "5"       # capital split evenly across slots (rolls/compounds)
+          TAKE_PROFIT: "0.05"      # +5% -> close
+          STOP_LOSS: "0.03"        # -3% -> close
         run: python3 scanner.py
 
       - name: Push summary to Notion (optional)

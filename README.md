@@ -1,10 +1,16 @@
 # Crypto Paper-Trading Bot
 
 A free, self-contained **paper-trading** (simulated, no real money) bot for Binance
-spot markets. Every 15 minutes it scans the most liquid USDT coins, applies a
-technical signal, and opens/closes **virtual** positions. State lives in
-`ledger.json`, which GitHub Actions commits back to the repo after each run — so
-the git history *is* your trade log. No API key required (all market data is public).
+spot markets. Every 15 minutes it scans **every tradeable coin** (~440, deduped by
+base asset, non-USDT pairs converted to USDT), applies a technical signal, and opens
+**virtual** positions. Each position gets a **stop-loss and take-profit**; when price
+hits either, the position closes and the freed capital **rolls into the next coin**
+(whatever is left after a loss/gain funds the next trades). State lives in
+`ledger.json`, which GitHub Actions commits back to the repo after each run — so the
+git history *is* your trade log. No API key required (all market data is public).
+
+**Trade log:** every BUY (symbol, entry, SL, TP) and SELL (reason, PnL, cash left)
+is recorded in `ledger.json` and mirrored to Notion (one row per event).
 
 > ⚠️ Paper trading only. No real orders are ever placed. Backtest numbers are
 > historical and **not** a promise of future profit.
@@ -54,20 +60,18 @@ not in the code. The trade ledger is fine to be public (it's fake money).
 
 | Var | Default | Meaning |
 |-----|---------|---------|
-| `STRATEGY` | `macd_crossover` | which signal drives entries (`ma_crossover`, `rsi_reversal`, `macd_crossover`, `bollinger_breakout`, `volume_spike`, `donchian_breakout`) |
-| `TOP_N` | `30` | how many top-volume coins to scan |
-| `MAX_POSITIONS` | `5` | max simultaneous open positions |
-| `POSITION_PCT` | `0.20` | fraction of starting cash per trade |
+| `STRATEGY` | `donchian_breakout` | entry signal (`ma_crossover`, `rsi_reversal`, `macd_crossover`, `bollinger_breakout`, `volume_spike`, `donchian_breakout`) |
+| `MIN_USDT_VOLUME` | `0` | min 24h USDT volume to include a coin (`0` = every coin) |
+| `MAX_POSITIONS` | `5` | concurrent positions; cash is split evenly across open slots |
 | `STARTING_CASH` | `100` | virtual starting balance (USDT) |
+| `TAKE_PROFIT` | `0.05` | close a position at +5% |
+| `STOP_LOSS` | `0.03` | close a position at −3% |
 | `FEE_RATE` | `0.001` | simulated fee per side (0.1%) |
-| `TAKE_PROFIT` / `STOP_LOSS` | off | optional safety exits, e.g. `0.10` / `0.05` |
 
-Live behaviour mirrors `backtest.py` exactly (enter on BUY, exit on SELL,
-long-only, one position per symbol), so what you measure is what you run.
+**Exit model:** a position is opened on a BUY signal and closed when price hits its
+**take-profit** or **stop-loss** (not on an opposite signal). Freed capital rolls
+into the next signal — so the bankroll compounds up or decays down over time.
 
-> ⚠️ `volume_spike` is **entry-only** (it never emits SELL by design). Used alone
-> it buys and never exits, so its backtest "return" is just an open buy-and-hold
-> position, not realized trades. Only pair it with `TAKE_PROFIT`/`STOP_LOSS`.
-> The default `donchian_breakout` was the only signal that both round-trips and
-> stayed positive on the test window — but margins are thin; re-run
-> `run_backtest.py` periodically and tune.
+> ⚠️ Scanning *every* coin includes thin/illiquid ones whose paper fills are
+> optimistic. Raise `MIN_USDT_VOLUME` (e.g. `1000000`) to restrict to liquid coins.
+> Re-run `run_backtest.py` periodically — signal edges are thin and shift.

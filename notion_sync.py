@@ -1,30 +1,57 @@
-"""Push a run summary row into a Notion database (optional, best-effort).
+"""Push this run's trade events into a Notion database (optional, best-effort).
 
-Reads NOTION_TOKEN + NOTION_DATABASE_ID from the environment. If either is
-missing it skips silently with exit 0, so the bot runs fine without Notion.
-Notion is a human-readable dashboard only -- ledger.json is the source of truth,
-never this.
+Writes ONE row per trade event from the latest scan: every BUY (with symbol,
+entry price, stop-loss, take-profit) and every SELL (with reason, PnL, and the
+cash left to roll into the next trade). If there were no events this run, it
+writes nothing. Reads NOTION_TOKEN + NOTION_DATABASE_ID from the environment;
+skips silently (exit 0) if unset.
 
-Set up (one time):
-  1. Create a Notion internal integration -> copy the secret -> GitHub repo
-     Settings > Secrets and variables > Actions > New secret: NOTION_TOKEN.
-  2. Create a Notion database with these properties (exact names/types):
-       Name (Title), Equity (Number), Return % (Number),
-       Open (Number), Closed (Number), Strategy (Text)
-  3. Share that database page with your integration (••• > Connections).
-  4. Copy the database id from its URL -> secret: NOTION_DATABASE_ID.
+ledger.json is the source of truth -- Notion is just a human-readable log.
+
+Database columns expected (created/updated by setup):
+  Name (Title), Action (Text), Symbol (Text), Price (Number),
+  Stop Loss (Number), Take Profit (Number), Reason (Text),
+  PnL (Number), Cash After (Number), Equity (Number)
 """
 
 import json
 import os
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
 
 TOKEN = os.getenv("NOTION_TOKEN")
 DB_ID = os.getenv("NOTION_DATABASE_ID")
 LEDGER_PATH = os.getenv("LEDGER_PATH", "ledger.json")
-STRATEGY = os.getenv("STRATEGY", "macd_crossover")
+
+
+def _title(ev):
+    ts = ev.get("ts", "")[:16].replace("T", " ")
+    return f"{ts} {ev.get('action','')} {ev.get('symbol','')}"
+
+
+def _num(props, name, value):
+    if value is not None:
+        props[name] = {"number": round(float(value), 6)}
+
+
+def _text(props, name, value):
+    if value is not None:
+        props[name] = {"rich_text": [{"text": {"content": str(value)}}]}
+
+
+def _post(payload):
+    req = urllib.request.Request(
+        "https://api.notion.com/v1/pages",
+        data=json.dumps(payload).encode(),
+        method="POST",
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Notion-Version": "2022-06-28",
+            "Content-Type": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return r.status
 
 
 def main():
@@ -38,40 +65,33 @@ def main():
     with open(LEDGER_PATH) as f:
         led = json.load(f)
 
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    payload = {
-        "parent": {"database_id": DB_ID},
-        "properties": {
-            "Name": {"title": [{"text": {"content": stamp}}]},
-            "Equity": {"number": round(led.get("equity", led.get("cash", 0.0)), 2)},
-            "Return %": {"number": led.get("total_return_pct", 0.0)},
-            "Open": {"number": len(led.get("positions", {}))},
-            "Closed": {"number": len(led.get("history", []))},
-            "Strategy": {"rich_text": [{"text": {"content": STRATEGY}}]},
-        },
-    }
+    events = led.get("last_run_events", [])
+    if not events:
+        print("notion_sync: no trade events this run -> nothing to push")
+        return 0
 
-    req = urllib.request.Request(
-        "https://api.notion.com/v1/pages",
-        data=json.dumps(payload).encode(),
-        method="POST",
-        headers={
-            "Authorization": f"Bearer {TOKEN}",
-            "Notion-Version": "2022-06-28",
-            "Content-Type": "application/json",
-        },
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            print(f"notion_sync: pushed row ({r.status})")
-        return 0
-    except urllib.error.HTTPError as e:
-        # Don't fail the whole run just because Notion rejected the row.
-        print(f"notion_sync: HTTP {e.code} {e.read().decode()[:300]}")
-        return 0
-    except Exception as e:
-        print(f"notion_sync: {type(e).__name__} {e}")
-        return 0
+    pushed = 0
+    for ev in events:
+        props = {"Name": {"title": [{"text": {"content": _title(ev)}}]}}
+        _text(props, "Action", ev.get("action"))
+        _text(props, "Symbol", ev.get("symbol"))
+        _num(props, "Price", ev.get("price"))
+        _num(props, "Stop Loss", ev.get("stop_loss"))
+        _num(props, "Take Profit", ev.get("take_profit"))
+        _text(props, "Reason", ev.get("reason"))
+        _num(props, "PnL", ev.get("pnl"))
+        _num(props, "Cash After", ev.get("cash_after"))
+        _num(props, "Equity", ev.get("equity"))
+        try:
+            _post({"parent": {"database_id": DB_ID}, "properties": props})
+            pushed += 1
+        except urllib.error.HTTPError as e:
+            print(f"notion_sync: HTTP {e.code} {e.read().decode()[:300]}")
+        except Exception as e:
+            print(f"notion_sync: {type(e).__name__} {e}")
+
+    print(f"notion_sync: pushed {pushed}/{len(events)} event rows")
+    return 0
 
 
 if __name__ == "__main__":
