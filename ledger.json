@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 19.32453455861071,
   "positions": {
     "LINKUSDT": {
       "signal": "donchian_breakout",
@@ -11,16 +11,6 @@
       "take_profit": 7.6923,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T15:33:37.632878+00:00"
-    },
-    "OPNUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 0.0691,
-      "units": 289.14616497829235,
-      "notional": 20.0,
-      "stop_loss": 0.06702699999999999,
-      "take_profit": 0.072555,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-06-28T15:33:37.633051+00:00"
     },
     "ICPUSDT": {
       "signal": "donchian_breakout",
@@ -53,7 +43,24 @@
       "opened_at": "2026-06-28T15:33:37.633863+00:00"
     }
   },
-  "history": [],
+  "history": [
+    {
+      "ts": "2026-06-28T15:49:13.131665+00:00",
+      "action": "SELL",
+      "symbol": "OPNUSDT",
+      "price": 0.0669,
+      "stop_loss": 0.067027,
+      "take_profit": 0.072555,
+      "reason": "stop-loss",
+      "pnl": -0.6755,
+      "return_pct": -3.3773,
+      "entry_price": 0.0691,
+      "opened_at": "2026-06-28T15:33:37.633051+00:00",
+      "closed_at": "2026-06-28T15:49:13.131685+00:00",
+      "cash_after": 19.3245,
+      "equity": 98.8967
+    }
+  ],
   "events": [
     {
       "ts": "2026-06-28T15:33:37.632892+00:00",
@@ -114,72 +121,44 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.9
+    },
+    {
+      "ts": "2026-06-28T15:49:13.131665+00:00",
+      "action": "SELL",
+      "symbol": "OPNUSDT",
+      "price": 0.0669,
+      "stop_loss": 0.067027,
+      "take_profit": 0.072555,
+      "reason": "stop-loss",
+      "pnl": -0.6755,
+      "return_pct": -3.3773,
+      "entry_price": 0.0691,
+      "opened_at": "2026-06-28T15:33:37.633051+00:00",
+      "closed_at": "2026-06-28T15:49:13.131685+00:00",
+      "cash_after": 19.3245,
+      "equity": 98.8967
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-06-28T15:33:37.632892+00:00",
-      "action": "BUY",
-      "symbol": "LINKUSDT",
-      "price": 7.326,
-      "stop_loss": 7.10622,
-      "take_profit": 7.6923,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 80.0,
-      "equity": 99.9
-    },
-    {
-      "ts": "2026-06-28T15:33:37.633057+00:00",
-      "action": "BUY",
+      "ts": "2026-06-28T15:49:13.131665+00:00",
+      "action": "SELL",
       "symbol": "OPNUSDT",
-      "price": 0.0691,
+      "price": 0.0669,
       "stop_loss": 0.067027,
       "take_profit": 0.072555,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 60.0,
-      "equity": 99.9
-    },
-    {
-      "ts": "2026-06-28T15:33:37.633210+00:00",
-      "action": "BUY",
-      "symbol": "ICPUSDT",
-      "price": 2.179,
-      "stop_loss": 2.11363,
-      "take_profit": 2.28795,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 40.0,
-      "equity": 99.9
-    },
-    {
-      "ts": "2026-06-28T15:33:37.633772+00:00",
-      "action": "BUY",
-      "symbol": "GRTUSDT",
-      "price": 0.01793,
-      "stop_loss": 0.017392,
-      "take_profit": 0.018827,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 20.0,
-      "equity": 99.9
-    },
-    {
-      "ts": "2026-06-28T15:33:37.633865+00:00",
-      "action": "BUY",
-      "symbol": "SANDUSDT",
-      "price": 0.04728,
-      "stop_loss": 0.045862,
-      "take_profit": 0.049644,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 99.9
+      "reason": "stop-loss",
+      "pnl": -0.6755,
+      "return_pct": -3.3773,
+      "entry_price": 0.0691,
+      "opened_at": "2026-06-28T15:33:37.633051+00:00",
+      "closed_at": "2026-06-28T15:49:13.131685+00:00",
+      "cash_after": 19.3245,
+      "equity": 98.8967
     }
   ],
-  "runs": 1,
-  "updated_at": "2026-06-28T15:33:37.633881+00:00",
-  "equity": 99.9,
-  "total_return_pct": -0.1
+  "runs": 2,
+  "updated_at": "2026-06-28T15:49:13.133834+00:00",
+  "equity": 98.8967,
+  "total_return_pct": -1.1033
 }
