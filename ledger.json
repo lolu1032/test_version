@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 59.495677513415075,
+  "cash": 0.0,
   "positions": {
     "ZECUSDT": {
       "signal": "donchian_breakout",
@@ -15,6 +15,27 @@
       "units": 18.7376910813092,
       "notional": 20.0,
       "opened_at": "2026-06-27T14:13:00.908472+00:00"
+    },
+    "SYNUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.3071,
+      "units": 65.06024096385542,
+      "notional": 20.0,
+      "opened_at": "2026-06-28T00:14:21.827341+00:00"
+    },
+    "TRXUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.3222,
+      "units": 62.011173184357546,
+      "notional": 20.0,
+      "opened_at": "2026-06-28T00:14:24.269536+00:00"
+    },
+    "ALLOUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.3107,
+      "units": 62.68484659125092,
+      "notional": 19.495677513415075,
+      "opened_at": "2026-06-28T00:14:31.578886+00:00"
     }
   },
   "history": [
@@ -79,8 +100,8 @@
       "closed_at": "2026-06-27T19:43:58.547300+00:00"
     }
   ],
-  "runs": 24,
-  "updated_at": "2026-06-27T23:01:07.625097+00:00",
-  "equity": 98.5514,
-  "total_return_pct": -1.4486
+  "runs": 25,
+  "updated_at": "2026-06-28T00:14:34.854244+00:00",
+  "equity": 98.2566,
+  "total_return_pct": -1.7434
 }
