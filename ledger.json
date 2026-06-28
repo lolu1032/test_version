@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 19.32453455861071,
+  "cash": 0.0,
   "positions": {
     "LINKUSDT": {
       "signal": "donchian_breakout",
@@ -41,6 +41,16 @@
       "take_profit": 0.04964400000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T15:33:37.633863+00:00"
+    },
+    "EURIUSDC": {
+      "signal": "donchian_breakout",
+      "entry_price": 1.1403,
+      "units": 16.92993951070078,
+      "notional": 19.32453455861071,
+      "stop_loss": 1.1060910000000002,
+      "take_profit": 1.1973150000000001,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-06-28T17:09:55.227358+00:00"
     }
   },
   "history": [
@@ -137,28 +147,36 @@
       "closed_at": "2026-06-28T15:49:13.131685+00:00",
       "cash_after": 19.3245,
       "equity": 98.8967
+    },
+    {
+      "ts": "2026-06-28T17:09:55.227375+00:00",
+      "action": "BUY",
+      "symbol": "EURIUSDC",
+      "price": 1.1403,
+      "stop_loss": 1.106091,
+      "take_profit": 1.197315,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.4516
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-06-28T15:49:13.131665+00:00",
-      "action": "SELL",
-      "symbol": "OPNUSDT",
-      "price": 0.0669,
-      "stop_loss": 0.067027,
-      "take_profit": 0.072555,
-      "reason": "stop-loss",
-      "pnl": -0.6755,
-      "return_pct": -3.3773,
-      "entry_price": 0.0691,
-      "opened_at": "2026-06-28T15:33:37.633051+00:00",
-      "closed_at": "2026-06-28T15:49:13.131685+00:00",
-      "cash_after": 19.3245,
-      "equity": 98.8967
+      "ts": "2026-06-28T17:09:55.227375+00:00",
+      "action": "BUY",
+      "symbol": "EURIUSDC",
+      "price": 1.1403,
+      "stop_loss": 1.106091,
+      "take_profit": 1.197315,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.4516
     }
   ],
-  "runs": 2,
-  "updated_at": "2026-06-28T15:49:13.133834+00:00",
-  "equity": 98.8967,
-  "total_return_pct": -1.1033
+  "runs": 3,
+  "updated_at": "2026-06-28T17:09:55.227405+00:00",
+  "equity": 98.4516,
+  "total_return_pct": -1.5484
 }
