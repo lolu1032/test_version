@@ -9,6 +9,10 @@ hits either, the position closes and the freed capital **rolls into the next coi
 `ledger.json`, which GitHub Actions commits back to the repo after each run — so the
 git history *is* your trade log. No API key required (all market data is public).
 
+**Live status:** [`STATUS.md`](STATUS.md) is an auto-generated dashboard (equity,
+return, every open position with live unrealized PnL / SL / TP, recent closed
+trades). It's rewritten and committed every run — just open it on GitHub.
+
 **Trade log:** every BUY (symbol, entry, SL, TP) and SELL (reason, PnL, cash left)
 is recorded in `ledger.json` and mirrored to Notion (one row per event).
 
