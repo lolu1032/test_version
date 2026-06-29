@@ -51,6 +51,9 @@ TAKE_PROFIT = float(os.getenv("TAKE_PROFIT", "0.05"))     # +5% -> close
 STOP_LOSS = float(os.getenv("STOP_LOSS", "0.03"))         # -3% -> close
 MAX_WORKERS = int(os.getenv("MAX_WORKERS", "16"))
 LEDGER_PATH = os.getenv("LEDGER_PATH", "ledger.json")
+# Cap the in-ledger logs so the file (re-committed every 15 min) can't grow without
+# bound. Older records still live in git history; 0 disables the cap.
+MAX_LOG = int(os.getenv("MAX_LOG", "2000"))
 
 
 def _now():
@@ -75,6 +78,13 @@ def load_ledger():
 
 def save_ledger(ledger):
     ledger["updated_at"] = _now()
+    # Keep only the most recent MAX_LOG records in the committed file (the full
+    # trail remains in git history). last_run_events is never trimmed — Notion
+    # needs the whole current run.
+    if MAX_LOG > 0:
+        for key in ("events", "history"):
+            if len(ledger.get(key, [])) > MAX_LOG:
+                ledger[key] = ledger[key][-MAX_LOG:]
     with open(LEDGER_PATH, "w") as f:
         json.dump(ledger, f, indent=2)
 
@@ -136,6 +146,32 @@ def _close_position(ledger, sym, price_usdt, reason):
     _record(ledger, rec)
     print(f"  SELL {sym} @ {price_usdt:.6g} ({reason})  pnl={pnl:+.2f} "
           f"({return_pct:+.2f}%)  cash={ledger['cash']:.2f}")
+
+
+def _evaluate_exit(pos, high_usdt, low_usdt):
+    """Decide whether an open position exits this candle, and at what fill.
+
+    SL/TP are judged on the intrabar TOUCH (the candle's low/high in USDT), not
+    the close, and fill AT the threshold. Stop is checked first so that a candle
+    whose range straddles BOTH the stop and the take-profit is treated as the
+    stop-loss (the conservative, worst-case assumption).
+
+    Returns (reason, fill_price) or (None, None) if neither was touched.
+    """
+    if low_usdt <= pos["stop_loss"]:
+        return "stop-loss", pos["stop_loss"]
+    if high_usdt >= pos["take_profit"]:
+        return "take-profit", pos["take_profit"]
+    return None, None
+
+
+def _mark_for(pos, fresh_usdt):
+    """Price to mark a held position at: the fresh USDT price when available,
+    else the last-known mark, falling back to entry_price only as a last resort
+    (so a coin that simply failed to fetch is not faked flat at entry)."""
+    if fresh_usdt is not None:
+        return fresh_usdt
+    return pos.get("last_mark", pos["entry_price"])
 
 
 def _fetch_all(symbols):
@@ -257,13 +293,18 @@ def scan():
         candles = klines.get(sym)
         if not candles:
             continue
-        price_usdt = candles[-1]["close"] * rate.get(sym, 1.0)
-        marks[sym] = price_usdt
+        r = rate.get(sym, 1.0)
+        close_usdt = candles[-1]["close"] * r
+        high_usdt = candles[-1]["high"] * r
+        low_usdt = candles[-1]["low"] * r
+        # Mark / unrealized PnL stays the close; only the exit trigger and fill
+        # price use the intrabar high/low touch.
+        marks[sym] = close_usdt
         pos = ledger["positions"][sym]
-        if price_usdt <= pos["stop_loss"]:
-            _close_position(ledger, sym, price_usdt, "stop-loss")
-        elif price_usdt >= pos["take_profit"]:
-            _close_position(ledger, sym, price_usdt, "take-profit")
+        pos["last_mark"] = close_usdt
+        reason, fill_usdt = _evaluate_exit(pos, high_usdt, low_usdt)
+        if reason is not None:
+            _close_position(ledger, sym, fill_usdt, reason)
 
     # --- ENTRIES: rotate freed capital into fresh signals ---
     for sym in symbols:
@@ -286,10 +327,15 @@ def scan():
     # --- mark-to-market equity ---
     holdings_value = 0.0
     for sym, pos in ledger["positions"].items():
-        px = marks.get(sym)
-        if px is None:
+        fresh = marks.get(sym)
+        if fresh is None:
             c = klines.get(sym)
-            px = c[-1]["close"] * rate.get(sym, 1.0) if c else pos["entry_price"]
+            fresh = c[-1]["close"] * rate.get(sym, 1.0) if c else None
+        # Fall back to the last-known mark (not entry_price) when no fresh price
+        # is available, so a coin that failed to fetch is not faked flat at entry.
+        px = _mark_for(pos, fresh)
+        if fresh is not None:
+            pos["last_mark"] = fresh
         marks[sym] = px  # remember current price for the status dashboard
         holdings_value += pos["units"] * px
     equity = ledger["cash"] + holdings_value

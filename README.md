@@ -25,21 +25,23 @@ is recorded in `ledger.json` and mirrored to Notion (one row per event).
 |------|--------------|
 | `signals.py` | 8 indicators (SMA, EMA, RSI, MACD, Bollinger, ATR, Stochastic, Donchian) + 6 signal factories. Pure stdlib. |
 | `backtest.py` | No-lookahead backtest engine (win rate / return / max drawdown / fees). |
-| `test_all.py` | 57 deterministic unit tests defining correctness of the above. |
-| `data.py` | Public Binance REST: klines + liquid-symbol discovery (stdlib `urllib`). Uses `data-api.binance.vision` so it works from US-based CI runners (`api.binance.com` returns HTTP 451 there). Override with `BINANCE_BASE`. |
-| `run_backtest.py` | Runs every signal over historical data and ranks them. **Use this to decide which signal to run live.** |
+| `test_all.py` | 57 unit tests for the indicators (`signals.py`) and the backtest engine (`backtest.py`). |
+| `test_scanner.py` | 11 unit tests for the live scanner's money logic: intrabar SL/TP fills, stop-priority, and mark-to-market fallback. |
+| `data.py` | Public Binance REST: klines + symbol discovery (stdlib `urllib`). Uses `data-api.binance.vision` so it works from US-based CI runners (`api.binance.com` returns HTTP 451 there). Override with `BINANCE_BASE`. |
+| `run_backtest.py` | Runs every signal over historical data and ranks them. A rough read on signal edge — **not** an exact model of the live bot (see "Backtest vs live" below). |
 | `scanner.py` | The 15-minute cron entry point: scan → paper trade → update `ledger.json`. |
-| `notion_sync.py` | Optional best-effort push of a summary row to a Notion database. |
-| `.github/workflows/scan.yml` | Schedules the scanner every 15 min and commits the ledger. |
+| `notion_sync.py` | Optional best-effort push of one row per trade event to a Notion database. |
+| `.github/workflows/scan.yml` | Runs the tests, then the scanner every 15 min, and commits the ledger. |
 
-The signals + engine were generated and cross-verified by a multi-agent harness
-(GPT-5.5 adversarial review); all 57 tests pass.
+All 68 tests pass (`python3 -m unittest discover`), covering the indicators, the
+backtest engine, and the live scanner's exit/marking logic. The `data.py` network
+layer (symbol discovery / quote→USDT conversion) is not yet unit-tested.
 
 ## Quick start
 
 ```bash
-# 1. Run the test suite
-python3 -m unittest test_all
+# 1. Run the test suite (indicators + backtest + live scanner)
+python3 -m unittest discover
 
 # 2. See which signals performed best on recent data
 python3 run_backtest.py 25 15m 1000
@@ -55,7 +57,11 @@ This runs entirely on **GitHub Actions** (free, unlimited minutes on a public re
 1. Push this repo to GitHub (public).
 2. Actions tab → enable workflows. The `scan.yml` cron fires every 15 min.
 3. (Optional) Add `NOTION_TOKEN` + `NOTION_DATABASE_ID` repo secrets to mirror
-   summaries into a Notion dashboard — see the header of `notion_sync.py`.
+   each trade into a Notion database. Create the database first with these
+   properties (exact names/types, since `notion_sync.py` writes to them):
+   `Name` (Title), `Action` (Text), `Symbol` (Text), `Price` (Number),
+   `Stop Loss` (Number), `Take Profit` (Number), `Reason` (Text), `PnL` (Number),
+   `Cash After` (Number), `Equity` (Number). Share it with your integration.
 
 ⚠️ **Never commit secrets.** The Notion token goes in GitHub Actions **Secrets**,
 not in the code. The trade ledger is fine to be public (it's fake money).
@@ -73,9 +79,20 @@ not in the code. The trade ledger is fine to be public (it's fake money).
 | `FEE_RATE` | `0.001` | simulated fee per side (0.1%) |
 
 **Exit model:** a position is opened on a BUY signal and closed when price hits its
-**take-profit** or **stop-loss** (not on an opposite signal). Freed capital rolls
-into the next signal — so the bankroll compounds up or decays down over time.
+**take-profit** or **stop-loss** (not on an opposite signal). The trigger is the
+intrabar **touch** — a stop fires when the candle's *low* reaches it, a take-profit
+when the *high* reaches it — and the fill is booked **at that threshold** (when a
+single candle touches both, it's treated as the stop-loss). Freed capital rolls
+into the next signal, so the bankroll compounds up or decays down over time.
 
-> ⚠️ Scanning *every* coin includes thin/illiquid ones whose paper fills are
-> optimistic. Raise `MIN_USDT_VOLUME` (e.g. `1000000`) to restrict to liquid coins.
-> Re-run `run_backtest.py` periodically — signal edges are thin and shift.
+> ⚠️ SL/TP are checked once per 15-minute candle, not tick-by-tick. A gap or a
+> delayed cron can blow through a level intrabar; the fill is still booked at the
+> threshold, so on fast moves real results would be *worse* than recorded. There is
+> no slippage model — thin coins (`MIN_USDT_VOLUME=0`) fill optimistically. Raise
+> `MIN_USDT_VOLUME` (e.g. `1000000`) to restrict to liquid coins.
+
+> ⚠️ **Backtest vs live differ.** `run_backtest.py` exits on the *opposite signal*
+> with one all-in position and no SL/TP, over ~25 liquid majors. The live bot exits
+> on **fixed SL/TP**, ignores SELL signals, and splits a shared bankroll across 5
+> slots over ~440 coins. Treat the ranking as a rough signal-edge hint, **not** a
+> prediction of live results. Signal edges are thin and shift — re-check often.
