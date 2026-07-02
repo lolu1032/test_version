@@ -2,17 +2,6 @@
   "starting_cash": 100.0,
   "cash": 0.0,
   "positions": {
-    "LINKUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 7.326,
-      "units": 2.7272727272727275,
-      "notional": 20.0,
-      "stop_loss": 7.1062199999999995,
-      "take_profit": 7.6923,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-06-28T15:33:37.632878+00:00",
-      "last_mark": 7.646
-    },
     "GRTUSDT": {
       "signal": "donchian_breakout",
       "entry_price": 0.01793,
@@ -22,7 +11,7 @@
       "take_profit": 0.018826500000000003,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T15:33:37.633769+00:00",
-      "last_mark": 0.01822
+      "last_mark": 0.01826
     },
     "SANDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +22,7 @@
       "take_profit": 0.04964400000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T15:33:37.633863+00:00",
-      "last_mark": 0.04816
+      "last_mark": 0.04846
     },
     "EURIUSDC": {
       "signal": "donchian_breakout",
@@ -44,7 +33,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1405
+      "last_mark": 1.145
     },
     "LTCUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 44.94,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-01T15:40:52.162207+00:00",
-      "last_mark": 42.94
+      "last_mark": 43.6
+    },
+    "CHRUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.01596,
+      "units": 1311.8460513157897,
+      "notional": 20.958021000000002,
+      "stop_loss": 0.015481199999999999,
+      "take_profit": 0.016758,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-02T14:38:52.506225+00:00",
+      "last_mark": 0.01596
     }
   },
   "history": [
@@ -122,6 +122,22 @@
       "closed_at": "2026-07-01T15:40:52.161991+00:00",
       "cash_after": 19.6406,
       "equity": 99.0985
+    },
+    {
+      "ts": "2026-07-02T14:38:52.505666+00:00",
+      "action": "SELL",
+      "symbol": "LINKUSDT",
+      "price": 7.6923,
+      "stop_loss": 7.10622,
+      "take_profit": 7.6923,
+      "reason": "take-profit",
+      "pnl": 0.958,
+      "return_pct": 4.7901,
+      "entry_price": 7.326,
+      "opened_at": "2026-06-28T15:33:37.632878+00:00",
+      "closed_at": "2026-07-02T14:38:52.505683+00:00",
+      "cash_after": 20.958,
+      "equity": 101.136
     }
   ],
   "events": [
@@ -296,11 +312,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.0985
+    },
+    {
+      "ts": "2026-07-02T14:38:52.505666+00:00",
+      "action": "SELL",
+      "symbol": "LINKUSDT",
+      "price": 7.6923,
+      "stop_loss": 7.10622,
+      "take_profit": 7.6923,
+      "reason": "take-profit",
+      "pnl": 0.958,
+      "return_pct": 4.7901,
+      "entry_price": 7.326,
+      "opened_at": "2026-06-28T15:33:37.632878+00:00",
+      "closed_at": "2026-07-02T14:38:52.505683+00:00",
+      "cash_after": 20.958,
+      "equity": 101.136
+    },
+    {
+      "ts": "2026-07-02T14:38:52.506231+00:00",
+      "action": "BUY",
+      "symbol": "CHRUSDT",
+      "price": 0.01596,
+      "stop_loss": 0.015481,
+      "take_profit": 0.016758,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.136
     }
   ],
-  "last_run_events": [],
-  "runs": 41,
-  "updated_at": "2026-07-02T12:21:54.410949+00:00",
-  "equity": 100.5015,
-  "total_return_pct": 0.5015
+  "last_run_events": [
+    {
+      "ts": "2026-07-02T14:38:52.505666+00:00",
+      "action": "SELL",
+      "symbol": "LINKUSDT",
+      "price": 7.6923,
+      "stop_loss": 7.10622,
+      "take_profit": 7.6923,
+      "reason": "take-profit",
+      "pnl": 0.958,
+      "return_pct": 4.7901,
+      "entry_price": 7.326,
+      "opened_at": "2026-06-28T15:33:37.632878+00:00",
+      "closed_at": "2026-07-02T14:38:52.505683+00:00",
+      "cash_after": 20.958,
+      "equity": 101.136
+    },
+    {
+      "ts": "2026-07-02T14:38:52.506231+00:00",
+      "action": "BUY",
+      "symbol": "CHRUSDT",
+      "price": 0.01596,
+      "stop_loss": 0.015481,
+      "take_profit": 0.016758,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.136
+    }
+  ],
+  "runs": 42,
+  "updated_at": "2026-07-02T14:38:52.506251+00:00",
+  "equity": 101.136,
+  "total_return_pct": 1.136
 }
