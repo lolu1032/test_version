@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-07-01 23:55 UTC** · run #37 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-07-02 03:34 UTC** · run #38 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🔴 **$98.85**  (-1.15%) |
+| **Equity** | 🔴 **$99.57**  (-0.43%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -14,11 +14,11 @@ _Updated **2026-07-01 23:55 UTC** · run #37 · strategy `donchian_breakout` · 
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `LINKUSDT` | 7.326 | 7.366 | 🟢 +0.55% | 7.10622 | 7.6923 |
-| `GRTUSDT` | 0.01793 | 0.01777 | 🔴 -0.89% | 0.0173921 | 0.0188265 |
-| `SANDUSDT` | 0.04728 | 0.04757 | 🟢 +0.61% | 0.0458616 | 0.049644 |
+| `LINKUSDT` | 7.326 | 7.477 | 🟢 +2.06% | 7.10622 | 7.6923 |
+| `GRTUSDT` | 0.01793 | 0.01782 | 🔴 -0.61% | 0.0173921 | 0.0188265 |
+| `SANDUSDT` | 0.04728 | 0.04807 | 🟢 +1.67% | 0.0458616 | 0.049644 |
 | `EURIUSDC` | 1.1403 | 1.1381 | 🔴 -0.19% | 1.10609 | 1.19732 |
-| `LTCUSDT` | 42.8 | 42.74 | 🔴 -0.14% | 41.516 | 44.94 |
+| `LTCUSDT` | 42.8 | 43.06 | 🟢 +0.61% | 41.516 | 44.94 |
 
 ## Recent closed trades (4 total)
 
