@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1465
+      "last_mark": 1.1424
     },
     "LTCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 44.94,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-01T15:40:52.162207+00:00",
-      "last_mark": 43.48
+      "last_mark": 43.51
     },
     "NVDABUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 205.5585,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 196.54
+      "last_mark": 196.9
     },
     "RAYUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 0.7595700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T07:36:09.700426+00:00",
-      "last_mark": 0.7213
+      "last_mark": 0.7183
     },
-    "THEUSDT": {
+    "MORPHOUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.0804,
-      "units": 290.4128360224138,
-      "notional": 23.37256458078285,
-      "stop_loss": 0.077988,
-      "take_profit": 0.08442000000000001,
+      "entry_price": 2.029,
+      "units": 11.140188009818054,
+      "notional": 22.62606753946029,
+      "stop_loss": 1.96813,
+      "take_profit": 2.13045,
       "usdt_rate": 1.0,
-      "opened_at": "2026-07-03T14:41:13.267007+00:00",
-      "last_mark": 0.0804
+      "opened_at": "2026-07-03T16:14:26.895211+00:00",
+      "last_mark": 2.029
     }
   },
   "history": [
@@ -234,6 +234,22 @@
       "closed_at": "2026-07-03T14:41:13.266808+00:00",
       "cash_after": 23.3726,
       "equity": 104.5775
+    },
+    {
+      "ts": "2026-07-03T16:14:26.894712+00:00",
+      "action": "SELL",
+      "symbol": "THEUSDT",
+      "price": 0.077988,
+      "stop_loss": 0.077988,
+      "take_profit": 0.08442,
+      "reason": "stop-loss",
+      "pnl": -0.7465,
+      "return_pct": -3.1939,
+      "entry_price": 0.0804,
+      "opened_at": "2026-07-03T14:41:13.267007+00:00",
+      "closed_at": "2026-07-03T16:14:26.894736+00:00",
+      "cash_after": 22.6261,
+      "equity": 103.7257
     }
   ],
   "events": [
@@ -604,40 +620,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 104.5775
+    },
+    {
+      "ts": "2026-07-03T16:14:26.894712+00:00",
+      "action": "SELL",
+      "symbol": "THEUSDT",
+      "price": 0.077988,
+      "stop_loss": 0.077988,
+      "take_profit": 0.08442,
+      "reason": "stop-loss",
+      "pnl": -0.7465,
+      "return_pct": -3.1939,
+      "entry_price": 0.0804,
+      "opened_at": "2026-07-03T14:41:13.267007+00:00",
+      "closed_at": "2026-07-03T16:14:26.894736+00:00",
+      "cash_after": 22.6261,
+      "equity": 103.7257
+    },
+    {
+      "ts": "2026-07-03T16:14:26.895216+00:00",
+      "action": "BUY",
+      "symbol": "MORPHOUSDT",
+      "price": 2.029,
+      "stop_loss": 1.96813,
+      "take_profit": 2.13045,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.7257
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-07-03T14:41:13.266784+00:00",
+      "ts": "2026-07-03T16:14:26.894712+00:00",
       "action": "SELL",
-      "symbol": "XPLUSDT",
-      "price": 0.112613,
-      "stop_loss": 0.104032,
-      "take_profit": 0.112613,
-      "reason": "take-profit",
-      "pnl": 1.0684,
-      "return_pct": 4.7901,
-      "entry_price": 0.10725,
-      "opened_at": "2026-07-03T12:25:26.318410+00:00",
-      "closed_at": "2026-07-03T14:41:13.266808+00:00",
-      "cash_after": 23.3726,
-      "equity": 104.5775
-    },
-    {
-      "ts": "2026-07-03T14:41:13.267012+00:00",
-      "action": "BUY",
       "symbol": "THEUSDT",
-      "price": 0.0804,
+      "price": 0.077988,
       "stop_loss": 0.077988,
       "take_profit": 0.08442,
+      "reason": "stop-loss",
+      "pnl": -0.7465,
+      "return_pct": -3.1939,
+      "entry_price": 0.0804,
+      "opened_at": "2026-07-03T14:41:13.267007+00:00",
+      "closed_at": "2026-07-03T16:14:26.894736+00:00",
+      "cash_after": 22.6261,
+      "equity": 103.7257
+    },
+    {
+      "ts": "2026-07-03T16:14:26.895216+00:00",
+      "action": "BUY",
+      "symbol": "MORPHOUSDT",
+      "price": 2.029,
+      "stop_loss": 1.96813,
+      "take_profit": 2.13045,
       "reason": "donchian_breakout",
       "pnl": null,
       "cash_after": 0.0,
-      "equity": 104.5775
+      "equity": 103.7257
     }
   ],
-  "runs": 53,
-  "updated_at": "2026-07-03T14:41:13.267033+00:00",
-  "equity": 104.5775,
-  "total_return_pct": 4.5775
+  "runs": 54,
+  "updated_at": "2026-07-03T16:14:26.895236+00:00",
+  "equity": 103.7257,
+  "total_return_pct": 3.7257
 }
