@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1451
+      "last_mark": 1.1454
     },
     "LTCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 44.94,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-01T15:40:52.162207+00:00",
-      "last_mark": 43.3
+      "last_mark": 43.42
     },
     "NVDABUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 205.5585,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 196.3
+      "last_mark": 196.6
     },
     "XPLUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 0.1048005,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T07:36:09.700288+00:00",
-      "last_mark": 0.09981
+      "last_mark": 0.09758
     },
     "RAYUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.7595700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T07:36:09.700426+00:00",
-      "last_mark": 0.7234
+      "last_mark": 0.7134
     }
   },
   "history": [
@@ -518,66 +518,9 @@
       "equity": 102.4218
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-07-03T07:36:09.699965+00:00",
-      "action": "SELL",
-      "symbol": "SANDUSDT",
-      "price": 0.049644,
-      "stop_loss": 0.045862,
-      "take_profit": 0.049644,
-      "reason": "take-profit",
-      "pnl": 0.958,
-      "return_pct": 4.7901,
-      "entry_price": 0.04728,
-      "opened_at": "2026-06-28T15:33:37.633863+00:00",
-      "closed_at": "2026-07-03T07:36:09.699983+00:00",
-      "cash_after": 20.958,
-      "equity": 102.4218
-    },
-    {
-      "ts": "2026-07-03T07:36:09.700011+00:00",
-      "action": "SELL",
-      "symbol": "IDUSDT",
-      "price": 0.03633,
-      "stop_loss": 0.033562,
-      "take_profit": 0.03633,
-      "reason": "take-profit",
-      "pnl": 0.9879,
-      "return_pct": 4.7901,
-      "entry_price": 0.0346,
-      "opened_at": "2026-07-03T04:08:20.273158+00:00",
-      "closed_at": "2026-07-03T07:36:09.700016+00:00",
-      "cash_after": 42.5692,
-      "equity": 102.4218
-    },
-    {
-      "ts": "2026-07-03T07:36:09.700292+00:00",
-      "action": "BUY",
-      "symbol": "XPLUSDT",
-      "price": 0.09981,
-      "stop_loss": 0.096816,
-      "take_profit": 0.104801,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 21.2846,
-      "equity": 102.4218
-    },
-    {
-      "ts": "2026-07-03T07:36:09.700428+00:00",
-      "action": "BUY",
-      "symbol": "RAYUSDT",
-      "price": 0.7234,
-      "stop_loss": 0.701698,
-      "take_profit": 0.75957,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 102.4218
-    }
-  ],
-  "runs": 50,
-  "updated_at": "2026-07-03T07:36:09.700446+00:00",
-  "equity": 102.4218,
-  "total_return_pct": 2.4218
+  "last_run_events": [],
+  "runs": 51,
+  "updated_at": "2026-07-03T10:18:41.673797+00:00",
+  "equity": 101.7445,
+  "total_return_pct": 1.7445
 }
