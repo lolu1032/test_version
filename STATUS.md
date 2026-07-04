@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-07-04 12:18 UTC** · run #65 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-07-04 14:09 UTC** · run #66 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🟢 **$103.76**  (+3.76%) |
+| **Equity** | 🟢 **$103.91**  (+3.91%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -14,11 +14,11 @@ _Updated **2026-07-04 12:18 UTC** · run #65 · strategy `donchian_breakout` · 
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `EURIUSDC` | 1.1403 | 1.1427 | 🟢 +0.21% | 1.10609 | 1.19732 |
-| `NVDABUSDT` | 195.77 | 196.8 | 🟢 +0.53% | 189.897 | 205.559 |
-| `RAYUSDT` | 0.7234 | 0.7132 | 🔴 -1.41% | 0.701698 | 0.75957 |
-| `HBARUSDT` | 0.07253 | 0.07353 | 🟢 +1.38% | 0.0703541 | 0.0761565 |
-| `USDCUSDT` | 1.00088 | 1.00065 | 🔴 -0.02% | 0.970854 | 1.05092 |
+| `EURIUSDC` | 1.1403 | 1.1428 | 🟢 +0.22% | 1.10609 | 1.19732 |
+| `NVDABUSDT` | 195.77 | 196.83 | 🟢 +0.54% | 189.897 | 205.559 |
+| `RAYUSDT` | 0.7234 | 0.7162 | 🔴 -1.00% | 0.701698 | 0.75957 |
+| `HBARUSDT` | 0.07253 | 0.07373 | 🟢 +1.65% | 0.0703541 | 0.0761565 |
+| `USDCUSDT` | 1.00088 | 1.00066 | 🔴 -0.02% | 0.970854 | 1.05092 |
 
 ## Recent closed trades (14 total)
 
