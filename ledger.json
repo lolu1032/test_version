@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1441
+      "last_mark": 1.1443
     },
     "NVDABUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 205.5585,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 195.74
+      "last_mark": 195.7
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.0005
+      "last_mark": 1.00053
     },
     "ETHUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 1860.3690000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-05T14:59:08.352430+00:00",
-      "last_mark": 1829.02
+      "last_mark": 1808.82
     },
     "BTCUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 67784.535,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-06T21:10:42.196706+00:00",
-      "last_mark": 64556.7
+      "last_mark": 64194.0
     }
   },
   "history": [
@@ -958,38 +958,9 @@
       "equity": 106.106
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-07-06T21:10:42.196636+00:00",
-      "action": "SELL",
-      "symbol": "BCHUSDT",
-      "price": 248.22,
-      "stop_loss": 229.308,
-      "take_profit": 248.22,
-      "reason": "take-profit",
-      "pnl": 1.0995,
-      "return_pct": 4.7901,
-      "entry_price": 236.4,
-      "opened_at": "2026-07-04T22:11:12.723718+00:00",
-      "closed_at": "2026-07-06T21:10:42.196662+00:00",
-      "cash_after": 24.0521,
-      "equity": 106.106
-    },
-    {
-      "ts": "2026-07-06T21:10:42.196710+00:00",
-      "action": "BUY",
-      "symbol": "BTCUSDT",
-      "price": 64556.7,
-      "stop_loss": 62619.999,
-      "take_profit": 67784.535,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 106.106
-    }
-  ],
-  "runs": 95,
-  "updated_at": "2026-07-06T21:10:42.196730+00:00",
-  "equity": 106.106,
-  "total_return_pct": 6.106
+  "last_run_events": [],
+  "runs": 96,
+  "updated_at": "2026-07-06T22:37:58.356779+00:00",
+  "equity": 105.7328,
+  "total_return_pct": 5.7328
 }
