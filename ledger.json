@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1388
+      "last_mark": 1.1368
     },
     "NVDABUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 205.5585,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 195.18
+      "last_mark": 197.63
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -35,17 +35,6 @@
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
       "last_mark": 1.00074
     },
-    "ETHUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 1771.78,
-      "units": 0.011785478164688407,
-      "notional": 20.902176679310937,
-      "stop_loss": 1718.6265999999998,
-      "take_profit": 1860.3690000000001,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-07-05T14:59:08.352430+00:00",
-      "last_mark": 1741.26
-    },
     "KITEUSDT": {
       "signal": "donchian_breakout",
       "entry_price": 0.1135,
@@ -55,7 +44,18 @@
       "take_profit": 0.119175,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-08T09:40:23.921117+00:00",
-      "last_mark": 0.1173
+      "last_mark": 0.113
+    },
+    "CITYUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.394,
+      "units": 51.30544885749704,
+      "notional": 20.23458143128512,
+      "stop_loss": 0.38218,
+      "take_profit": 0.4137,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-08T15:34:58.794925+00:00",
+      "last_mark": 0.394
     }
   },
   "history": [
@@ -394,6 +394,22 @@
       "closed_at": "2026-07-08T09:40:23.920682+00:00",
       "cash_after": 22.5402,
       "equity": 103.2069
+    },
+    {
+      "ts": "2026-07-08T15:34:58.794199+00:00",
+      "action": "SELL",
+      "symbol": "ETHUSDT",
+      "price": 1718.6266,
+      "stop_loss": 1718.6266,
+      "take_profit": 1860.369,
+      "reason": "stop-loss",
+      "pnl": -0.6676,
+      "return_pct": -3.1939,
+      "entry_price": 1771.78,
+      "opened_at": "2026-07-05T14:59:08.352430+00:00",
+      "closed_at": "2026-07-08T15:34:58.794222+00:00",
+      "cash_after": 20.2346,
+      "equity": 103.2352
     }
   ],
   "events": [
@@ -1044,11 +1060,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 103.2069
+    },
+    {
+      "ts": "2026-07-08T15:34:58.794199+00:00",
+      "action": "SELL",
+      "symbol": "ETHUSDT",
+      "price": 1718.6266,
+      "stop_loss": 1718.6266,
+      "take_profit": 1860.369,
+      "reason": "stop-loss",
+      "pnl": -0.6676,
+      "return_pct": -3.1939,
+      "entry_price": 1771.78,
+      "opened_at": "2026-07-05T14:59:08.352430+00:00",
+      "closed_at": "2026-07-08T15:34:58.794222+00:00",
+      "cash_after": 20.2346,
+      "equity": 103.2352
+    },
+    {
+      "ts": "2026-07-08T15:34:58.794931+00:00",
+      "action": "BUY",
+      "symbol": "CITYUSDT",
+      "price": 0.394,
+      "stop_loss": 0.38218,
+      "take_profit": 0.4137,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2352
     }
   ],
-  "last_run_events": [],
-  "runs": 113,
-  "updated_at": "2026-07-08T13:11:20.864620+00:00",
-  "equity": 104.1716,
-  "total_return_pct": 4.1716
+  "last_run_events": [
+    {
+      "ts": "2026-07-08T15:34:58.794199+00:00",
+      "action": "SELL",
+      "symbol": "ETHUSDT",
+      "price": 1718.6266,
+      "stop_loss": 1718.6266,
+      "take_profit": 1860.369,
+      "reason": "stop-loss",
+      "pnl": -0.6676,
+      "return_pct": -3.1939,
+      "entry_price": 1771.78,
+      "opened_at": "2026-07-05T14:59:08.352430+00:00",
+      "closed_at": "2026-07-08T15:34:58.794222+00:00",
+      "cash_after": 20.2346,
+      "equity": 103.2352
+    },
+    {
+      "ts": "2026-07-08T15:34:58.794931+00:00",
+      "action": "BUY",
+      "symbol": "CITYUSDT",
+      "price": 0.394,
+      "stop_loss": 0.38218,
+      "take_profit": 0.4137,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2352
+    }
+  ],
+  "runs": 114,
+  "updated_at": "2026-07-08T15:34:58.794951+00:00",
+  "equity": 103.2352,
+  "total_return_pct": 3.2352
 }
