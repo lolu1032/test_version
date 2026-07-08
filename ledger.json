@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1406
+      "last_mark": 1.1386
     },
     "NVDABUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 205.5585,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 195.96
+      "last_mark": 193.51
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00071
+      "last_mark": 1.00073
     },
     "ETHUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 1860.3690000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-05T14:59:08.352430+00:00",
-      "last_mark": 1751.56
+      "last_mark": 1738.59
     },
-    "AIGENSYNUSDT": {
+    "KITEUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.02798,
-      "units": 831.3288068001059,
-      "notional": 23.28386387814511,
-      "stop_loss": 0.0271406,
-      "take_profit": 0.029379000000000002,
+      "entry_price": 0.1135,
+      "units": 198.39347710461578,
+      "notional": 22.54019985122512,
+      "stop_loss": 0.110095,
+      "take_profit": 0.119175,
       "usdt_rate": 1.0,
-      "opened_at": "2026-07-08T07:14:58.100256+00:00",
-      "last_mark": 0.02798
+      "opened_at": "2026-07-08T09:40:23.921117+00:00",
+      "last_mark": 0.1135
     }
   },
   "history": [
@@ -378,6 +378,22 @@
       "closed_at": "2026-07-08T07:14:58.100175+00:00",
       "cash_after": 23.2839,
       "equity": 104.3939
+    },
+    {
+      "ts": "2026-07-08T09:40:23.920657+00:00",
+      "action": "SELL",
+      "symbol": "AIGENSYNUSDT",
+      "price": 0.027141,
+      "stop_loss": 0.027141,
+      "take_profit": 0.029379,
+      "reason": "stop-loss",
+      "pnl": -0.7437,
+      "return_pct": -3.1939,
+      "entry_price": 0.02798,
+      "opened_at": "2026-07-08T07:14:58.100256+00:00",
+      "closed_at": "2026-07-08T09:40:23.920682+00:00",
+      "cash_after": 22.5402,
+      "equity": 103.2069
     }
   ],
   "events": [
@@ -1000,40 +1016,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 104.3939
+    },
+    {
+      "ts": "2026-07-08T09:40:23.920657+00:00",
+      "action": "SELL",
+      "symbol": "AIGENSYNUSDT",
+      "price": 0.027141,
+      "stop_loss": 0.027141,
+      "take_profit": 0.029379,
+      "reason": "stop-loss",
+      "pnl": -0.7437,
+      "return_pct": -3.1939,
+      "entry_price": 0.02798,
+      "opened_at": "2026-07-08T07:14:58.100256+00:00",
+      "closed_at": "2026-07-08T09:40:23.920682+00:00",
+      "cash_after": 22.5402,
+      "equity": 103.2069
+    },
+    {
+      "ts": "2026-07-08T09:40:23.921122+00:00",
+      "action": "BUY",
+      "symbol": "KITEUSDT",
+      "price": 0.1135,
+      "stop_loss": 0.110095,
+      "take_profit": 0.119175,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2069
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-07-08T07:14:58.100154+00:00",
+      "ts": "2026-07-08T09:40:23.920657+00:00",
       "action": "SELL",
-      "symbol": "BTCUSDT",
-      "price": 62619.999,
-      "stop_loss": 62619.999,
-      "take_profit": 67784.535,
-      "reason": "stop-loss",
-      "pnl": -0.7682,
-      "return_pct": -3.1939,
-      "entry_price": 64556.7,
-      "opened_at": "2026-07-06T21:10:42.196706+00:00",
-      "closed_at": "2026-07-08T07:14:58.100175+00:00",
-      "cash_after": 23.2839,
-      "equity": 104.3939
-    },
-    {
-      "ts": "2026-07-08T07:14:58.100260+00:00",
-      "action": "BUY",
       "symbol": "AIGENSYNUSDT",
-      "price": 0.02798,
+      "price": 0.027141,
       "stop_loss": 0.027141,
       "take_profit": 0.029379,
+      "reason": "stop-loss",
+      "pnl": -0.7437,
+      "return_pct": -3.1939,
+      "entry_price": 0.02798,
+      "opened_at": "2026-07-08T07:14:58.100256+00:00",
+      "closed_at": "2026-07-08T09:40:23.920682+00:00",
+      "cash_after": 22.5402,
+      "equity": 103.2069
+    },
+    {
+      "ts": "2026-07-08T09:40:23.921122+00:00",
+      "action": "BUY",
+      "symbol": "KITEUSDT",
+      "price": 0.1135,
+      "stop_loss": 0.110095,
+      "take_profit": 0.119175,
       "reason": "donchian_breakout",
       "pnl": null,
       "cash_after": 0.0,
-      "equity": 104.3939
+      "equity": 103.2069
     }
   ],
-  "runs": 110,
-  "updated_at": "2026-07-08T07:14:58.100279+00:00",
-  "equity": 104.3939,
-  "total_return_pct": 4.3939
+  "runs": 111,
+  "updated_at": "2026-07-08T09:40:23.921144+00:00",
+  "equity": 103.2069,
+  "total_return_pct": 3.2069
 }
