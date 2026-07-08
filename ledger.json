@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1386
+      "last_mark": 1.1398
     },
     "NVDABUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 205.5585,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 193.51
+      "last_mark": 193.72
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00073
+      "last_mark": 1.0007
     },
     "ETHUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 1860.3690000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-05T14:59:08.352430+00:00",
-      "last_mark": 1738.59
+      "last_mark": 1738.23
     },
     "KITEUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.119175,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-08T09:40:23.921117+00:00",
-      "last_mark": 0.1135
+      "last_mark": 0.1123
     }
   },
   "history": [
@@ -1046,38 +1046,9 @@
       "equity": 103.2069
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-07-08T09:40:23.920657+00:00",
-      "action": "SELL",
-      "symbol": "AIGENSYNUSDT",
-      "price": 0.027141,
-      "stop_loss": 0.027141,
-      "take_profit": 0.029379,
-      "reason": "stop-loss",
-      "pnl": -0.7437,
-      "return_pct": -3.1939,
-      "entry_price": 0.02798,
-      "opened_at": "2026-07-08T07:14:58.100256+00:00",
-      "closed_at": "2026-07-08T09:40:23.920682+00:00",
-      "cash_after": 22.5402,
-      "equity": 103.2069
-    },
-    {
-      "ts": "2026-07-08T09:40:23.921122+00:00",
-      "action": "BUY",
-      "symbol": "KITEUSDT",
-      "price": 0.1135,
-      "stop_loss": 0.110095,
-      "take_profit": 0.119175,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 103.2069
-    }
-  ],
-  "runs": 111,
-  "updated_at": "2026-07-08T09:40:23.921144+00:00",
-  "equity": 103.2069,
-  "total_return_pct": 3.2069
+  "last_run_events": [],
+  "runs": 112,
+  "updated_at": "2026-07-08T11:30:38.610243+00:00",
+  "equity": 103.0063,
+  "total_return_pct": 3.0063
 }
