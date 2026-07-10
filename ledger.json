@@ -11,18 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1417
-    },
-    "NVDABUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 195.77,
-      "units": 0.10523935351535434,
-      "notional": 20.62333156927019,
-      "stop_loss": 189.89690000000002,
-      "take_profit": 205.5585,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-07-03T04:08:20.273226+00:00",
-      "last_mark": 201.78
+      "last_mark": 1.1423
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -33,18 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.0005
-    },
-    "KITEUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 0.1135,
-      "units": 198.39347710461578,
-      "notional": 22.54019985122512,
-      "stop_loss": 0.110095,
-      "take_profit": 0.119175,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-07-08T09:40:23.921117+00:00",
-      "last_mark": 0.1182
+      "last_mark": 1.00055
     },
     "CITYUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +33,29 @@
       "take_profit": 0.4137,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-08T15:34:58.794925+00:00",
-      "last_mark": 0.396
+      "last_mark": 0.394
+    },
+    "USD1USDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.99991,
+      "units": 22.594972941238602,
+      "notional": 22.615554948622513,
+      "stop_loss": 0.9699127,
+      "take_profit": 1.0499055,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-10T15:20:28.286215+00:00",
+      "last_mark": 0.99991
+    },
+    "DRAMBUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 63.43,
+      "units": 0.3561869682117908,
+      "notional": 22.615554948622513,
+      "stop_loss": 61.5271,
+      "take_profit": 66.6015,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-10T15:20:28.286546+00:00",
+      "last_mark": 63.43
     }
   },
   "history": [
@@ -410,6 +410,38 @@
       "closed_at": "2026-07-08T15:34:58.794222+00:00",
       "cash_after": 20.2346,
       "equity": 103.2352
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286102+00:00",
+      "action": "SELL",
+      "symbol": "NVDABUSDT",
+      "price": 205.5585,
+      "stop_loss": 189.8969,
+      "take_profit": 205.5585,
+      "reason": "take-profit",
+      "pnl": 0.9879,
+      "return_pct": 4.7901,
+      "entry_price": 195.77,
+      "opened_at": "2026-07-03T04:08:20.273226+00:00",
+      "closed_at": "2026-07-10T15:20:28.286123+00:00",
+      "cash_after": 21.6112,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286151+00:00",
+      "action": "SELL",
+      "symbol": "KITEUSDT",
+      "price": 0.119175,
+      "stop_loss": 0.110095,
+      "take_profit": 0.119175,
+      "reason": "take-profit",
+      "pnl": 1.0797,
+      "return_pct": 4.7901,
+      "entry_price": 0.1135,
+      "opened_at": "2026-07-08T09:40:23.921117+00:00",
+      "closed_at": "2026-07-10T15:20:28.286156+00:00",
+      "cash_after": 45.2311,
+      "equity": 105.2934
     }
   ],
   "events": [
@@ -1088,11 +1120,124 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 103.2352
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286102+00:00",
+      "action": "SELL",
+      "symbol": "NVDABUSDT",
+      "price": 205.5585,
+      "stop_loss": 189.8969,
+      "take_profit": 205.5585,
+      "reason": "take-profit",
+      "pnl": 0.9879,
+      "return_pct": 4.7901,
+      "entry_price": 195.77,
+      "opened_at": "2026-07-03T04:08:20.273226+00:00",
+      "closed_at": "2026-07-10T15:20:28.286123+00:00",
+      "cash_after": 21.6112,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286151+00:00",
+      "action": "SELL",
+      "symbol": "KITEUSDT",
+      "price": 0.119175,
+      "stop_loss": 0.110095,
+      "take_profit": 0.119175,
+      "reason": "take-profit",
+      "pnl": 1.0797,
+      "return_pct": 4.7901,
+      "entry_price": 0.1135,
+      "opened_at": "2026-07-08T09:40:23.921117+00:00",
+      "closed_at": "2026-07-10T15:20:28.286156+00:00",
+      "cash_after": 45.2311,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286219+00:00",
+      "action": "BUY",
+      "symbol": "USD1USDT",
+      "price": 0.99991,
+      "stop_loss": 0.969913,
+      "take_profit": 1.049905,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 22.6156,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286550+00:00",
+      "action": "BUY",
+      "symbol": "DRAMBUSDT",
+      "price": 63.43,
+      "stop_loss": 61.5271,
+      "take_profit": 66.6015,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 105.2934
     }
   ],
-  "last_run_events": [],
-  "runs": 133,
-  "updated_at": "2026-07-10T12:37:51.492411+00:00",
-  "equity": 104.8842,
-  "total_return_pct": 4.8842
+  "last_run_events": [
+    {
+      "ts": "2026-07-10T15:20:28.286102+00:00",
+      "action": "SELL",
+      "symbol": "NVDABUSDT",
+      "price": 205.5585,
+      "stop_loss": 189.8969,
+      "take_profit": 205.5585,
+      "reason": "take-profit",
+      "pnl": 0.9879,
+      "return_pct": 4.7901,
+      "entry_price": 195.77,
+      "opened_at": "2026-07-03T04:08:20.273226+00:00",
+      "closed_at": "2026-07-10T15:20:28.286123+00:00",
+      "cash_after": 21.6112,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286151+00:00",
+      "action": "SELL",
+      "symbol": "KITEUSDT",
+      "price": 0.119175,
+      "stop_loss": 0.110095,
+      "take_profit": 0.119175,
+      "reason": "take-profit",
+      "pnl": 1.0797,
+      "return_pct": 4.7901,
+      "entry_price": 0.1135,
+      "opened_at": "2026-07-08T09:40:23.921117+00:00",
+      "closed_at": "2026-07-10T15:20:28.286156+00:00",
+      "cash_after": 45.2311,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286219+00:00",
+      "action": "BUY",
+      "symbol": "USD1USDT",
+      "price": 0.99991,
+      "stop_loss": 0.969913,
+      "take_profit": 1.049905,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 22.6156,
+      "equity": 105.2934
+    },
+    {
+      "ts": "2026-07-10T15:20:28.286550+00:00",
+      "action": "BUY",
+      "symbol": "DRAMBUSDT",
+      "price": 63.43,
+      "stop_loss": 61.5271,
+      "take_profit": 66.6015,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 105.2934
+    }
+  ],
+  "runs": 134,
+  "updated_at": "2026-07-10T15:20:28.286568+00:00",
+  "equity": 105.2934,
+  "total_return_pct": 5.2934
 }
