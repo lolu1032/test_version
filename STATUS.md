@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-07-11 21:06 UTC** · run #155 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-07-11 22:07 UTC** · run #156 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🟢 **$108.46**  (+8.46%) |
+| **Equity** | 🟢 **$108.45**  (+8.45%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -15,10 +15,10 @@ _Updated **2026-07-11 21:06 UTC** · run #155 · strategy `donchian_breakout` ·
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
 | `EURIUSDC` | 1.1403 | 1.1412 | 🟢 +0.08% | 1.10609 | 1.19732 |
-| `USDCUSDT` | 1.00088 | 1.00055 | 🔴 -0.03% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 1.00003 | 🟢 +0.01% | 0.969913 | 1.04991 |
-| `DRAMBUSDT` | 63.43 | 63.63 | 🟢 +0.32% | 61.5271 | 66.6015 |
-| `BNBUSDT` | 579.86 | 581.47 | 🟢 +0.28% | 562.464 | 608.853 |
+| `USDCUSDT` | 1.00088 | 1.00051 | 🔴 -0.04% | 0.970854 | 1.05092 |
+| `USD1USDT` | 0.99991 | 1.00004 | 🟢 +0.01% | 0.969913 | 1.04991 |
+| `DRAMBUSDT` | 63.43 | 63.64 | 🟢 +0.33% | 61.5271 | 66.6015 |
+| `BNBUSDT` | 579.86 | 581.06 | 🟢 +0.21% | 562.464 | 608.853 |
 
 ## Recent closed trades (27 total)
 
