@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 21.89323606065181,
+  "cash": 0.0,
   "positions": {
     "EURIUSDC": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1389
+      "last_mark": 1.1376
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00042
+      "last_mark": 1.00047
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99959
+      "last_mark": 0.99948
     },
     "BNBUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,18 @@
       "take_profit": 608.8530000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-11T12:12:45.532152+00:00",
-      "last_mark": 577.55
+      "last_mark": 568.48
+    },
+    "JTOUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.6453,
+      "units": 33.89329431983753,
+      "notional": 21.89323606065181,
+      "stop_loss": 0.625941,
+      "take_profit": 0.677565,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-13T04:50:03.743190+00:00",
+      "last_mark": 0.6453
     }
   },
   "history": [
@@ -1329,28 +1340,36 @@
       "closed_at": "2026-07-13T01:14:28.830285+00:00",
       "cash_after": 21.8932,
       "equity": 107.4798
+    },
+    {
+      "ts": "2026-07-13T04:50:03.743208+00:00",
+      "action": "BUY",
+      "symbol": "JTOUSDT",
+      "price": 0.6453,
+      "stop_loss": 0.625941,
+      "take_profit": 0.677565,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 107.0706
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-07-13T01:14:28.830264+00:00",
-      "action": "SELL",
-      "symbol": "DRAMBUSDT",
-      "price": 61.5271,
-      "stop_loss": 61.5271,
-      "take_profit": 66.6015,
-      "reason": "stop-loss",
-      "pnl": -0.7223,
-      "return_pct": -3.1939,
-      "entry_price": 63.43,
-      "opened_at": "2026-07-10T15:20:28.286546+00:00",
-      "closed_at": "2026-07-13T01:14:28.830285+00:00",
-      "cash_after": 21.8932,
-      "equity": 107.4798
+      "ts": "2026-07-13T04:50:03.743208+00:00",
+      "action": "BUY",
+      "symbol": "JTOUSDT",
+      "price": 0.6453,
+      "stop_loss": 0.625941,
+      "take_profit": 0.677565,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 107.0706
     }
   ],
-  "runs": 175,
-  "updated_at": "2026-07-13T01:14:28.832345+00:00",
-  "equity": 107.4798,
-  "total_return_pct": 7.4798
+  "runs": 176,
+  "updated_at": "2026-07-13T04:50:03.743240+00:00",
+  "equity": 107.0706,
+  "total_return_pct": 7.0706
 }
