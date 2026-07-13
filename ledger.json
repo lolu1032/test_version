@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1376
+      "last_mark": 1.143
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00047
+      "last_mark": 1.00057
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99948
+      "last_mark": 0.99963
     },
     "BNBUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 608.8530000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-11T12:12:45.532152+00:00",
-      "last_mark": 568.48
+      "last_mark": 570.28
     },
     "JTOUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.677565,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-13T04:50:03.743190+00:00",
-      "last_mark": 0.6453
+      "last_mark": 0.6664
     }
   },
   "history": [
@@ -1354,22 +1354,9 @@
       "equity": 107.0706
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-07-13T04:50:03.743208+00:00",
-      "action": "BUY",
-      "symbol": "JTOUSDT",
-      "price": 0.6453,
-      "stop_loss": 0.625941,
-      "take_profit": 0.677565,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 107.0706
-    }
-  ],
-  "runs": 176,
-  "updated_at": "2026-07-13T04:50:03.743240+00:00",
-  "equity": 107.0706,
-  "total_return_pct": 7.0706
+  "last_run_events": [],
+  "runs": 177,
+  "updated_at": "2026-07-13T08:15:50.735472+00:00",
+  "equity": 107.9548,
+  "total_return_pct": 7.9548
 }
