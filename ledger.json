@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1426
+      "last_mark": 1.143
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99956
+      "last_mark": 0.99962
     },
     "BNBUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 608.8530000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-11T12:12:45.532152+00:00",
-      "last_mark": 583.08
+      "last_mark": 579.6
     },
     "DOGEUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.0790335,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-14T16:13:15.339524+00:00",
-      "last_mark": 0.07527
+      "last_mark": 0.07442
     }
   },
   "history": [
@@ -1442,38 +1442,9 @@
       "equity": 106.3681
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-07-14T16:13:15.339413+00:00",
-      "action": "SELL",
-      "symbol": "MMTUSDT",
-      "price": 0.161311,
-      "stop_loss": 0.161311,
-      "take_profit": 0.174615,
-      "reason": "stop-loss",
-      "pnl": -0.6769,
-      "return_pct": -3.1939,
-      "entry_price": 0.1663,
-      "opened_at": "2026-07-13T21:01:47.595525+00:00",
-      "closed_at": "2026-07-14T16:13:15.339435+00:00",
-      "cash_after": 20.5171,
-      "equity": 106.3681
-    },
-    {
-      "ts": "2026-07-14T16:13:15.339528+00:00",
-      "action": "BUY",
-      "symbol": "DOGEUSDT",
-      "price": 0.07527,
-      "stop_loss": 0.073012,
-      "take_profit": 0.079034,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 106.3681
-    }
-  ],
-  "runs": 194,
-  "updated_at": "2026-07-14T16:13:15.339548+00:00",
-  "equity": 106.3681,
-  "total_return_pct": 6.3681
+  "last_run_events": [],
+  "runs": 195,
+  "updated_at": "2026-07-14T17:35:35.163218+00:00",
+  "equity": 106.0052,
+  "total_return_pct": 6.0052
 }
