@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00073
+      "last_mark": 1.00064
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99953
+      "last_mark": 0.99952
     },
     "BNBUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 608.8530000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-11T12:12:45.532152+00:00",
-      "last_mark": 577.17
+      "last_mark": 576.38
     },
-    "DOGEUSDT": {
+    "ZKUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.07527,
-      "units": 272.30709270609225,
-      "notional": 20.51707193992749,
-      "stop_loss": 0.0730119,
-      "take_profit": 0.0790335,
+      "entry_price": 0.01019,
+      "units": 1947.1947779354527,
+      "notional": 19.86177656372599,
+      "stop_loss": 0.009884299999999999,
+      "take_profit": 0.0106995,
       "usdt_rate": 1.0,
-      "opened_at": "2026-07-14T16:13:15.339524+00:00",
-      "last_mark": 0.07322
+      "opened_at": "2026-07-16T12:52:40.239569+00:00",
+      "last_mark": 0.01019
     }
   },
   "history": [
@@ -538,6 +538,22 @@
       "closed_at": "2026-07-14T16:13:15.339435+00:00",
       "cash_after": 20.5171,
       "equity": 106.3681
+    },
+    {
+      "ts": "2026-07-16T12:52:40.238918+00:00",
+      "action": "SELL",
+      "symbol": "DOGEUSDT",
+      "price": 0.073012,
+      "stop_loss": 0.073012,
+      "take_profit": 0.079034,
+      "reason": "stop-loss",
+      "pnl": -0.6553,
+      "return_pct": -3.1939,
+      "entry_price": 0.07527,
+      "opened_at": "2026-07-14T16:13:15.339524+00:00",
+      "closed_at": "2026-07-16T12:52:40.238944+00:00",
+      "cash_after": 19.8618,
+      "equity": 105.503
     }
   ],
   "events": [
@@ -1440,11 +1456,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 106.3681
+    },
+    {
+      "ts": "2026-07-16T12:52:40.238918+00:00",
+      "action": "SELL",
+      "symbol": "DOGEUSDT",
+      "price": 0.073012,
+      "stop_loss": 0.073012,
+      "take_profit": 0.079034,
+      "reason": "stop-loss",
+      "pnl": -0.6553,
+      "return_pct": -3.1939,
+      "entry_price": 0.07527,
+      "opened_at": "2026-07-14T16:13:15.339524+00:00",
+      "closed_at": "2026-07-16T12:52:40.238944+00:00",
+      "cash_after": 19.8618,
+      "equity": 105.503
+    },
+    {
+      "ts": "2026-07-16T12:52:40.239574+00:00",
+      "action": "BUY",
+      "symbol": "ZKUSDT",
+      "price": 0.01019,
+      "stop_loss": 0.009884,
+      "take_profit": 0.0107,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 105.503
     }
   ],
-  "last_run_events": [],
-  "runs": 220,
-  "updated_at": "2026-07-16T11:12:31.834926+00:00",
-  "equity": 105.6332,
-  "total_return_pct": 5.6332
+  "last_run_events": [
+    {
+      "ts": "2026-07-16T12:52:40.238918+00:00",
+      "action": "SELL",
+      "symbol": "DOGEUSDT",
+      "price": 0.073012,
+      "stop_loss": 0.073012,
+      "take_profit": 0.079034,
+      "reason": "stop-loss",
+      "pnl": -0.6553,
+      "return_pct": -3.1939,
+      "entry_price": 0.07527,
+      "opened_at": "2026-07-14T16:13:15.339524+00:00",
+      "closed_at": "2026-07-16T12:52:40.238944+00:00",
+      "cash_after": 19.8618,
+      "equity": 105.503
+    },
+    {
+      "ts": "2026-07-16T12:52:40.239574+00:00",
+      "action": "BUY",
+      "symbol": "ZKUSDT",
+      "price": 0.01019,
+      "stop_loss": 0.009884,
+      "take_profit": 0.0107,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 105.503
+    }
+  ],
+  "runs": 221,
+  "updated_at": "2026-07-16T12:52:40.239596+00:00",
+  "equity": 105.503,
+  "total_return_pct": 5.503
 }
