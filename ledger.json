@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1444
+      "last_mark": 1.1434
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00076
+      "last_mark": 1.00086
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99969
+      "last_mark": 0.99976
     },
     "BNBUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 608.8530000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-11T12:12:45.532152+00:00",
-      "last_mark": 569.64
+      "last_mark": 564.7
     },
     "POLUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.0868245,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-17T06:37:45.348050+00:00",
-      "last_mark": 0.08269
+      "last_mark": 0.08452
     }
   },
   "history": [
@@ -1530,38 +1530,9 @@
       "equity": 104.5798
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-07-17T06:37:45.347578+00:00",
-      "action": "SELL",
-      "symbol": "ZKUSDT",
-      "price": 0.009884,
-      "stop_loss": 0.009884,
-      "take_profit": 0.0107,
-      "reason": "stop-loss",
-      "pnl": -0.6344,
-      "return_pct": -3.1939,
-      "entry_price": 0.01019,
-      "opened_at": "2026-07-16T12:52:40.239569+00:00",
-      "closed_at": "2026-07-17T06:37:45.347605+00:00",
-      "cash_after": 19.2274,
-      "equity": 104.5798
-    },
-    {
-      "ts": "2026-07-17T06:37:45.348055+00:00",
-      "action": "BUY",
-      "symbol": "POLUSDT",
-      "price": 0.08269,
-      "stop_loss": 0.080209,
-      "take_profit": 0.086824,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 104.5798
-    }
-  ],
-  "runs": 232,
-  "updated_at": "2026-07-17T06:37:45.348077+00:00",
-  "equity": 104.5798,
-  "total_return_pct": 4.5798
+  "last_run_events": [],
+  "runs": 233,
+  "updated_at": "2026-07-17T08:58:03.027665+00:00",
+  "equity": 104.7934,
+  "total_return_pct": 4.7934
 }
