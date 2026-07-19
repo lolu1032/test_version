@@ -44,7 +44,7 @@
       "take_profit": 0.0868245,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-17T06:37:45.348050+00:00",
-      "last_mark": 0.08068
+      "last_mark": 0.08036
     },
     "PENDLEUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 1.64745,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-19T19:53:27.145663+00:00",
-      "last_mark": 1.574
+      "last_mark": 1.571
     }
   },
   "history": [
@@ -1619,8 +1619,8 @@
     }
   ],
   "last_run_events": [],
-  "runs": 277,
-  "updated_at": "2026-07-19T22:35:06.800363+00:00",
-  "equity": 104.8738,
-  "total_return_pct": 4.8738
+  "runs": 278,
+  "updated_at": "2026-07-19T23:40:02.980576+00:00",
+  "equity": 104.7543,
+  "total_return_pct": 4.7543
 }
