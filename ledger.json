@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00063
+      "last_mark": 1.00062
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99967
-    },
-    "PENDLEUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 1.569,
-      "units": 15.039056209188866,
-      "notional": 23.61989909130864,
-      "stop_loss": 1.52193,
-      "take_profit": 1.64745,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-07-19T19:53:27.145663+00:00",
-      "last_mark": 1.644
+      "last_mark": 0.99966
     },
     "BCHUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 227.43,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-20T15:21:08.477307+00:00",
-      "last_mark": 223.7
+      "last_mark": 225.3
+    },
+    "AVGOBUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 390.13,
+      "units": 0.06338032384491758,
+      "notional": 24.75131705867637,
+      "stop_loss": 378.42609999999996,
+      "take_profit": 409.6365,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-21T12:00:31.238977+00:00",
+      "last_mark": 390.13
     }
   },
   "history": [
@@ -618,6 +618,22 @@
       "closed_at": "2026-07-20T15:21:08.476980+00:00",
       "cash_after": 18.6133,
       "equity": 105.1959
+    },
+    {
+      "ts": "2026-07-21T12:00:31.236757+00:00",
+      "action": "SELL",
+      "symbol": "PENDLEUSDT",
+      "price": 1.64745,
+      "stop_loss": 1.52193,
+      "take_profit": 1.64745,
+      "reason": "take-profit",
+      "pnl": 1.1314,
+      "return_pct": 4.7901,
+      "entry_price": 1.569,
+      "opened_at": "2026-07-19T19:53:27.145663+00:00",
+      "closed_at": "2026-07-21T12:00:31.236783+00:00",
+      "cash_after": 24.7513,
+      "equity": 106.5399
     }
   ],
   "events": [
@@ -1660,11 +1676,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 105.1959
+    },
+    {
+      "ts": "2026-07-21T12:00:31.236757+00:00",
+      "action": "SELL",
+      "symbol": "PENDLEUSDT",
+      "price": 1.64745,
+      "stop_loss": 1.52193,
+      "take_profit": 1.64745,
+      "reason": "take-profit",
+      "pnl": 1.1314,
+      "return_pct": 4.7901,
+      "entry_price": 1.569,
+      "opened_at": "2026-07-19T19:53:27.145663+00:00",
+      "closed_at": "2026-07-21T12:00:31.236783+00:00",
+      "cash_after": 24.7513,
+      "equity": 106.5399
+    },
+    {
+      "ts": "2026-07-21T12:00:31.238990+00:00",
+      "action": "BUY",
+      "symbol": "AVGOBUSDT",
+      "price": 390.13,
+      "stop_loss": 378.4261,
+      "take_profit": 409.6365,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 106.5399
     }
   ],
-  "last_run_events": [],
-  "runs": 294,
-  "updated_at": "2026-07-21T10:01:09.516204+00:00",
-  "equity": 106.4006,
-  "total_return_pct": 6.4006
+  "last_run_events": [
+    {
+      "ts": "2026-07-21T12:00:31.236757+00:00",
+      "action": "SELL",
+      "symbol": "PENDLEUSDT",
+      "price": 1.64745,
+      "stop_loss": 1.52193,
+      "take_profit": 1.64745,
+      "reason": "take-profit",
+      "pnl": 1.1314,
+      "return_pct": 4.7901,
+      "entry_price": 1.569,
+      "opened_at": "2026-07-19T19:53:27.145663+00:00",
+      "closed_at": "2026-07-21T12:00:31.236783+00:00",
+      "cash_after": 24.7513,
+      "equity": 106.5399
+    },
+    {
+      "ts": "2026-07-21T12:00:31.238990+00:00",
+      "action": "BUY",
+      "symbol": "AVGOBUSDT",
+      "price": 390.13,
+      "stop_loss": 378.4261,
+      "take_profit": 409.6365,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 106.5399
+    }
+  ],
+  "runs": 295,
+  "updated_at": "2026-07-21T12:00:31.239033+00:00",
+  "equity": 106.5399,
+  "total_return_pct": 6.5399
 }
