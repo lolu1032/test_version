@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00075
+      "last_mark": 1.00073
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99972
-    },
-    "BCHUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 216.6,
-      "units": 0.08584807263912922,
-      "notional": 18.613305839474865,
-      "stop_loss": 210.10199999999998,
-      "take_profit": 227.43,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-07-20T15:21:08.477307+00:00",
-      "last_mark": 210.2
+      "last_mark": 0.99973
     },
     "AVGOBUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 409.6365,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-21T12:00:31.238977+00:00",
-      "last_mark": 390.6
+      "last_mark": 393.58
+    },
+    "BTCUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 65038.56,
+      "units": 0.00027677113532284287,
+      "notional": 18.0188149058687,
+      "stop_loss": 63087.40319999999,
+      "take_profit": 68290.488,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-23T20:11:12.407349+00:00",
+      "last_mark": 65038.56
     }
   },
   "history": [
@@ -634,6 +634,22 @@
       "closed_at": "2026-07-21T12:00:31.236783+00:00",
       "cash_after": 24.7513,
       "equity": 106.5399
+    },
+    {
+      "ts": "2026-07-23T20:11:12.407282+00:00",
+      "action": "SELL",
+      "symbol": "BCHUSDT",
+      "price": 210.102,
+      "stop_loss": 210.102,
+      "take_profit": 227.43,
+      "reason": "stop-loss",
+      "pnl": -0.5945,
+      "return_pct": -3.1939,
+      "entry_price": 216.6,
+      "opened_at": "2026-07-20T15:21:08.477307+00:00",
+      "closed_at": "2026-07-23T20:11:12.407305+00:00",
+      "cash_after": 18.0188,
+      "equity": 105.3454
     }
   ],
   "events": [
@@ -1704,11 +1720,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 106.5399
+    },
+    {
+      "ts": "2026-07-23T20:11:12.407282+00:00",
+      "action": "SELL",
+      "symbol": "BCHUSDT",
+      "price": 210.102,
+      "stop_loss": 210.102,
+      "take_profit": 227.43,
+      "reason": "stop-loss",
+      "pnl": -0.5945,
+      "return_pct": -3.1939,
+      "entry_price": 216.6,
+      "opened_at": "2026-07-20T15:21:08.477307+00:00",
+      "closed_at": "2026-07-23T20:11:12.407305+00:00",
+      "cash_after": 18.0188,
+      "equity": 105.3454
+    },
+    {
+      "ts": "2026-07-23T20:11:12.407353+00:00",
+      "action": "BUY",
+      "symbol": "BTCUSDT",
+      "price": 65038.56,
+      "stop_loss": 63087.4032,
+      "take_profit": 68290.488,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 105.3454
     }
   ],
-  "last_run_events": [],
-  "runs": 325,
-  "updated_at": "2026-07-23T18:45:42.473485+00:00",
-  "equity": 105.2012,
-  "total_return_pct": 5.2012
+  "last_run_events": [
+    {
+      "ts": "2026-07-23T20:11:12.407282+00:00",
+      "action": "SELL",
+      "symbol": "BCHUSDT",
+      "price": 210.102,
+      "stop_loss": 210.102,
+      "take_profit": 227.43,
+      "reason": "stop-loss",
+      "pnl": -0.5945,
+      "return_pct": -3.1939,
+      "entry_price": 216.6,
+      "opened_at": "2026-07-20T15:21:08.477307+00:00",
+      "closed_at": "2026-07-23T20:11:12.407305+00:00",
+      "cash_after": 18.0188,
+      "equity": 105.3454
+    },
+    {
+      "ts": "2026-07-23T20:11:12.407353+00:00",
+      "action": "BUY",
+      "symbol": "BTCUSDT",
+      "price": 65038.56,
+      "stop_loss": 63087.4032,
+      "take_profit": 68290.488,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 105.3454
+    }
+  ],
+  "runs": 326,
+  "updated_at": "2026-07-23T20:11:12.407371+00:00",
+  "equity": 105.3454,
+  "total_return_pct": 5.3454
 }
