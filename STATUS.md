@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-07-27 22:17 UTC** · run #383 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-07-27 23:34 UTC** · run #384 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🟢 **$104.58**  (+4.58%) |
+| **Equity** | 🟢 **$104.29**  (+4.29%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -14,11 +14,11 @@ _Updated **2026-07-27 22:17 UTC** · run #383 · strategy `donchian_breakout` ·
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `EURIUSDC` | 1.1403 | 1.1365 | 🔴 -0.33% | 1.10609 | 1.19732 |
-| `USDCUSDT` | 1.00088 | 1.00088 | 🟢 +0.00% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 0.99978 | 🔴 -0.01% | 0.969913 | 1.04991 |
-| `AVGOBUSDT` | 390.13 | 382.91 | 🔴 -1.85% | 378.426 | 409.637 |
-| `BTCUSDT` | 65038.6 | 64746.8 | 🔴 -0.45% | 63087.4 | 68290.5 |
+| `EURIUSDC` | 1.1403 | 1.1356 | 🔴 -0.41% | 1.10609 | 1.19732 |
+| `USDCUSDT` | 1.00088 | 1.00082 | 🔴 -0.01% | 0.970854 | 1.05092 |
+| `USD1USDT` | 0.99991 | 0.99982 | 🔴 -0.01% | 0.969913 | 1.04991 |
+| `AVGOBUSDT` | 390.13 | 382.51 | 🔴 -1.95% | 378.426 | 409.637 |
+| `BTCUSDT` | 65038.6 | 63858 | 🔴 -1.82% | 63087.4 | 68290.5 |
 
 ## Recent closed trades (37 total)
 
