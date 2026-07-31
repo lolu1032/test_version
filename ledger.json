@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1456
+      "last_mark": 1.151
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00097
+      "last_mark": 1.00093
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00007
-    },
-    "BTCUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 65038.56,
-      "units": 0.00027677113532284287,
-      "notional": 18.0188149058687,
-      "stop_loss": 63087.40319999999,
-      "take_profit": 68290.488,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-07-23T20:11:12.407349+00:00",
-      "last_mark": 63271.83
+      "last_mark": 1.00001
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0012
+      "last_mark": 1.0013
+    },
+    "BCHUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 208.4,
+      "units": 0.08361740942701386,
+      "notional": 17.443311436025713,
+      "stop_loss": 202.148,
+      "take_profit": 218.82000000000002,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-07-31T16:11:24.207499+00:00",
+      "last_mark": 208.4
     }
   },
   "history": [
@@ -682,6 +682,22 @@
       "closed_at": "2026-07-28T07:16:59.042183+00:00",
       "cash_after": 23.1955,
       "equity": 103.1623
+    },
+    {
+      "ts": "2026-07-31T16:11:24.207104+00:00",
+      "action": "SELL",
+      "symbol": "BTCUSDT",
+      "price": 63087.4032,
+      "stop_loss": 63087.4032,
+      "take_profit": 68290.488,
+      "reason": "stop-loss",
+      "pnl": -0.5755,
+      "return_pct": -3.1939,
+      "entry_price": 65038.56,
+      "opened_at": "2026-07-23T20:11:12.407349+00:00",
+      "closed_at": "2026-07-31T16:11:24.207126+00:00",
+      "cash_after": 17.4433,
+      "equity": 103.2393
     }
   ],
   "events": [
@@ -1836,11 +1852,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 103.1623
+    },
+    {
+      "ts": "2026-07-31T16:11:24.207104+00:00",
+      "action": "SELL",
+      "symbol": "BTCUSDT",
+      "price": 63087.4032,
+      "stop_loss": 63087.4032,
+      "take_profit": 68290.488,
+      "reason": "stop-loss",
+      "pnl": -0.5755,
+      "return_pct": -3.1939,
+      "entry_price": 65038.56,
+      "opened_at": "2026-07-23T20:11:12.407349+00:00",
+      "closed_at": "2026-07-31T16:11:24.207126+00:00",
+      "cash_after": 17.4433,
+      "equity": 103.2393
+    },
+    {
+      "ts": "2026-07-31T16:11:24.207504+00:00",
+      "action": "BUY",
+      "symbol": "BCHUSDT",
+      "price": 208.4,
+      "stop_loss": 202.148,
+      "take_profit": 218.82,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2393
     }
   ],
-  "last_run_events": [],
-  "runs": 428,
-  "updated_at": "2026-07-31T14:02:05.058264+00:00",
-  "equity": 103.2337,
-  "total_return_pct": 3.2337
+  "last_run_events": [
+    {
+      "ts": "2026-07-31T16:11:24.207104+00:00",
+      "action": "SELL",
+      "symbol": "BTCUSDT",
+      "price": 63087.4032,
+      "stop_loss": 63087.4032,
+      "take_profit": 68290.488,
+      "reason": "stop-loss",
+      "pnl": -0.5755,
+      "return_pct": -3.1939,
+      "entry_price": 65038.56,
+      "opened_at": "2026-07-23T20:11:12.407349+00:00",
+      "closed_at": "2026-07-31T16:11:24.207126+00:00",
+      "cash_after": 17.4433,
+      "equity": 103.2393
+    },
+    {
+      "ts": "2026-07-31T16:11:24.207504+00:00",
+      "action": "BUY",
+      "symbol": "BCHUSDT",
+      "price": 208.4,
+      "stop_loss": 202.148,
+      "take_profit": 218.82,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2393
+    }
+  ],
+  "runs": 429,
+  "updated_at": "2026-07-31T16:11:24.207523+00:00",
+  "equity": 103.2393,
+  "total_return_pct": 3.2393
 }
