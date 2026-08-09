@@ -1,6 +1,6 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-08-09 07:52 UTC** · run #567 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-08-09 08:40 UTC** · run #568 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
@@ -14,11 +14,11 @@ _Updated **2026-08-09 07:52 UTC** · run #567 · strategy `donchian_breakout` ·
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `EURIUSDC` | 1.1403 | 1.1578 | 🟢 +1.53% | 1.10609 | 1.19732 |
+| `EURIUSDC` | 1.1403 | 1.1537 | 🟢 +1.18% | 1.10609 | 1.19732 |
 | `USDCUSDT` | 1.00088 | 1.00063 | 🔴 -0.02% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 1.00011 | 🟢 +0.02% | 0.969913 | 1.04991 |
+| `USD1USDT` | 0.99991 | 1.00018 | 🟢 +0.03% | 0.969913 | 1.04991 |
 | `XUSDUSDT` | 1.0014 | 1.0007 | 🔴 -0.07% | 0.971358 | 1.05147 |
-| `BCHUSDT` | 208.4 | 215 | 🟢 +3.17% | 202.148 | 218.82 |
+| `BCHUSDT` | 208.4 | 215.8 | 🟢 +3.55% | 202.148 | 218.82 |
 
 ## Recent closed trades (40 total)
 
