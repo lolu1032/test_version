@@ -55,7 +55,7 @@
       "take_profit": 0.079779,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-14T14:49:11.916384+00:00",
-      "last_mark": 0.07741
+      "last_mark": 0.07746
     }
   },
   "history": [
@@ -1927,8 +1927,8 @@
     }
   ],
   "last_run_events": [],
-  "runs": 718,
-  "updated_at": "2026-08-15T13:28:23.329116+00:00",
-  "equity": 103.0577,
-  "total_return_pct": 3.0577
+  "runs": 719,
+  "updated_at": "2026-08-15T13:53:21.482774+00:00",
+  "equity": 103.0688,
+  "total_return_pct": 3.0688
 }
