@@ -11,7 +11,7 @@
       "take_profit": 1.1973150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-06-28T17:09:55.227358+00:00",
-      "last_mark": 1.1705
+      "last_mark": 1.171
     },
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00079
+      "last_mark": 1.00077
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99957
+      "last_mark": 0.99959
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -46,16 +46,16 @@
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
       "last_mark": 1.0011
     },
-    "ENAUSDT": {
+    "PORTALUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.0946,
-      "units": 175.1183652271158,
-      "notional": 16.58278013061577,
-      "stop_loss": 0.091762,
-      "take_profit": 0.09933,
+      "entry_price": 0.01142,
+      "units": 1520.1169525464634,
+      "notional": 17.3771127107914,
+      "stop_loss": 0.0110774,
+      "take_profit": 0.011991,
       "usdt_rate": 1.0,
-      "opened_at": "2026-08-20T08:06:21.739887+00:00",
-      "last_mark": 0.097
+      "opened_at": "2026-08-20T10:46:49.504385+00:00",
+      "last_mark": 0.01142
     }
   },
   "history": [
@@ -762,6 +762,22 @@
       "closed_at": "2026-08-20T08:06:21.739658+00:00",
       "cash_after": 16.5828,
       "equity": 102.6499
+    },
+    {
+      "ts": "2026-08-20T10:46:49.503994+00:00",
+      "action": "SELL",
+      "symbol": "ENAUSDT",
+      "price": 0.09933,
+      "stop_loss": 0.091762,
+      "take_profit": 0.09933,
+      "reason": "take-profit",
+      "pnl": 0.7943,
+      "return_pct": 4.7901,
+      "entry_price": 0.0946,
+      "opened_at": "2026-08-20T08:06:21.739887+00:00",
+      "closed_at": "2026-08-20T10:46:49.504018+00:00",
+      "cash_after": 17.3771,
+      "equity": 103.4944
     }
   ],
   "events": [
@@ -2056,11 +2072,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 102.6499
+    },
+    {
+      "ts": "2026-08-20T10:46:49.503994+00:00",
+      "action": "SELL",
+      "symbol": "ENAUSDT",
+      "price": 0.09933,
+      "stop_loss": 0.091762,
+      "take_profit": 0.09933,
+      "reason": "take-profit",
+      "pnl": 0.7943,
+      "return_pct": 4.7901,
+      "entry_price": 0.0946,
+      "opened_at": "2026-08-20T08:06:21.739887+00:00",
+      "closed_at": "2026-08-20T10:46:49.504018+00:00",
+      "cash_after": 17.3771,
+      "equity": 103.4944
+    },
+    {
+      "ts": "2026-08-20T10:46:49.504390+00:00",
+      "action": "BUY",
+      "symbol": "PORTALUSDT",
+      "price": 0.01142,
+      "stop_loss": 0.011077,
+      "take_profit": 0.011991,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.4944
     }
   ],
-  "last_run_events": [],
-  "runs": 907,
-  "updated_at": "2026-08-20T10:05:44.106503+00:00",
-  "equity": 103.1126,
-  "total_return_pct": 3.1126
+  "last_run_events": [
+    {
+      "ts": "2026-08-20T10:46:49.503994+00:00",
+      "action": "SELL",
+      "symbol": "ENAUSDT",
+      "price": 0.09933,
+      "stop_loss": 0.091762,
+      "take_profit": 0.09933,
+      "reason": "take-profit",
+      "pnl": 0.7943,
+      "return_pct": 4.7901,
+      "entry_price": 0.0946,
+      "opened_at": "2026-08-20T08:06:21.739887+00:00",
+      "closed_at": "2026-08-20T10:46:49.504018+00:00",
+      "cash_after": 17.3771,
+      "equity": 103.4944
+    },
+    {
+      "ts": "2026-08-20T10:46:49.504390+00:00",
+      "action": "BUY",
+      "symbol": "PORTALUSDT",
+      "price": 0.01142,
+      "stop_loss": 0.011077,
+      "take_profit": 0.011991,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.4944
+    }
+  ],
+  "runs": 908,
+  "updated_at": "2026-08-20T10:46:49.504410+00:00",
+  "equity": 103.4944,
+  "total_return_pct": 3.4944
 }
