@@ -1,6 +1,6 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-08-22 07:18 UTC** · run #973 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-08-22 07:54 UTC** · run #974 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
@@ -18,7 +18,7 @@ _Updated **2026-08-22 07:18 UTC** · run #973 · strategy `donchian_breakout` ·
 | `USDCUSDT` | 1.00088 | 1.00013 | 🔴 -0.07% | 0.970854 | 1.05092 |
 | `USD1USDT` | 0.99991 | 0.99987 | 🔴 -0.00% | 0.969913 | 1.04991 |
 | `XUSDUSDT` | 1.0014 | 1.0006 | 🔴 -0.08% | 0.971358 | 1.05147 |
-| `JSTUSDT` | 0.10629 | 0.10424 | 🔴 -1.93% | 0.103101 | 0.111604 |
+| `JSTUSDT` | 0.10629 | 0.10426 | 🔴 -1.91% | 0.103101 | 0.111604 |
 
 ## Recent closed trades (46 total)
 
