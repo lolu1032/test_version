@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 0.99987
+      "last_mark": 1.00004
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99996
+      "last_mark": 0.99993
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 1.254225,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-23T05:27:30.262661+00:00",
-      "last_mark": 1.1682
+      "last_mark": 1.1684
     },
-    "RENDERUSDT": {
+    "PENGUUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 1.515,
-      "units": 10.738308950937085,
-      "notional": 16.284822883553236,
-      "stop_loss": 1.46955,
-      "take_profit": 1.5907499999999999,
+      "entry_price": 0.009738,
+      "units": 1617.2660438995495,
+      "notional": 15.764701436930745,
+      "stop_loss": 0.00944586,
+      "take_profit": 0.0102249,
       "usdt_rate": 1.0,
-      "opened_at": "2026-08-23T15:47:18.954277+00:00",
-      "last_mark": 1.475
+      "opened_at": "2026-08-24T06:54:22.194351+00:00",
+      "last_mark": 0.009738
     }
   },
   "history": [
@@ -826,6 +826,22 @@
       "closed_at": "2026-08-23T15:47:18.953864+00:00",
       "cash_after": 16.2848,
       "equity": 102.3967
+    },
+    {
+      "ts": "2026-08-24T06:54:22.194187+00:00",
+      "action": "SELL",
+      "symbol": "RENDERUSDT",
+      "price": 1.46955,
+      "stop_loss": 1.46955,
+      "take_profit": 1.59075,
+      "reason": "stop-loss",
+      "pnl": -0.5201,
+      "return_pct": -3.1939,
+      "entry_price": 1.515,
+      "opened_at": "2026-08-23T15:47:18.954277+00:00",
+      "closed_at": "2026-08-24T06:54:22.194211+00:00",
+      "cash_after": 15.7647,
+      "equity": 101.8277
     }
   ],
   "events": [
@@ -2232,11 +2248,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 102.3967
+    },
+    {
+      "ts": "2026-08-24T06:54:22.194187+00:00",
+      "action": "SELL",
+      "symbol": "RENDERUSDT",
+      "price": 1.46955,
+      "stop_loss": 1.46955,
+      "take_profit": 1.59075,
+      "reason": "stop-loss",
+      "pnl": -0.5201,
+      "return_pct": -3.1939,
+      "entry_price": 1.515,
+      "opened_at": "2026-08-23T15:47:18.954277+00:00",
+      "closed_at": "2026-08-24T06:54:22.194211+00:00",
+      "cash_after": 15.7647,
+      "equity": 101.8277
+    },
+    {
+      "ts": "2026-08-24T06:54:22.194355+00:00",
+      "action": "BUY",
+      "symbol": "PENGUUSDT",
+      "price": 0.009738,
+      "stop_loss": 0.009446,
+      "take_profit": 0.010225,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.8277
     }
   ],
-  "last_run_events": [],
-  "runs": 1053,
-  "updated_at": "2026-08-24T05:53:22.710112+00:00",
-  "equity": 101.9115,
-  "total_return_pct": 1.9115
+  "last_run_events": [
+    {
+      "ts": "2026-08-24T06:54:22.194187+00:00",
+      "action": "SELL",
+      "symbol": "RENDERUSDT",
+      "price": 1.46955,
+      "stop_loss": 1.46955,
+      "take_profit": 1.59075,
+      "reason": "stop-loss",
+      "pnl": -0.5201,
+      "return_pct": -3.1939,
+      "entry_price": 1.515,
+      "opened_at": "2026-08-23T15:47:18.954277+00:00",
+      "closed_at": "2026-08-24T06:54:22.194211+00:00",
+      "cash_after": 15.7647,
+      "equity": 101.8277
+    },
+    {
+      "ts": "2026-08-24T06:54:22.194355+00:00",
+      "action": "BUY",
+      "symbol": "PENGUUSDT",
+      "price": 0.009738,
+      "stop_loss": 0.009446,
+      "take_profit": 0.010225,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.8277
+    }
+  ],
+  "runs": 1054,
+  "updated_at": "2026-08-24T06:54:22.194374+00:00",
+  "equity": 101.8277,
+  "total_return_pct": 1.8277
 }
