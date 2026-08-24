@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00012
+      "last_mark": 1.00021
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00005
+      "last_mark": 1.00007
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0004
+      "last_mark": 1.0006
     },
     "EURUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 1.254225,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-23T05:27:30.262661+00:00",
-      "last_mark": 1.1669
+      "last_mark": 1.167
     },
-    "PENGUUSDT": {
+    "RUNEUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.009738,
-      "units": 1617.2660438995495,
-      "notional": 15.764701436930745,
-      "stop_loss": 0.00944586,
-      "take_profit": 0.0102249,
+      "entry_price": 0.482,
+      "units": 31.630562183881278,
+      "notional": 15.26119216479557,
+      "stop_loss": 0.46753999999999996,
+      "take_profit": 0.5061,
       "usdt_rate": 1.0,
-      "opened_at": "2026-08-24T06:54:22.194351+00:00",
-      "last_mark": 0.009492
+      "opened_at": "2026-08-24T10:22:59.323847+00:00",
+      "last_mark": 0.482
     }
   },
   "history": [
@@ -842,6 +842,22 @@
       "closed_at": "2026-08-24T06:54:22.194211+00:00",
       "cash_after": 15.7647,
       "equity": 101.8277
+    },
+    {
+      "ts": "2026-08-24T10:22:59.323053+00:00",
+      "action": "SELL",
+      "symbol": "PENGUUSDT",
+      "price": 0.009446,
+      "stop_loss": 0.009446,
+      "take_profit": 0.010225,
+      "reason": "stop-loss",
+      "pnl": -0.5035,
+      "return_pct": -3.1939,
+      "entry_price": 0.009738,
+      "opened_at": "2026-08-24T06:54:22.194351+00:00",
+      "closed_at": "2026-08-24T10:22:59.323099+00:00",
+      "cash_after": 15.2612,
+      "equity": 101.3076
     }
   ],
   "events": [
@@ -2276,11 +2292,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 101.8277
+    },
+    {
+      "ts": "2026-08-24T10:22:59.323053+00:00",
+      "action": "SELL",
+      "symbol": "PENGUUSDT",
+      "price": 0.009446,
+      "stop_loss": 0.009446,
+      "take_profit": 0.010225,
+      "reason": "stop-loss",
+      "pnl": -0.5035,
+      "return_pct": -3.1939,
+      "entry_price": 0.009738,
+      "opened_at": "2026-08-24T06:54:22.194351+00:00",
+      "closed_at": "2026-08-24T10:22:59.323099+00:00",
+      "cash_after": 15.2612,
+      "equity": 101.3076
+    },
+    {
+      "ts": "2026-08-24T10:22:59.323852+00:00",
+      "action": "BUY",
+      "symbol": "RUNEUSDT",
+      "price": 0.482,
+      "stop_loss": 0.46754,
+      "take_profit": 0.5061,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.3076
     }
   ],
-  "last_run_events": [],
-  "runs": 1057,
-  "updated_at": "2026-08-24T09:44:56.850530+00:00",
-  "equity": 101.4041,
-  "total_return_pct": 1.4041
+  "last_run_events": [
+    {
+      "ts": "2026-08-24T10:22:59.323053+00:00",
+      "action": "SELL",
+      "symbol": "PENGUUSDT",
+      "price": 0.009446,
+      "stop_loss": 0.009446,
+      "take_profit": 0.010225,
+      "reason": "stop-loss",
+      "pnl": -0.5035,
+      "return_pct": -3.1939,
+      "entry_price": 0.009738,
+      "opened_at": "2026-08-24T06:54:22.194351+00:00",
+      "closed_at": "2026-08-24T10:22:59.323099+00:00",
+      "cash_after": 15.2612,
+      "equity": 101.3076
+    },
+    {
+      "ts": "2026-08-24T10:22:59.323852+00:00",
+      "action": "BUY",
+      "symbol": "RUNEUSDT",
+      "price": 0.482,
+      "stop_loss": 0.46754,
+      "take_profit": 0.5061,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.3076
+    }
+  ],
+  "runs": 1058,
+  "updated_at": "2026-08-24T10:22:59.323873+00:00",
+  "equity": 101.3076,
+  "total_return_pct": 1.3076
 }
