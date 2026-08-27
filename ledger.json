@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00001
+      "last_mark": 1.00006
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99971
+      "last_mark": 0.99977
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0003
+      "last_mark": 1.0004
     },
     "EURUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 1.254225,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-23T05:27:30.262661+00:00",
-      "last_mark": 1.1658
+      "last_mark": 1.1643
     },
     "REUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.5551349999999999,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-27T02:13:37.702926+00:00",
-      "last_mark": 0.5287
+      "last_mark": 0.5228
     }
   },
   "history": [
@@ -2366,38 +2366,9 @@
       "equity": 101.9984
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-08-27T02:13:37.702848+00:00",
-      "action": "SELL",
-      "symbol": "RUNEUSDT",
-      "price": 0.5061,
-      "stop_loss": 0.46754,
-      "take_profit": 0.5061,
-      "reason": "take-profit",
-      "pnl": 0.731,
-      "return_pct": 4.7901,
-      "entry_price": 0.482,
-      "opened_at": "2026-08-24T10:22:59.323847+00:00",
-      "closed_at": "2026-08-27T02:13:37.702871+00:00",
-      "cash_after": 15.9922,
-      "equity": 101.9984
-    },
-    {
-      "ts": "2026-08-27T02:13:37.702949+00:00",
-      "action": "BUY",
-      "symbol": "REUSDT",
-      "price": 0.5287,
-      "stop_loss": 0.512839,
-      "take_profit": 0.555135,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 101.9984
-    }
-  ],
-  "runs": 1133,
-  "updated_at": "2026-08-27T02:13:37.702970+00:00",
-  "equity": 101.9984,
-  "total_return_pct": 1.9984
+  "last_run_events": [],
+  "runs": 1134,
+  "updated_at": "2026-08-27T12:50:20.550768+00:00",
+  "equity": 101.7994,
+  "total_return_pct": 1.7994
 }
