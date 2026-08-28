@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 0.99988
+      "last_mark": 1.00014
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99973
+      "last_mark": 0.99982
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0002
-    },
-    "EURUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 1.1945,
-      "units": 16.935914486960844,
-      "notional": 20.250200054729454,
-      "stop_loss": 1.1586649999999998,
-      "take_profit": 1.254225,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-08-23T05:27:30.262661+00:00",
-      "last_mark": 1.1645
+      "last_mark": 1.0005
     },
     "REUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 0.5551349999999999,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-27T02:13:37.702926+00:00",
-      "last_mark": 0.5242
+      "last_mark": 0.5199
+    },
+    "MOVRUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.958,
+      "units": 20.44240592835885,
+      "notional": 19.60342830767545,
+      "stop_loss": 0.92926,
+      "take_profit": 1.0059,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-08-28T19:15:11.710629+00:00",
+      "last_mark": 0.958
     }
   },
   "history": [
@@ -874,6 +874,22 @@
       "closed_at": "2026-08-27T02:13:37.702871+00:00",
       "cash_after": 15.9922,
       "equity": 101.9984
+    },
+    {
+      "ts": "2026-08-28T19:15:11.710356+00:00",
+      "action": "SELL",
+      "symbol": "EURUSDT",
+      "price": 1.158665,
+      "stop_loss": 1.158665,
+      "take_profit": 1.254225,
+      "reason": "stop-loss",
+      "pnl": -0.6468,
+      "return_pct": -3.1939,
+      "entry_price": 1.1945,
+      "opened_at": "2026-08-23T05:27:30.262661+00:00",
+      "closed_at": "2026-08-28T19:15:11.710376+00:00",
+      "cash_after": 19.6034,
+      "equity": 101.5822
     }
   ],
   "events": [
@@ -2364,11 +2380,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 101.9984
+    },
+    {
+      "ts": "2026-08-28T19:15:11.710356+00:00",
+      "action": "SELL",
+      "symbol": "EURUSDT",
+      "price": 1.158665,
+      "stop_loss": 1.158665,
+      "take_profit": 1.254225,
+      "reason": "stop-loss",
+      "pnl": -0.6468,
+      "return_pct": -3.1939,
+      "entry_price": 1.1945,
+      "opened_at": "2026-08-23T05:27:30.262661+00:00",
+      "closed_at": "2026-08-28T19:15:11.710376+00:00",
+      "cash_after": 19.6034,
+      "equity": 101.5822
+    },
+    {
+      "ts": "2026-08-28T19:15:11.710634+00:00",
+      "action": "BUY",
+      "symbol": "MOVRUSDT",
+      "price": 0.958,
+      "stop_loss": 0.92926,
+      "take_profit": 1.0059,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.5822
     }
   ],
-  "last_run_events": [],
-  "runs": 1136,
-  "updated_at": "2026-08-28T06:45:52.113468+00:00",
-  "equity": 101.8359,
-  "total_return_pct": 1.8359
+  "last_run_events": [
+    {
+      "ts": "2026-08-28T19:15:11.710356+00:00",
+      "action": "SELL",
+      "symbol": "EURUSDT",
+      "price": 1.158665,
+      "stop_loss": 1.158665,
+      "take_profit": 1.254225,
+      "reason": "stop-loss",
+      "pnl": -0.6468,
+      "return_pct": -3.1939,
+      "entry_price": 1.1945,
+      "opened_at": "2026-08-23T05:27:30.262661+00:00",
+      "closed_at": "2026-08-28T19:15:11.710376+00:00",
+      "cash_after": 19.6034,
+      "equity": 101.5822
+    },
+    {
+      "ts": "2026-08-28T19:15:11.710634+00:00",
+      "action": "BUY",
+      "symbol": "MOVRUSDT",
+      "price": 0.958,
+      "stop_loss": 0.92926,
+      "take_profit": 1.0059,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.5822
+    }
+  ],
+  "runs": 1137,
+  "updated_at": "2026-08-28T19:15:11.710657+00:00",
+  "equity": 101.5822,
+  "total_return_pct": 1.5822
 }
