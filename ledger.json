@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 18.977313822853755,
+  "cash": 0.0,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00001
+      "last_mark": 0.99995
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99981
+      "last_mark": 0.99975
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -35,16 +35,27 @@
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
       "last_mark": 1.0003
     },
-    "REUSDT": {
+    "ICPUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.5287,
-      "units": 30.217944154430324,
-      "notional": 15.992219293741051,
-      "stop_loss": 0.5128389999999999,
-      "take_profit": 0.5551349999999999,
+      "entry_price": 2.474,
+      "units": 6.957214710521549,
+      "notional": 17.229378572402716,
+      "stop_loss": 2.3997800000000002,
+      "take_profit": 2.5977,
       "usdt_rate": 1.0,
-      "opened_at": "2026-08-27T02:13:37.702926+00:00",
-      "last_mark": 0.5141
+      "opened_at": "2026-08-29T09:16:14.296088+00:00",
+      "last_mark": 2.474
+    },
+    "NEOUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 2.126,
+      "units": 8.09602502061633,
+      "notional": 17.229378572402716,
+      "stop_loss": 2.06222,
+      "take_profit": 2.2323,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-08-29T09:16:14.296774+00:00",
+      "last_mark": 2.126
     }
   },
   "history": [
@@ -895,6 +906,22 @@
       "closed_at": "2026-08-29T02:15:44.761743+00:00",
       "cash_after": 18.9773,
       "equity": 100.7929
+    },
+    {
+      "ts": "2026-08-29T09:16:14.295721+00:00",
+      "action": "SELL",
+      "symbol": "REUSDT",
+      "price": 0.512839,
+      "stop_loss": 0.512839,
+      "take_profit": 0.555135,
+      "reason": "stop-loss",
+      "pnl": -0.5108,
+      "return_pct": -3.1939,
+      "entry_price": 0.5287,
+      "opened_at": "2026-08-27T02:13:37.702926+00:00",
+      "closed_at": "2026-08-29T09:16:14.295743+00:00",
+      "cash_after": 34.4588,
+      "equity": 100.7022
     }
   ],
   "events": [
@@ -2429,28 +2456,92 @@
       "closed_at": "2026-08-29T02:15:44.761743+00:00",
       "cash_after": 18.9773,
       "equity": 100.7929
+    },
+    {
+      "ts": "2026-08-29T09:16:14.295721+00:00",
+      "action": "SELL",
+      "symbol": "REUSDT",
+      "price": 0.512839,
+      "stop_loss": 0.512839,
+      "take_profit": 0.555135,
+      "reason": "stop-loss",
+      "pnl": -0.5108,
+      "return_pct": -3.1939,
+      "entry_price": 0.5287,
+      "opened_at": "2026-08-27T02:13:37.702926+00:00",
+      "closed_at": "2026-08-29T09:16:14.295743+00:00",
+      "cash_after": 34.4588,
+      "equity": 100.7022
+    },
+    {
+      "ts": "2026-08-29T09:16:14.296092+00:00",
+      "action": "BUY",
+      "symbol": "ICPUSDT",
+      "price": 2.474,
+      "stop_loss": 2.39978,
+      "take_profit": 2.5977,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 17.2294,
+      "equity": 100.7022
+    },
+    {
+      "ts": "2026-08-29T09:16:14.296778+00:00",
+      "action": "BUY",
+      "symbol": "NEOUSDT",
+      "price": 2.126,
+      "stop_loss": 2.06222,
+      "take_profit": 2.2323,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 100.7022
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-08-29T02:15:44.761717+00:00",
+      "ts": "2026-08-29T09:16:14.295721+00:00",
       "action": "SELL",
-      "symbol": "MOVRUSDT",
-      "price": 0.92926,
-      "stop_loss": 0.92926,
-      "take_profit": 1.0059,
+      "symbol": "REUSDT",
+      "price": 0.512839,
+      "stop_loss": 0.512839,
+      "take_profit": 0.555135,
       "reason": "stop-loss",
-      "pnl": -0.6261,
+      "pnl": -0.5108,
       "return_pct": -3.1939,
-      "entry_price": 0.958,
-      "opened_at": "2026-08-28T19:15:11.710629+00:00",
-      "closed_at": "2026-08-29T02:15:44.761743+00:00",
-      "cash_after": 18.9773,
-      "equity": 100.7929
+      "entry_price": 0.5287,
+      "opened_at": "2026-08-27T02:13:37.702926+00:00",
+      "closed_at": "2026-08-29T09:16:14.295743+00:00",
+      "cash_after": 34.4588,
+      "equity": 100.7022
+    },
+    {
+      "ts": "2026-08-29T09:16:14.296092+00:00",
+      "action": "BUY",
+      "symbol": "ICPUSDT",
+      "price": 2.474,
+      "stop_loss": 2.39978,
+      "take_profit": 2.5977,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 17.2294,
+      "equity": 100.7022
+    },
+    {
+      "ts": "2026-08-29T09:16:14.296778+00:00",
+      "action": "BUY",
+      "symbol": "NEOUSDT",
+      "price": 2.126,
+      "stop_loss": 2.06222,
+      "take_profit": 2.2323,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 100.7022
     }
   ],
-  "runs": 1138,
-  "updated_at": "2026-08-29T02:15:44.764051+00:00",
-  "equity": 100.7929,
-  "total_return_pct": 0.7929
+  "runs": 1139,
+  "updated_at": "2026-08-29T09:16:14.296795+00:00",
+  "equity": 100.7022,
+  "total_return_pct": 0.7022
 }
