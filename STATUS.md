@@ -1,23 +1,24 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-08-31 19:15 UTC** · run #1153 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-08-31 23:16 UTC** · run #1154 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🔴 **$99.69**  (-0.31%) |
+| **Equity** | 🔴 **$99.48**  (-0.52%) |
 | Starting cash | $100.00 |
-| Idle cash | $17.48 |
-| Open positions | 4 / 5 |
+| Idle cash | $0.00 |
+| Open positions | 5 / 5 |
 | Closed trades | 58 |
 
 ## Open positions
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `USDCUSDT` | 1.00088 | 1.00012 | 🔴 -0.08% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 0.9997 | 🔴 -0.02% | 0.969913 | 1.04991 |
+| `USDCUSDT` | 1.00088 | 1.00024 | 🔴 -0.06% | 0.970854 | 1.05092 |
+| `USD1USDT` | 0.99991 | 0.99981 | 🔴 -0.01% | 0.969913 | 1.04991 |
 | `XUSDUSDT` | 1.0014 | 1.0005 | 🔴 -0.09% | 0.971358 | 1.05147 |
-| `INJUSDT` | 5.041 | 4.979 | 🔴 -1.23% | 4.88977 | 5.29305 |
+| `INJUSDT` | 5.041 | 4.917 | 🔴 -2.46% | 4.88977 | 5.29305 |
+| `QKCUSDT` | 0.002098 | 0.002098 | 🟢 +0.00% | 0.00203506 | 0.0022029 |
 
 ## Recent closed trades (58 total)
 
