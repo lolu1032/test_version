@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00003
+      "last_mark": 1.00004
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99975
+      "last_mark": 0.99973
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -35,17 +35,6 @@
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
       "last_mark": 1.0004
     },
-    "ICPUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 2.474,
-      "units": 6.957214710521549,
-      "notional": 17.229378572402716,
-      "stop_loss": 2.3997800000000002,
-      "take_profit": 2.5977,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-08-29T09:16:14.296088+00:00",
-      "last_mark": 2.424
-    },
     "HEMIUSDT": {
       "signal": "donchian_breakout",
       "entry_price": 0.01401,
@@ -55,7 +44,18 @@
       "take_profit": 0.014710500000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-30T21:59:07.285963+00:00",
-      "last_mark": 0.01401
+      "last_mark": 0.01403
+    },
+    "ANIMEUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.00307,
+      "units": 5427.495063310778,
+      "notional": 16.679088933297386,
+      "stop_loss": 0.0029779,
+      "take_profit": 0.0032235,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-08-31T00:23:15.369539+00:00",
+      "last_mark": 0.00307
     }
   },
   "history": [
@@ -938,6 +938,22 @@
       "closed_at": "2026-08-30T21:59:07.285800+00:00",
       "cash_after": 16.6791,
       "equity": 99.8086
+    },
+    {
+      "ts": "2026-08-31T00:23:15.369037+00:00",
+      "action": "SELL",
+      "symbol": "ICPUSDT",
+      "price": 2.39978,
+      "stop_loss": 2.39978,
+      "take_profit": 2.5977,
+      "reason": "stop-loss",
+      "pnl": -0.5503,
+      "return_pct": -3.1939,
+      "entry_price": 2.474,
+      "opened_at": "2026-08-29T09:16:14.296088+00:00",
+      "closed_at": "2026-08-31T00:23:15.369059+00:00",
+      "cash_after": 16.6791,
+      "equity": 99.6303
     }
   ],
   "events": [
@@ -2540,40 +2556,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.8086
+    },
+    {
+      "ts": "2026-08-31T00:23:15.369037+00:00",
+      "action": "SELL",
+      "symbol": "ICPUSDT",
+      "price": 2.39978,
+      "stop_loss": 2.39978,
+      "take_profit": 2.5977,
+      "reason": "stop-loss",
+      "pnl": -0.5503,
+      "return_pct": -3.1939,
+      "entry_price": 2.474,
+      "opened_at": "2026-08-29T09:16:14.296088+00:00",
+      "closed_at": "2026-08-31T00:23:15.369059+00:00",
+      "cash_after": 16.6791,
+      "equity": 99.6303
+    },
+    {
+      "ts": "2026-08-31T00:23:15.369543+00:00",
+      "action": "BUY",
+      "symbol": "ANIMEUSDT",
+      "price": 0.00307,
+      "stop_loss": 0.002978,
+      "take_profit": 0.003223,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.6303
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-08-30T21:59:07.285782+00:00",
+      "ts": "2026-08-31T00:23:15.369037+00:00",
       "action": "SELL",
-      "symbol": "NEOUSDT",
-      "price": 2.06222,
-      "stop_loss": 2.06222,
-      "take_profit": 2.2323,
+      "symbol": "ICPUSDT",
+      "price": 2.39978,
+      "stop_loss": 2.39978,
+      "take_profit": 2.5977,
       "reason": "stop-loss",
       "pnl": -0.5503,
       "return_pct": -3.1939,
-      "entry_price": 2.126,
-      "opened_at": "2026-08-29T09:16:14.296774+00:00",
-      "closed_at": "2026-08-30T21:59:07.285800+00:00",
+      "entry_price": 2.474,
+      "opened_at": "2026-08-29T09:16:14.296088+00:00",
+      "closed_at": "2026-08-31T00:23:15.369059+00:00",
       "cash_after": 16.6791,
-      "equity": 99.8086
+      "equity": 99.6303
     },
     {
-      "ts": "2026-08-30T21:59:07.285966+00:00",
+      "ts": "2026-08-31T00:23:15.369543+00:00",
       "action": "BUY",
-      "symbol": "HEMIUSDT",
-      "price": 0.01401,
-      "stop_loss": 0.01359,
-      "take_profit": 0.014711,
+      "symbol": "ANIMEUSDT",
+      "price": 0.00307,
+      "stop_loss": 0.002978,
+      "take_profit": 0.003223,
       "reason": "donchian_breakout",
       "pnl": null,
       "cash_after": 0.0,
-      "equity": 99.8086
+      "equity": 99.6303
     }
   ],
-  "runs": 1149,
-  "updated_at": "2026-08-30T21:59:07.285983+00:00",
-  "equity": 99.8086,
-  "total_return_pct": -0.1914
+  "runs": 1150,
+  "updated_at": "2026-08-31T00:23:15.369562+00:00",
+  "equity": 99.6303,
+  "total_return_pct": -0.3697
 }
