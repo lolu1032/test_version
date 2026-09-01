@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00022
+      "last_mark": 1.00029
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99982
+      "last_mark": 0.99975
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0006
-    },
-    "INJUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 5.041,
-      "units": 3.1998073073740625,
-      "notional": 16.146375011484135,
-      "stop_loss": 4.88977,
-      "take_profit": 5.293050000000001,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-08-31T05:54:11.864242+00:00",
-      "last_mark": 4.988
+      "last_mark": 1.0005
     },
     "QKCUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 0.0022029000000000003,
       "usdt_rate": 1.0,
       "opened_at": "2026-08-31T23:16:38.140804+00:00",
-      "last_mark": 0.002116
+      "last_mark": 0.002174
+    },
+    "AAPLBUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 317.39,
+      "units": 0.04919828847835626,
+      "notional": 15.630675455601093,
+      "stop_loss": 307.8683,
+      "take_profit": 333.2595,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-09-01T12:42:56.713403+00:00",
+      "last_mark": 317.39
     }
   },
   "history": [
@@ -986,6 +986,22 @@
       "closed_at": "2026-08-31T12:44:08.540757+00:00",
       "cash_after": 17.478,
       "equity": 99.6509
+    },
+    {
+      "ts": "2026-09-01T12:42:56.712573+00:00",
+      "action": "SELL",
+      "symbol": "INJUSDT",
+      "price": 4.88977,
+      "stop_loss": 4.88977,
+      "take_profit": 5.29305,
+      "reason": "stop-loss",
+      "pnl": -0.5157,
+      "return_pct": -3.1939,
+      "entry_price": 5.041,
+      "opened_at": "2026-08-31T05:54:11.864242+00:00",
+      "closed_at": "2026-09-01T12:42:56.712592+00:00",
+      "cash_after": 15.6307,
+      "equity": 99.9977
     }
   ],
   "events": [
@@ -2672,11 +2688,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.4839
+    },
+    {
+      "ts": "2026-09-01T12:42:56.712573+00:00",
+      "action": "SELL",
+      "symbol": "INJUSDT",
+      "price": 4.88977,
+      "stop_loss": 4.88977,
+      "take_profit": 5.29305,
+      "reason": "stop-loss",
+      "pnl": -0.5157,
+      "return_pct": -3.1939,
+      "entry_price": 5.041,
+      "opened_at": "2026-08-31T05:54:11.864242+00:00",
+      "closed_at": "2026-09-01T12:42:56.712592+00:00",
+      "cash_after": 15.6307,
+      "equity": 99.9977
+    },
+    {
+      "ts": "2026-09-01T12:42:56.713409+00:00",
+      "action": "BUY",
+      "symbol": "AAPLBUSDT",
+      "price": 317.39,
+      "stop_loss": 307.8683,
+      "take_profit": 333.2595,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.9977
     }
   ],
-  "last_run_events": [],
-  "runs": 1156,
-  "updated_at": "2026-09-01T07:29:47.303038+00:00",
-  "equity": 99.863,
-  "total_return_pct": -0.137
+  "last_run_events": [
+    {
+      "ts": "2026-09-01T12:42:56.712573+00:00",
+      "action": "SELL",
+      "symbol": "INJUSDT",
+      "price": 4.88977,
+      "stop_loss": 4.88977,
+      "take_profit": 5.29305,
+      "reason": "stop-loss",
+      "pnl": -0.5157,
+      "return_pct": -3.1939,
+      "entry_price": 5.041,
+      "opened_at": "2026-08-31T05:54:11.864242+00:00",
+      "closed_at": "2026-09-01T12:42:56.712592+00:00",
+      "cash_after": 15.6307,
+      "equity": 99.9977
+    },
+    {
+      "ts": "2026-09-01T12:42:56.713409+00:00",
+      "action": "BUY",
+      "symbol": "AAPLBUSDT",
+      "price": 317.39,
+      "stop_loss": 307.8683,
+      "take_profit": 333.2595,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.9977
+    }
+  ],
+  "runs": 1157,
+  "updated_at": "2026-09-01T12:42:56.713430+00:00",
+  "equity": 99.9977,
+  "total_return_pct": -0.0023
 }
