@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 20.111915073118528,
+  "cash": 0.0,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 0.99997
+      "last_mark": 1.00003
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99977
+      "last_mark": 0.99982
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0006
+      "last_mark": 1.0004
     },
     "AAPLBUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,18 @@
       "take_profit": 333.2595,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 327.83
+      "last_mark": 325.95
+    },
+    "NEARUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 2.031,
+      "units": 9.892566793720043,
+      "notional": 20.111915073118528,
+      "stop_loss": 1.97007,
+      "take_profit": 2.13255,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-09-04T09:56:40.899775+00:00",
+      "last_mark": 2.031
     }
   },
   "history": [
@@ -2825,28 +2836,36 @@
       "closed_at": "2026-09-04T05:31:00.230228+00:00",
       "cash_after": 20.1119,
       "equity": 102.5263
+    },
+    {
+      "ts": "2026-09-04T09:56:40.899790+00:00",
+      "action": "BUY",
+      "symbol": "NEARUSDT",
+      "price": 2.031,
+      "stop_loss": 1.97007,
+      "take_profit": 2.13255,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 102.4115
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-09-04T05:31:00.230210+00:00",
-      "action": "SELL",
-      "symbol": "JSTUSDT",
-      "price": 0.108329,
-      "stop_loss": 0.100075,
-      "take_profit": 0.108329,
-      "reason": "take-profit",
-      "pnl": 0.9193,
-      "return_pct": 4.7901,
-      "entry_price": 0.10317,
-      "opened_at": "2026-09-01T19:46:36.380707+00:00",
-      "closed_at": "2026-09-04T05:31:00.230228+00:00",
-      "cash_after": 20.1119,
-      "equity": 102.5263
+      "ts": "2026-09-04T09:56:40.899790+00:00",
+      "action": "BUY",
+      "symbol": "NEARUSDT",
+      "price": 2.031,
+      "stop_loss": 1.97007,
+      "take_profit": 2.13255,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 102.4115
     }
   ],
-  "runs": 1176,
-  "updated_at": "2026-09-04T05:31:00.232469+00:00",
-  "equity": 102.5263,
-  "total_return_pct": 2.5263
+  "runs": 1177,
+  "updated_at": "2026-09-04T09:56:40.899833+00:00",
+  "equity": 102.4115,
+  "total_return_pct": 2.4115
 }
