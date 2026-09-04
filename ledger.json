@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 20.111915073118528,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 0.99985
+      "last_mark": 0.99997
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99966
+      "last_mark": 0.99977
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.0006
     },
     "AAPLBUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,7 @@
       "take_profit": 333.2595,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 327.84
-    },
-    "JSTUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 0.10317,
-      "units": 185.84257254774843,
-      "notional": 19.19257078053174,
-      "stop_loss": 0.1000749,
-      "take_profit": 0.10832850000000001,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-09-01T19:46:36.380707+00:00",
-      "last_mark": 0.10736
+      "last_mark": 327.83
     }
   },
   "history": [
@@ -1034,6 +1023,22 @@
       "closed_at": "2026-09-01T19:46:36.380270+00:00",
       "cash_after": 19.1926,
       "equity": 101.4743
+    },
+    {
+      "ts": "2026-09-04T05:31:00.230210+00:00",
+      "action": "SELL",
+      "symbol": "JSTUSDT",
+      "price": 0.108329,
+      "stop_loss": 0.100075,
+      "take_profit": 0.108329,
+      "reason": "take-profit",
+      "pnl": 0.9193,
+      "return_pct": 4.7901,
+      "entry_price": 0.10317,
+      "opened_at": "2026-09-01T19:46:36.380707+00:00",
+      "closed_at": "2026-09-04T05:31:00.230228+00:00",
+      "cash_after": 20.1119,
+      "equity": 102.5263
     }
   ],
   "events": [
@@ -2804,11 +2809,44 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 101.4743
+    },
+    {
+      "ts": "2026-09-04T05:31:00.230210+00:00",
+      "action": "SELL",
+      "symbol": "JSTUSDT",
+      "price": 0.108329,
+      "stop_loss": 0.100075,
+      "take_profit": 0.108329,
+      "reason": "take-profit",
+      "pnl": 0.9193,
+      "return_pct": 4.7901,
+      "entry_price": 0.10317,
+      "opened_at": "2026-09-01T19:46:36.380707+00:00",
+      "closed_at": "2026-09-04T05:31:00.230228+00:00",
+      "cash_after": 20.1119,
+      "equity": 102.5263
     }
   ],
-  "last_run_events": [],
-  "runs": 1175,
-  "updated_at": "2026-09-04T00:47:04.744711+00:00",
-  "equity": 102.369,
-  "total_return_pct": 2.369
+  "last_run_events": [
+    {
+      "ts": "2026-09-04T05:31:00.230210+00:00",
+      "action": "SELL",
+      "symbol": "JSTUSDT",
+      "price": 0.108329,
+      "stop_loss": 0.100075,
+      "take_profit": 0.108329,
+      "reason": "take-profit",
+      "pnl": 0.9193,
+      "return_pct": 4.7901,
+      "entry_price": 0.10317,
+      "opened_at": "2026-09-01T19:46:36.380707+00:00",
+      "closed_at": "2026-09-04T05:31:00.230228+00:00",
+      "cash_after": 20.1119,
+      "equity": 102.5263
+    }
+  ],
+  "runs": 1176,
+  "updated_at": "2026-09-04T05:31:00.232469+00:00",
+  "equity": 102.5263,
+  "total_return_pct": 2.5263
 }
