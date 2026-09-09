@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.0001
+      "last_mark": 1.00016
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99973
+      "last_mark": 0.9997
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.0008
     },
     "AAPLBUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 333.2595,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 313.02
+      "last_mark": 316.19
     },
-    "IOSTUSDT": {
+    "PROMUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.002151,
-      "units": 9305.231613428334,
-      "notional": 20.03558878927362,
-      "stop_loss": 0.00208647,
-      "take_profit": 0.0022585500000000002,
+      "entry_price": 6.046,
+      "units": 3.469123257545221,
+      "notional": 20.995314529648056,
+      "stop_loss": 5.86462,
+      "take_profit": 6.348300000000001,
       "usdt_rate": 1.0,
-      "opened_at": "2026-09-09T18:39:48.335968+00:00",
-      "last_mark": 0.002151
+      "opened_at": "2026-09-09T21:12:34.730369+00:00",
+      "last_mark": 6.046
     }
   },
   "history": [
@@ -1130,6 +1130,22 @@
       "closed_at": "2026-09-09T18:39:48.335824+00:00",
       "cash_after": 20.0356,
       "equity": 101.7101
+    },
+    {
+      "ts": "2026-09-09T21:12:34.730259+00:00",
+      "action": "SELL",
+      "symbol": "IOSTUSDT",
+      "price": 0.002259,
+      "stop_loss": 0.002086,
+      "take_profit": 0.002259,
+      "reason": "take-profit",
+      "pnl": 0.9597,
+      "return_pct": 4.7901,
+      "entry_price": 0.002151,
+      "opened_at": "2026-09-09T18:39:48.335968+00:00",
+      "closed_at": "2026-09-09T21:12:34.730310+00:00",
+      "cash_after": 20.9953,
+      "equity": 102.823
     }
   ],
   "events": [
@@ -3068,40 +3084,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 101.7101
+    },
+    {
+      "ts": "2026-09-09T21:12:34.730259+00:00",
+      "action": "SELL",
+      "symbol": "IOSTUSDT",
+      "price": 0.002259,
+      "stop_loss": 0.002086,
+      "take_profit": 0.002259,
+      "reason": "take-profit",
+      "pnl": 0.9597,
+      "return_pct": 4.7901,
+      "entry_price": 0.002151,
+      "opened_at": "2026-09-09T18:39:48.335968+00:00",
+      "closed_at": "2026-09-09T21:12:34.730310+00:00",
+      "cash_after": 20.9953,
+      "equity": 102.823
+    },
+    {
+      "ts": "2026-09-09T21:12:34.730374+00:00",
+      "action": "BUY",
+      "symbol": "PROMUSDT",
+      "price": 6.046,
+      "stop_loss": 5.86462,
+      "take_profit": 6.3483,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 102.823
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-09-09T18:39:48.335801+00:00",
+      "ts": "2026-09-09T21:12:34.730259+00:00",
       "action": "SELL",
       "symbol": "IOSTUSDT",
-      "price": 0.001554,
-      "stop_loss": 0.001436,
-      "take_profit": 0.001554,
-      "reason": "take-profit",
-      "pnl": 0.9159,
-      "return_pct": 4.7901,
-      "entry_price": 0.00148,
-      "opened_at": "2026-09-09T15:13:51.186152+00:00",
-      "closed_at": "2026-09-09T18:39:48.335824+00:00",
-      "cash_after": 20.0356,
-      "equity": 101.7101
-    },
-    {
-      "ts": "2026-09-09T18:39:48.335973+00:00",
-      "action": "BUY",
-      "symbol": "IOSTUSDT",
-      "price": 0.002151,
+      "price": 0.002259,
       "stop_loss": 0.002086,
       "take_profit": 0.002259,
+      "reason": "take-profit",
+      "pnl": 0.9597,
+      "return_pct": 4.7901,
+      "entry_price": 0.002151,
+      "opened_at": "2026-09-09T18:39:48.335968+00:00",
+      "closed_at": "2026-09-09T21:12:34.730310+00:00",
+      "cash_after": 20.9953,
+      "equity": 102.823
+    },
+    {
+      "ts": "2026-09-09T21:12:34.730374+00:00",
+      "action": "BUY",
+      "symbol": "PROMUSDT",
+      "price": 6.046,
+      "stop_loss": 5.86462,
+      "take_profit": 6.3483,
       "reason": "donchian_breakout",
       "pnl": null,
       "cash_after": 0.0,
-      "equity": 101.7101
+      "equity": 102.823
     }
   ],
-  "runs": 1216,
-  "updated_at": "2026-09-09T18:39:48.335992+00:00",
-  "equity": 101.7101,
-  "total_return_pct": 1.7101
+  "runs": 1217,
+  "updated_at": "2026-09-09T21:12:34.730393+00:00",
+  "equity": 102.823,
+  "total_return_pct": 2.823
 }
