@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00013
+      "last_mark": 1.00011
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.9997
+      "last_mark": 0.99971
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 333.2595,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 315.6
+      "last_mark": 312.66
     },
-    "INJUSDT": {
+    "IOSTUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 6.394,
-      "units": 3.0858298779171225,
-      "notional": 19.75054678618827,
-      "stop_loss": 6.20218,
-      "take_profit": 6.7137,
+      "entry_price": 0.00148,
+      "units": 12905.820098910765,
+      "notional": 19.1197334798678,
+      "stop_loss": 0.0014356,
+      "take_profit": 0.001554,
       "usdt_rate": 1.0,
-      "opened_at": "2026-09-08T14:11:26.779394+00:00",
-      "last_mark": 6.26
+      "opened_at": "2026-09-09T15:13:51.186152+00:00",
+      "last_mark": 0.00148
     }
   },
   "history": [
@@ -1098,6 +1098,22 @@
       "closed_at": "2026-09-08T14:11:26.779298+00:00",
       "cash_after": 19.7505,
       "equity": 101.5849
+    },
+    {
+      "ts": "2026-09-09T15:13:51.185869+00:00",
+      "action": "SELL",
+      "symbol": "INJUSDT",
+      "price": 6.20218,
+      "stop_loss": 6.20218,
+      "take_profit": 6.7137,
+      "reason": "stop-loss",
+      "pnl": -0.6308,
+      "return_pct": -3.1939,
+      "entry_price": 6.394,
+      "opened_at": "2026-09-08T14:11:26.779394+00:00",
+      "closed_at": "2026-09-09T15:13:51.185891+00:00",
+      "cash_after": 19.1197,
+      "equity": 100.7702
     }
   ],
   "events": [
@@ -2980,11 +2996,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 101.5849
+    },
+    {
+      "ts": "2026-09-09T15:13:51.185869+00:00",
+      "action": "SELL",
+      "symbol": "INJUSDT",
+      "price": 6.20218,
+      "stop_loss": 6.20218,
+      "take_profit": 6.7137,
+      "reason": "stop-loss",
+      "pnl": -0.6308,
+      "return_pct": -3.1939,
+      "entry_price": 6.394,
+      "opened_at": "2026-09-08T14:11:26.779394+00:00",
+      "closed_at": "2026-09-09T15:13:51.185891+00:00",
+      "cash_after": 19.1197,
+      "equity": 100.7702
+    },
+    {
+      "ts": "2026-09-09T15:13:51.186159+00:00",
+      "action": "BUY",
+      "symbol": "IOSTUSDT",
+      "price": 0.00148,
+      "stop_loss": 0.001436,
+      "take_profit": 0.001554,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 100.7702
     }
   ],
-  "last_run_events": [],
-  "runs": 1214,
-  "updated_at": "2026-09-09T11:22:26.200651+00:00",
-  "equity": 101.1317,
-  "total_return_pct": 1.1317
+  "last_run_events": [
+    {
+      "ts": "2026-09-09T15:13:51.185869+00:00",
+      "action": "SELL",
+      "symbol": "INJUSDT",
+      "price": 6.20218,
+      "stop_loss": 6.20218,
+      "take_profit": 6.7137,
+      "reason": "stop-loss",
+      "pnl": -0.6308,
+      "return_pct": -3.1939,
+      "entry_price": 6.394,
+      "opened_at": "2026-09-08T14:11:26.779394+00:00",
+      "closed_at": "2026-09-09T15:13:51.185891+00:00",
+      "cash_after": 19.1197,
+      "equity": 100.7702
+    },
+    {
+      "ts": "2026-09-09T15:13:51.186159+00:00",
+      "action": "BUY",
+      "symbol": "IOSTUSDT",
+      "price": 0.00148,
+      "stop_loss": 0.001436,
+      "take_profit": 0.001554,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 100.7702
+    }
+  ],
+  "runs": 1215,
+  "updated_at": "2026-09-09T15:13:51.186179+00:00",
+  "equity": 100.7702,
+  "total_return_pct": 0.7702
 }
