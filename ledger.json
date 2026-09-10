@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00014
+      "last_mark": 1.00023
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99976
+      "last_mark": 0.99982
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.0008
     },
     "AAPLBUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 333.2595,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 317.36
+      "last_mark": 316.84
     }
   },
   "history": [
@@ -3135,26 +3135,9 @@
       "equity": 102.2343
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-09-09T23:16:47.292321+00:00",
-      "action": "SELL",
-      "symbol": "PROMUSDT",
-      "price": 5.86462,
-      "stop_loss": 5.86462,
-      "take_profit": 6.3483,
-      "reason": "stop-loss",
-      "pnl": -0.6706,
-      "return_pct": -3.1939,
-      "entry_price": 6.046,
-      "opened_at": "2026-09-09T21:12:34.730369+00:00",
-      "closed_at": "2026-09-09T23:16:47.292346+00:00",
-      "cash_after": 20.3247,
-      "equity": 102.2343
-    }
-  ],
-  "runs": 1218,
-  "updated_at": "2026-09-09T23:16:47.294833+00:00",
-  "equity": 102.2343,
-  "total_return_pct": 2.2343
+  "last_run_events": [],
+  "runs": 1219,
+  "updated_at": "2026-09-10T01:18:28.207675+00:00",
+  "equity": 102.2096,
+  "total_return_pct": 2.2096
 }
