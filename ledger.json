@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99972
+      "last_mark": 0.99963
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 333.2595,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 322.86
+      "last_mark": 324.44
     },
     "XTZUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.27909,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-10T15:10:09.058396+00:00",
-      "last_mark": 0.2658
+      "last_mark": 0.261
     }
   },
   "history": [
@@ -3246,38 +3246,9 @@
       "equity": 102.7722
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-09-10T15:10:09.057736+00:00",
-      "action": "SELL",
-      "symbol": "VTHOUSDT",
-      "price": 0.000693,
-      "stop_loss": 0.000693,
-      "take_profit": 0.00075,
-      "reason": "stop-loss",
-      "pnl": -0.6802,
-      "return_pct": -3.1939,
-      "entry_price": 0.000714,
-      "opened_at": "2026-09-10T11:39:51.867941+00:00",
-      "closed_at": "2026-09-10T15:10:09.057758+00:00",
-      "cash_after": 20.6181,
-      "equity": 102.7722
-    },
-    {
-      "ts": "2026-09-10T15:10:09.058402+00:00",
-      "action": "BUY",
-      "symbol": "XTZUSDT",
-      "price": 0.2658,
-      "stop_loss": 0.257826,
-      "take_profit": 0.27909,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 102.7722
-    }
-  ],
-  "runs": 1222,
-  "updated_at": "2026-09-10T15:10:09.058426+00:00",
-  "equity": 102.7722,
-  "total_return_pct": 2.7722
+  "last_run_events": [],
+  "runs": 1223,
+  "updated_at": "2026-09-10T18:28:06.293321+00:00",
+  "equity": 102.4759,
+  "total_return_pct": 2.4759
 }
