@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00031
+      "last_mark": 1.00016
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00002
+      "last_mark": 1.00003
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -35,17 +35,6 @@
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
       "last_mark": 1.0006
     },
-    "AAPLBUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 317.39,
-      "units": 0.04919828847835626,
-      "notional": 15.630675455601093,
-      "stop_loss": 307.8683,
-      "take_profit": 333.2595,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-09-01T12:42:56.713403+00:00",
-      "last_mark": 326.19
-    },
     "WBTCBTC": {
       "signal": "donchian_breakout",
       "entry_price": 76671.60941599999,
@@ -55,7 +44,18 @@
       "take_profit": 80505.1898868,
       "usdt_rate": 76717.64,
       "opened_at": "2026-09-10T23:10:24.237460+00:00",
-      "last_mark": 76898.01
+      "last_mark": 78773.88660099999
+    },
+    "HOLOUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.0636,
+      "units": 257.2802173099289,
+      "notional": 16.379401222133612,
+      "stop_loss": 0.061692000000000004,
+      "take_profit": 0.06678,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-09-11T15:01:20.158031+00:00",
+      "last_mark": 0.0636
     }
   },
   "history": [
@@ -1210,6 +1210,22 @@
       "closed_at": "2026-09-10T23:10:24.237192+00:00",
       "cash_after": 19.9596,
       "equity": 102.2668
+    },
+    {
+      "ts": "2026-09-11T15:01:20.157922+00:00",
+      "action": "SELL",
+      "symbol": "AAPLBUSDT",
+      "price": 333.2595,
+      "stop_loss": 307.8683,
+      "take_profit": 333.2595,
+      "reason": "take-profit",
+      "pnl": 0.7487,
+      "return_pct": 4.7901,
+      "entry_price": 317.39,
+      "opened_at": "2026-09-01T12:42:56.713403+00:00",
+      "closed_at": "2026-09-11T15:01:20.157942+00:00",
+      "cash_after": 16.3794,
+      "equity": 103.1449
     }
   ],
   "events": [
@@ -3288,11 +3304,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 102.2668
+    },
+    {
+      "ts": "2026-09-11T15:01:20.157922+00:00",
+      "action": "SELL",
+      "symbol": "AAPLBUSDT",
+      "price": 333.2595,
+      "stop_loss": 307.8683,
+      "take_profit": 333.2595,
+      "reason": "take-profit",
+      "pnl": 0.7487,
+      "return_pct": 4.7901,
+      "entry_price": 317.39,
+      "opened_at": "2026-09-01T12:42:56.713403+00:00",
+      "closed_at": "2026-09-11T15:01:20.157942+00:00",
+      "cash_after": 16.3794,
+      "equity": 103.1449
+    },
+    {
+      "ts": "2026-09-11T15:01:20.158035+00:00",
+      "action": "BUY",
+      "symbol": "HOLOUSDT",
+      "price": 0.0636,
+      "stop_loss": 0.061692,
+      "take_profit": 0.06678,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.1449
     }
   ],
-  "last_run_events": [],
-  "runs": 1228,
-  "updated_at": "2026-09-11T11:06:36.720138+00:00",
-  "equity": 102.3448,
-  "total_return_pct": 2.3448
+  "last_run_events": [
+    {
+      "ts": "2026-09-11T15:01:20.157922+00:00",
+      "action": "SELL",
+      "symbol": "AAPLBUSDT",
+      "price": 333.2595,
+      "stop_loss": 307.8683,
+      "take_profit": 333.2595,
+      "reason": "take-profit",
+      "pnl": 0.7487,
+      "return_pct": 4.7901,
+      "entry_price": 317.39,
+      "opened_at": "2026-09-01T12:42:56.713403+00:00",
+      "closed_at": "2026-09-11T15:01:20.157942+00:00",
+      "cash_after": 16.3794,
+      "equity": 103.1449
+    },
+    {
+      "ts": "2026-09-11T15:01:20.158035+00:00",
+      "action": "BUY",
+      "symbol": "HOLOUSDT",
+      "price": 0.0636,
+      "stop_loss": 0.061692,
+      "take_profit": 0.06678,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.1449
+    }
+  ],
+  "runs": 1229,
+  "updated_at": "2026-09-11T15:01:20.158053+00:00",
+  "equity": 103.1449,
+  "total_return_pct": 3.1449
 }
