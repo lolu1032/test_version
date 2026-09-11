@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-09-11 01:05 UTC** · run #1226 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-09-11 05:59 UTC** · run #1227 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🟢 **$102.33**  (+2.33%) |
+| **Equity** | 🟢 **$102.42**  (+2.42%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -14,11 +14,11 @@ _Updated **2026-09-11 01:05 UTC** · run #1226 · strategy `donchian_breakout` �
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `USDCUSDT` | 1.00088 | 1.00021 | 🔴 -0.07% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 0.99979 | 🔴 -0.01% | 0.969913 | 1.04991 |
-| `XUSDUSDT` | 1.0014 | 1.0006 | 🔴 -0.08% | 0.971358 | 1.05147 |
-| `AAPLBUSDT` | 317.39 | 325.79 | 🟢 +2.65% | 307.868 | 333.26 |
-| `WBTCBTC` | 76671.6 | 76951.6 | 🟢 +0.37% | 74371.5 | 80505.2 |
+| `USDCUSDT` | 1.00088 | 1.00026 | 🔴 -0.06% | 0.970854 | 1.05092 |
+| `USD1USDT` | 0.99991 | 0.99994 | 🟢 +0.00% | 0.969913 | 1.04991 |
+| `XUSDUSDT` | 1.0014 | 1.0008 | 🔴 -0.06% | 0.971358 | 1.05147 |
+| `AAPLBUSDT` | 317.39 | 326.12 | 🟢 +2.75% | 307.868 | 333.26 |
+| `WBTCBTC` | 76671.6 | 77187.9 | 🟢 +0.67% | 74371.5 | 80505.2 |
 
 ## Recent closed trades (72 total)
 
