@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00003
+      "last_mark": 1.00004
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00002
+      "last_mark": 0.99997
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0005
+      "last_mark": 1.0004
     },
     "WBTCBTC": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 80505.1898868,
       "usdt_rate": 76717.64,
       "opened_at": "2026-09-10T23:10:24.237460+00:00",
-      "last_mark": 77341.45519800001
+      "last_mark": 77199.309297
     },
     "WLFIUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.05775,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-11T23:27:41.227314+00:00",
-      "last_mark": 0.0544
+      "last_mark": 0.0553
     }
   },
   "history": [
@@ -3379,8 +3379,8 @@
     }
   ],
   "last_run_events": [],
-  "runs": 1233,
-  "updated_at": "2026-09-12T01:24:49.316903+00:00",
-  "equity": 102.0717,
-  "total_return_pct": 2.0717
+  "runs": 1234,
+  "updated_at": "2026-09-12T06:10:50.282593+00:00",
+  "equity": 102.2907,
+  "total_return_pct": 2.2907
 }
