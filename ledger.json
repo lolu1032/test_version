@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00009
+      "last_mark": 1.00004
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 80505.1898868,
       "usdt_rate": 76717.64,
       "opened_at": "2026-09-10T23:10:24.237460+00:00",
-      "last_mark": 77170.932135
+      "last_mark": 77229.594169
     },
     "ALICEUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.14469,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-12T16:45:30.432691+00:00",
-      "last_mark": 0.1352
+      "last_mark": 0.1342
     }
   },
   "history": [
@@ -3423,8 +3423,8 @@
     }
   ],
   "last_run_events": [],
-  "runs": 1239,
-  "updated_at": "2026-09-12T21:13:00.615136+00:00",
-  "equity": 102.649,
-  "total_return_pct": 2.649
+  "runs": 1240,
+  "updated_at": "2026-09-12T23:04:05.199579+00:00",
+  "equity": 102.5428,
+  "total_return_pct": 2.5428
 }
