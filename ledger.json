@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00009
+      "last_mark": 1.00003
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99997
+      "last_mark": 1.00002
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0006
+      "last_mark": 1.0005
     },
     "WBTCBTC": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 80505.1898868,
       "usdt_rate": 76717.64,
       "opened_at": "2026-09-10T23:10:24.237460+00:00",
-      "last_mark": 77209.545917
+      "last_mark": 77341.45519800001
     },
     "WLFIUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.05775,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-11T23:27:41.227314+00:00",
-      "last_mark": 0.055
+      "last_mark": 0.0544
     }
   },
   "history": [
@@ -3378,38 +3378,9 @@
       "equity": 102.2126
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-09-11T23:27:41.227081+00:00",
-      "action": "SELL",
-      "symbol": "HOLOUSDT",
-      "price": 0.061692,
-      "stop_loss": 0.061692,
-      "take_profit": 0.06678,
-      "reason": "stop-loss",
-      "pnl": -0.5231,
-      "return_pct": -3.1939,
-      "entry_price": 0.0636,
-      "opened_at": "2026-09-11T15:01:20.158031+00:00",
-      "closed_at": "2026-09-11T23:27:41.227105+00:00",
-      "cash_after": 15.8563,
-      "equity": 102.2126
-    },
-    {
-      "ts": "2026-09-11T23:27:41.227318+00:00",
-      "action": "BUY",
-      "symbol": "WLFIUSDT",
-      "price": 0.055,
-      "stop_loss": 0.05335,
-      "take_profit": 0.05775,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 102.2126
-    }
-  ],
-  "runs": 1232,
-  "updated_at": "2026-09-11T23:27:41.227338+00:00",
-  "equity": 102.2126,
-  "total_return_pct": 2.2126
+  "last_run_events": [],
+  "runs": 1233,
+  "updated_at": "2026-09-12T01:24:49.316903+00:00",
+  "equity": 102.0717,
+  "total_return_pct": 2.0717
 }
