@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00018
+      "last_mark": 1.00023
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99999
+      "last_mark": 1.00009
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0005
+      "last_mark": 1.0006
     },
     "WBTCBTC": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 80505.1898868,
       "usdt_rate": 76717.64,
       "opened_at": "2026-09-10T23:10:24.237460+00:00",
-      "last_mark": 77320.27719899999
+      "last_mark": 77368.0
     },
     "POLUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.102438,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-13T18:01:50.078316+00:00",
-      "last_mark": 0.09756
+      "last_mark": 0.09741
     }
   },
   "history": [
@@ -3466,38 +3466,9 @@
       "equity": 102.47
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-09-13T18:01:50.077820+00:00",
-      "action": "SELL",
-      "symbol": "ALICEUSDT",
-      "price": 0.133666,
-      "stop_loss": 0.133666,
-      "take_profit": 0.14469,
-      "reason": "stop-loss",
-      "pnl": -0.5307,
-      "return_pct": -3.1939,
-      "entry_price": 0.1378,
-      "opened_at": "2026-09-12T16:45:30.432691+00:00",
-      "closed_at": "2026-09-13T18:01:50.077840+00:00",
-      "cash_after": 16.0851,
-      "equity": 102.47
-    },
-    {
-      "ts": "2026-09-13T18:01:50.078321+00:00",
-      "action": "BUY",
-      "symbol": "POLUSDT",
-      "price": 0.09756,
-      "stop_loss": 0.094633,
-      "take_profit": 0.102438,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 102.47
-    }
-  ],
-  "runs": 1245,
-  "updated_at": "2026-09-13T18:01:50.078340+00:00",
-  "equity": 102.47,
-  "total_return_pct": 2.47
+  "last_run_events": [],
+  "runs": 1246,
+  "updated_at": "2026-09-13T20:49:50.458721+00:00",
+  "equity": 102.4633,
+  "total_return_pct": 2.4633
 }
