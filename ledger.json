@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00019
+      "last_mark": 1.00011
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99989
+      "last_mark": 0.99991
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0005
+      "last_mark": 1.0004
     },
     "SUIUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 0.851025,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-18T19:55:42.186466+00:00",
-      "last_mark": 0.8105
+      "last_mark": 0.8208
     },
     "SNDKBUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 1875.9405,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-18T19:55:42.186554+00:00",
-      "last_mark": 1786.61
+      "last_mark": 1793.52
     }
   },
   "history": [
@@ -3642,66 +3642,9 @@
       "equity": 102.8189
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-09-18T19:55:42.186338+00:00",
-      "action": "SELL",
-      "symbol": "AMATBUSDT",
-      "price": 443.016,
-      "stop_loss": 409.2624,
-      "take_profit": 443.016,
-      "reason": "take-profit",
-      "pnl": 0.7459,
-      "return_pct": 4.7901,
-      "entry_price": 421.92,
-      "opened_at": "2026-09-15T20:21:49.110301+00:00",
-      "closed_at": "2026-09-18T19:55:42.186359+00:00",
-      "cash_after": 16.3172,
-      "equity": 102.8189
-    },
-    {
-      "ts": "2026-09-18T19:55:42.186383+00:00",
-      "action": "SELL",
-      "symbol": "NEARUSDT",
-      "price": 3.68503,
-      "stop_loss": 3.68503,
-      "take_profit": 3.98895,
-      "reason": "stop-loss",
-      "pnl": -0.668,
-      "return_pct": -3.1939,
-      "entry_price": 3.799,
-      "opened_at": "2026-09-18T17:29:46.225305+00:00",
-      "closed_at": "2026-09-18T19:55:42.186389+00:00",
-      "cash_after": 36.5649,
-      "equity": 102.8189
-    },
-    {
-      "ts": "2026-09-18T19:55:42.186469+00:00",
-      "action": "BUY",
-      "symbol": "SUIUSDT",
-      "price": 0.8105,
-      "stop_loss": 0.786185,
-      "take_profit": 0.851025,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 18.2824,
-      "equity": 102.8189
-    },
-    {
-      "ts": "2026-09-18T19:55:42.186556+00:00",
-      "action": "BUY",
-      "symbol": "SNDKBUSDT",
-      "price": 1786.61,
-      "stop_loss": 1733.0117,
-      "take_profit": 1875.9405,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 102.8189
-    }
-  ],
-  "runs": 1277,
-  "updated_at": "2026-09-18T19:55:42.186573+00:00",
-  "equity": 102.8189,
-  "total_return_pct": 2.8189
+  "last_run_events": [],
+  "runs": 1278,
+  "updated_at": "2026-09-18T22:17:56.176064+00:00",
+  "equity": 103.1182,
+  "total_return_pct": 3.1182
 }
