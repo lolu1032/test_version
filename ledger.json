@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00064
+      "last_mark": 1.00024
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00015
+      "last_mark": 0.99993
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0008
-    },
-    "WBTCBTC": {
-      "signal": "donchian_breakout",
-      "entry_price": 76671.60941599999,
-      "units": 0.00026006487628638315,
-      "notional": 19.959552169619545,
-      "stop_loss": 74371.46113351999,
-      "take_profit": 80505.1898868,
-      "usdt_rate": 76717.64,
-      "opened_at": "2026-09-10T23:10:24.237460+00:00",
-      "last_mark": 80267.576135
+      "last_mark": 1.0004
     },
     "AMATBUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 443.016,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-15T20:21:49.110301+00:00",
-      "last_mark": 426.95
+      "last_mark": 434.9
+    },
+    "NEARUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 3.799,
+      "units": 5.500057920610167,
+      "notional": 20.9156356760741,
+      "stop_loss": 3.68503,
+      "take_profit": 3.98895,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-09-18T17:29:46.225305+00:00",
+      "last_mark": 3.799
     }
   },
   "history": [
@@ -1290,6 +1290,22 @@
       "closed_at": "2026-09-15T20:21:49.108305+00:00",
       "cash_after": 15.5714,
       "equity": 101.5726
+    },
+    {
+      "ts": "2026-09-18T17:29:46.225219+00:00",
+      "action": "SELL",
+      "symbol": "WBTCBTC",
+      "price": 80505.189887,
+      "stop_loss": 74371.461134,
+      "take_profit": 80505.189887,
+      "reason": "take-profit",
+      "pnl": 0.9561,
+      "return_pct": 4.7901,
+      "entry_price": 76671.60941599999,
+      "opened_at": "2026-09-10T23:10:24.237460+00:00",
+      "closed_at": "2026-09-18T17:29:46.225240+00:00",
+      "cash_after": 20.9156,
+      "equity": 103.2193
     }
   ],
   "events": [
@@ -3508,11 +3524,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 101.5726
+    },
+    {
+      "ts": "2026-09-18T17:29:46.225219+00:00",
+      "action": "SELL",
+      "symbol": "WBTCBTC",
+      "price": 80505.189887,
+      "stop_loss": 74371.461134,
+      "take_profit": 80505.189887,
+      "reason": "take-profit",
+      "pnl": 0.9561,
+      "return_pct": 4.7901,
+      "entry_price": 76671.60941599999,
+      "opened_at": "2026-09-10T23:10:24.237460+00:00",
+      "closed_at": "2026-09-18T17:29:46.225240+00:00",
+      "cash_after": 20.9156,
+      "equity": 103.2193
+    },
+    {
+      "ts": "2026-09-18T17:29:46.225308+00:00",
+      "action": "BUY",
+      "symbol": "NEARUSDT",
+      "price": 3.799,
+      "stop_loss": 3.68503,
+      "take_profit": 3.98895,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2193
     }
   ],
-  "last_run_events": [],
-  "runs": 1275,
-  "updated_at": "2026-09-18T13:51:53.446681+00:00",
-  "equity": 102.9287,
-  "total_return_pct": 2.9287
+  "last_run_events": [
+    {
+      "ts": "2026-09-18T17:29:46.225219+00:00",
+      "action": "SELL",
+      "symbol": "WBTCBTC",
+      "price": 80505.189887,
+      "stop_loss": 74371.461134,
+      "take_profit": 80505.189887,
+      "reason": "take-profit",
+      "pnl": 0.9561,
+      "return_pct": 4.7901,
+      "entry_price": 76671.60941599999,
+      "opened_at": "2026-09-10T23:10:24.237460+00:00",
+      "closed_at": "2026-09-18T17:29:46.225240+00:00",
+      "cash_after": 20.9156,
+      "equity": 103.2193
+    },
+    {
+      "ts": "2026-09-18T17:29:46.225308+00:00",
+      "action": "BUY",
+      "symbol": "NEARUSDT",
+      "price": 3.799,
+      "stop_loss": 3.68503,
+      "take_profit": 3.98895,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 103.2193
+    }
+  ],
+  "runs": 1276,
+  "updated_at": "2026-09-18T17:29:46.225323+00:00",
+  "equity": 103.2193,
+  "total_return_pct": 3.2193
 }
