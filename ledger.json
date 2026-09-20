@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00021
+      "last_mark": 1.00022
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99994
+      "last_mark": 1.00004
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 1875.9405,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-18T19:55:42.186554+00:00",
-      "last_mark": 1782.93
+      "last_mark": 1761.41
     },
     "UNIUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 9.28095,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-20T01:23:41.781998+00:00",
-      "last_mark": 8.839
+      "last_mark": 8.776
     }
   },
   "history": [
@@ -3730,38 +3730,9 @@
       "equity": 103.0465
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-09-20T01:23:41.781905+00:00",
-      "action": "SELL",
-      "symbol": "XLMUSDT",
-      "price": 0.194291,
-      "stop_loss": 0.194291,
-      "take_profit": 0.210315,
-      "reason": "stop-loss",
-      "pnl": -0.6119,
-      "return_pct": -3.1939,
-      "entry_price": 0.2003,
-      "opened_at": "2026-09-19T13:12:25.764871+00:00",
-      "closed_at": "2026-09-20T01:23:41.781924+00:00",
-      "cash_after": 18.5463,
-      "equity": 103.0465
-    },
-    {
-      "ts": "2026-09-20T01:23:41.782002+00:00",
-      "action": "BUY",
-      "symbol": "UNIUSDT",
-      "price": 8.839,
-      "stop_loss": 8.57383,
-      "take_profit": 9.28095,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 103.0465
-    }
-  ],
-  "runs": 1287,
-  "updated_at": "2026-09-20T01:23:41.782020+00:00",
-  "equity": 103.0465,
-  "total_return_pct": 3.0465
+  "last_run_events": [],
+  "runs": 1288,
+  "updated_at": "2026-09-20T06:41:02.158127+00:00",
+  "equity": 102.6969,
+  "total_return_pct": 2.6969
 }
