@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99958
+      "last_mark": 0.99966
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0004
+      "last_mark": 1.0005
     },
     "FUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 0.00389655,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-20T15:28:20.955146+00:00",
-      "last_mark": 0.003639
+      "last_mark": 0.003667
     },
-    "BABYUSDT": {
+    "RDDTBUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.01296,
-      "units": 1429.6090260811045,
-      "notional": 18.54627925726838,
-      "stop_loss": 0.0125712,
-      "take_profit": 0.013608,
+      "entry_price": 151.51,
+      "units": 0.11838146101639778,
+      "notional": 17.95392908768211,
+      "stop_loss": 146.9647,
+      "take_profit": 159.0855,
       "usdt_rate": 1.0,
-      "opened_at": "2026-09-22T22:14:08.333165+00:00",
-      "last_mark": 0.01298
+      "opened_at": "2026-09-23T19:03:39.721689+00:00",
+      "last_mark": 151.51
     }
   },
   "history": [
@@ -1418,6 +1418,22 @@
       "closed_at": "2026-09-22T22:14:08.332969+00:00",
       "cash_after": 18.5463,
       "equity": 102.7686
+    },
+    {
+      "ts": "2026-09-23T19:03:39.719211+00:00",
+      "action": "SELL",
+      "symbol": "BABYUSDT",
+      "price": 0.012571,
+      "stop_loss": 0.012571,
+      "take_profit": 0.013608,
+      "reason": "stop-loss",
+      "pnl": -0.5924,
+      "return_pct": -3.1939,
+      "entry_price": 0.01296,
+      "opened_at": "2026-09-22T22:14:08.333165+00:00",
+      "closed_at": "2026-09-23T19:03:39.719238+00:00",
+      "cash_after": 17.9539,
+      "equity": 101.9425
     }
   ],
   "events": [
@@ -3860,11 +3876,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 102.7686
+    },
+    {
+      "ts": "2026-09-23T19:03:39.719211+00:00",
+      "action": "SELL",
+      "symbol": "BABYUSDT",
+      "price": 0.012571,
+      "stop_loss": 0.012571,
+      "take_profit": 0.013608,
+      "reason": "stop-loss",
+      "pnl": -0.5924,
+      "return_pct": -3.1939,
+      "entry_price": 0.01296,
+      "opened_at": "2026-09-22T22:14:08.333165+00:00",
+      "closed_at": "2026-09-23T19:03:39.719238+00:00",
+      "cash_after": 17.9539,
+      "equity": 101.9425
+    },
+    {
+      "ts": "2026-09-23T19:03:39.721696+00:00",
+      "action": "BUY",
+      "symbol": "RDDTBUSDT",
+      "price": 151.51,
+      "stop_loss": 146.9647,
+      "take_profit": 159.0855,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.9425
     }
   ],
-  "last_run_events": [],
-  "runs": 1308,
-  "updated_at": "2026-09-23T15:01:45.889244+00:00",
-  "equity": 102.4234,
-  "total_return_pct": 2.4234
+  "last_run_events": [
+    {
+      "ts": "2026-09-23T19:03:39.719211+00:00",
+      "action": "SELL",
+      "symbol": "BABYUSDT",
+      "price": 0.012571,
+      "stop_loss": 0.012571,
+      "take_profit": 0.013608,
+      "reason": "stop-loss",
+      "pnl": -0.5924,
+      "return_pct": -3.1939,
+      "entry_price": 0.01296,
+      "opened_at": "2026-09-22T22:14:08.333165+00:00",
+      "closed_at": "2026-09-23T19:03:39.719238+00:00",
+      "cash_after": 17.9539,
+      "equity": 101.9425
+    },
+    {
+      "ts": "2026-09-23T19:03:39.721696+00:00",
+      "action": "BUY",
+      "symbol": "RDDTBUSDT",
+      "price": 151.51,
+      "stop_loss": 146.9647,
+      "take_profit": 159.0855,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.9425
+    }
+  ],
+  "runs": 1309,
+  "updated_at": "2026-09-23T19:03:39.721721+00:00",
+  "equity": 101.9425,
+  "total_return_pct": 1.9425
 }
