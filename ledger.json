@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00049
+      "last_mark": 1.00045
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.9998
+      "last_mark": 0.99982
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0009
-    },
-    "SOXSBUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 35.58,
-      "units": 0.480209020359846,
-      "notional": 17.102939884287608,
-      "stop_loss": 34.5126,
-      "take_profit": 37.359,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-09-28T14:57:04.544791+00:00",
-      "last_mark": 34.58
+      "last_mark": 1.0008
     },
     "SQQQBUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,18 @@
       "take_profit": 37.191,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-28T14:57:04.546020+00:00",
-      "last_mark": 34.78
+      "last_mark": 35.0
+    },
+    "SOXSBUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 34.93,
+      "units": 0.4735222412156001,
+      "notional": 16.556688574235146,
+      "stop_loss": 33.8821,
+      "take_profit": 36.676500000000004,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-09-29T00:59:12.262027+00:00",
+      "last_mark": 34.93
     }
   },
   "history": [
@@ -1482,6 +1482,22 @@
       "closed_at": "2026-09-28T14:57:04.543935+00:00",
       "cash_after": 34.2059,
       "equity": 100.462
+    },
+    {
+      "ts": "2026-09-29T00:59:12.261369+00:00",
+      "action": "SELL",
+      "symbol": "SOXSBUSDT",
+      "price": 34.5126,
+      "stop_loss": 34.5126,
+      "take_profit": 37.359,
+      "reason": "stop-loss",
+      "pnl": -0.5463,
+      "return_pct": -3.1939,
+      "entry_price": 35.58,
+      "opened_at": "2026-09-28T14:57:04.544791+00:00",
+      "closed_at": "2026-09-29T00:59:12.261391+00:00",
+      "cash_after": 16.5567,
+      "equity": 99.7247
     }
   ],
   "events": [
@@ -4036,11 +4052,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 100.462
+    },
+    {
+      "ts": "2026-09-29T00:59:12.261369+00:00",
+      "action": "SELL",
+      "symbol": "SOXSBUSDT",
+      "price": 34.5126,
+      "stop_loss": 34.5126,
+      "take_profit": 37.359,
+      "reason": "stop-loss",
+      "pnl": -0.5463,
+      "return_pct": -3.1939,
+      "entry_price": 35.58,
+      "opened_at": "2026-09-28T14:57:04.544791+00:00",
+      "closed_at": "2026-09-29T00:59:12.261391+00:00",
+      "cash_after": 16.5567,
+      "equity": 99.7247
+    },
+    {
+      "ts": "2026-09-29T00:59:12.262031+00:00",
+      "action": "BUY",
+      "symbol": "SOXSBUSDT",
+      "price": 34.93,
+      "stop_loss": 33.8821,
+      "take_profit": 36.6765,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.7247
     }
   ],
-  "last_run_events": [],
-  "runs": 1338,
-  "updated_at": "2026-09-28T21:07:09.394141+00:00",
-  "equity": 99.6868,
-  "total_return_pct": -0.3132
+  "last_run_events": [
+    {
+      "ts": "2026-09-29T00:59:12.261369+00:00",
+      "action": "SELL",
+      "symbol": "SOXSBUSDT",
+      "price": 34.5126,
+      "stop_loss": 34.5126,
+      "take_profit": 37.359,
+      "reason": "stop-loss",
+      "pnl": -0.5463,
+      "return_pct": -3.1939,
+      "entry_price": 35.58,
+      "opened_at": "2026-09-28T14:57:04.544791+00:00",
+      "closed_at": "2026-09-29T00:59:12.261391+00:00",
+      "cash_after": 16.5567,
+      "equity": 99.7247
+    },
+    {
+      "ts": "2026-09-29T00:59:12.262031+00:00",
+      "action": "BUY",
+      "symbol": "SOXSBUSDT",
+      "price": 34.93,
+      "stop_loss": 33.8821,
+      "take_profit": 36.6765,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.7247
+    }
+  ],
+  "runs": 1339,
+  "updated_at": "2026-09-29T00:59:12.262047+00:00",
+  "equity": 99.7247,
+  "total_return_pct": -0.2753
 }
