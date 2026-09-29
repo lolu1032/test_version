@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00044
+      "last_mark": 1.00027
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0008
+      "last_mark": 1.0006
     },
     "SQQQBUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 37.191,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-28T14:57:04.546020+00:00",
-      "last_mark": 34.85
+      "last_mark": 34.88
     },
-    "SOXSBUSDT": {
+    "PUMPUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 34.93,
-      "units": 0.4735222412156001,
-      "notional": 16.556688574235146,
-      "stop_loss": 33.8821,
-      "take_profit": 36.676500000000004,
+      "entry_price": 0.005869,
+      "units": 2728.2085733789118,
+      "notional": 16.027884001161993,
+      "stop_loss": 0.00569293,
+      "take_profit": 0.006162450000000001,
       "usdt_rate": 1.0,
-      "opened_at": "2026-09-29T00:59:12.262027+00:00",
-      "last_mark": 34.55
+      "opened_at": "2026-09-29T13:44:43.277212+00:00",
+      "last_mark": 0.005869
     }
   },
   "history": [
@@ -1498,6 +1498,22 @@
       "closed_at": "2026-09-29T00:59:12.261391+00:00",
       "cash_after": 16.5567,
       "equity": 99.7247
+    },
+    {
+      "ts": "2026-09-29T13:44:43.277093+00:00",
+      "action": "SELL",
+      "symbol": "SOXSBUSDT",
+      "price": 33.8821,
+      "stop_loss": 33.8821,
+      "take_profit": 36.6765,
+      "reason": "stop-loss",
+      "pnl": -0.5288,
+      "return_pct": -3.1939,
+      "entry_price": 34.93,
+      "opened_at": "2026-09-29T00:59:12.262027+00:00",
+      "closed_at": "2026-09-29T13:44:43.277119+00:00",
+      "cash_after": 16.0279,
+      "equity": 99.1298
     }
   ],
   "events": [
@@ -4080,11 +4096,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.7247
+    },
+    {
+      "ts": "2026-09-29T13:44:43.277093+00:00",
+      "action": "SELL",
+      "symbol": "SOXSBUSDT",
+      "price": 33.8821,
+      "stop_loss": 33.8821,
+      "take_profit": 36.6765,
+      "reason": "stop-loss",
+      "pnl": -0.5288,
+      "return_pct": -3.1939,
+      "entry_price": 34.93,
+      "opened_at": "2026-09-29T00:59:12.262027+00:00",
+      "closed_at": "2026-09-29T13:44:43.277119+00:00",
+      "cash_after": 16.0279,
+      "equity": 99.1298
+    },
+    {
+      "ts": "2026-09-29T13:44:43.277215+00:00",
+      "action": "BUY",
+      "symbol": "PUMPUSDT",
+      "price": 0.005869,
+      "stop_loss": 0.005693,
+      "take_profit": 0.006162,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.1298
     }
   ],
-  "last_run_events": [],
-  "runs": 1340,
-  "updated_at": "2026-09-29T06:45:55.899715+00:00",
-  "equity": 99.4718,
-  "total_return_pct": -0.5282
+  "last_run_events": [
+    {
+      "ts": "2026-09-29T13:44:43.277093+00:00",
+      "action": "SELL",
+      "symbol": "SOXSBUSDT",
+      "price": 33.8821,
+      "stop_loss": 33.8821,
+      "take_profit": 36.6765,
+      "reason": "stop-loss",
+      "pnl": -0.5288,
+      "return_pct": -3.1939,
+      "entry_price": 34.93,
+      "opened_at": "2026-09-29T00:59:12.262027+00:00",
+      "closed_at": "2026-09-29T13:44:43.277119+00:00",
+      "cash_after": 16.0279,
+      "equity": 99.1298
+    },
+    {
+      "ts": "2026-09-29T13:44:43.277215+00:00",
+      "action": "BUY",
+      "symbol": "PUMPUSDT",
+      "price": 0.005869,
+      "stop_loss": 0.005693,
+      "take_profit": 0.006162,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.1298
+    }
+  ],
+  "runs": 1341,
+  "updated_at": "2026-09-29T13:44:43.277230+00:00",
+  "equity": 99.1298,
+  "total_return_pct": -0.8702
 }
