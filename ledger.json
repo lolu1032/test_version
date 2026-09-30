@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00047
+      "last_mark": 1.00046
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99974
+      "last_mark": 0.99968
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,29 +33,29 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0008
+      "last_mark": 0.9999
     },
-    "SQQQBUSDT": {
+    "HUMAUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 35.42,
-      "units": 0.48237823106728733,
-      "notional": 17.102939884287608,
-      "stop_loss": 34.3574,
-      "take_profit": 37.191,
+      "entry_price": 0.03136,
+      "units": 510.8511615105239,
+      "notional": 16.036328753723755,
+      "stop_loss": 0.030419199999999997,
+      "take_profit": 0.032928,
       "usdt_rate": 1.0,
-      "opened_at": "2026-09-28T14:57:04.546020+00:00",
-      "last_mark": 34.43
+      "opened_at": "2026-09-30T14:51:48.079215+00:00",
+      "last_mark": 0.03136
     },
-    "PUMPUSDT": {
+    "STXUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.005869,
-      "units": 2728.2085733789118,
-      "notional": 16.027884001161993,
-      "stop_loss": 0.00569293,
-      "take_profit": 0.006162450000000001,
+      "entry_price": 0.3448,
+      "units": 46.462565037616095,
+      "notional": 16.036328753723755,
+      "stop_loss": 0.334456,
+      "take_profit": 0.36204000000000003,
       "usdt_rate": 1.0,
-      "opened_at": "2026-09-29T13:44:43.277212+00:00",
-      "last_mark": 0.005764
+      "opened_at": "2026-09-30T14:51:48.079451+00:00",
+      "last_mark": 0.3448
     }
   },
   "history": [
@@ -1514,6 +1514,38 @@
       "closed_at": "2026-09-29T13:44:43.277119+00:00",
       "cash_after": 16.0279,
       "equity": 99.1298
+    },
+    {
+      "ts": "2026-09-30T14:51:48.078645+00:00",
+      "action": "SELL",
+      "symbol": "SQQQBUSDT",
+      "price": 34.3574,
+      "stop_loss": 34.3574,
+      "take_profit": 37.191,
+      "reason": "stop-loss",
+      "pnl": -0.5463,
+      "return_pct": -3.1939,
+      "entry_price": 35.42,
+      "opened_at": "2026-09-28T14:57:04.546020+00:00",
+      "closed_at": "2026-09-30T14:51:48.078665+00:00",
+      "cash_after": 16.5567,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.078689+00:00",
+      "action": "SELL",
+      "symbol": "PUMPUSDT",
+      "price": 0.005693,
+      "stop_loss": 0.005693,
+      "take_profit": 0.006162,
+      "reason": "stop-loss",
+      "pnl": -0.5119,
+      "return_pct": -3.1939,
+      "entry_price": 0.005869,
+      "opened_at": "2026-09-29T13:44:43.277212+00:00",
+      "closed_at": "2026-09-30T14:51:48.078695+00:00",
+      "cash_after": 32.0727,
+      "equity": 98.3182
     }
   ],
   "events": [
@@ -4124,11 +4156,124 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.1298
+    },
+    {
+      "ts": "2026-09-30T14:51:48.078645+00:00",
+      "action": "SELL",
+      "symbol": "SQQQBUSDT",
+      "price": 34.3574,
+      "stop_loss": 34.3574,
+      "take_profit": 37.191,
+      "reason": "stop-loss",
+      "pnl": -0.5463,
+      "return_pct": -3.1939,
+      "entry_price": 35.42,
+      "opened_at": "2026-09-28T14:57:04.546020+00:00",
+      "closed_at": "2026-09-30T14:51:48.078665+00:00",
+      "cash_after": 16.5567,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.078689+00:00",
+      "action": "SELL",
+      "symbol": "PUMPUSDT",
+      "price": 0.005693,
+      "stop_loss": 0.005693,
+      "take_profit": 0.006162,
+      "reason": "stop-loss",
+      "pnl": -0.5119,
+      "return_pct": -3.1939,
+      "entry_price": 0.005869,
+      "opened_at": "2026-09-29T13:44:43.277212+00:00",
+      "closed_at": "2026-09-30T14:51:48.078695+00:00",
+      "cash_after": 32.0727,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.079219+00:00",
+      "action": "BUY",
+      "symbol": "HUMAUSDT",
+      "price": 0.03136,
+      "stop_loss": 0.030419,
+      "take_profit": 0.032928,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 16.0363,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.079455+00:00",
+      "action": "BUY",
+      "symbol": "STXUSDT",
+      "price": 0.3448,
+      "stop_loss": 0.334456,
+      "take_profit": 0.36204,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.3182
     }
   ],
-  "last_run_events": [],
-  "runs": 1345,
-  "updated_at": "2026-09-30T07:59:38.898542+00:00",
-  "equity": 98.6336,
-  "total_return_pct": -1.3664
+  "last_run_events": [
+    {
+      "ts": "2026-09-30T14:51:48.078645+00:00",
+      "action": "SELL",
+      "symbol": "SQQQBUSDT",
+      "price": 34.3574,
+      "stop_loss": 34.3574,
+      "take_profit": 37.191,
+      "reason": "stop-loss",
+      "pnl": -0.5463,
+      "return_pct": -3.1939,
+      "entry_price": 35.42,
+      "opened_at": "2026-09-28T14:57:04.546020+00:00",
+      "closed_at": "2026-09-30T14:51:48.078665+00:00",
+      "cash_after": 16.5567,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.078689+00:00",
+      "action": "SELL",
+      "symbol": "PUMPUSDT",
+      "price": 0.005693,
+      "stop_loss": 0.005693,
+      "take_profit": 0.006162,
+      "reason": "stop-loss",
+      "pnl": -0.5119,
+      "return_pct": -3.1939,
+      "entry_price": 0.005869,
+      "opened_at": "2026-09-29T13:44:43.277212+00:00",
+      "closed_at": "2026-09-30T14:51:48.078695+00:00",
+      "cash_after": 32.0727,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.079219+00:00",
+      "action": "BUY",
+      "symbol": "HUMAUSDT",
+      "price": 0.03136,
+      "stop_loss": 0.030419,
+      "take_profit": 0.032928,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 16.0363,
+      "equity": 98.3182
+    },
+    {
+      "ts": "2026-09-30T14:51:48.079455+00:00",
+      "action": "BUY",
+      "symbol": "STXUSDT",
+      "price": 0.3448,
+      "stop_loss": 0.334456,
+      "take_profit": 0.36204,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.3182
+    }
+  ],
+  "runs": 1346,
+  "updated_at": "2026-09-30T14:51:48.079474+00:00",
+  "equity": 98.3182,
+  "total_return_pct": -1.6818
 }
