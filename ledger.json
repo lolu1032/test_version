@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 16.804485739172314,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00067
+      "last_mark": 1.00052
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99963
+      "last_mark": 0.99961
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,18 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0006
-    },
-    "HUMAUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 0.03136,
-      "units": 510.8511615105239,
-      "notional": 16.036328753723755,
-      "stop_loss": 0.030419199999999997,
-      "take_profit": 0.032928,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-09-30T14:51:48.079215+00:00",
-      "last_mark": 0.03108
+      "last_mark": 1.0008
     },
     "STRKUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +44,7 @@
       "take_profit": 0.0455175,
       "usdt_rate": 1.0,
       "opened_at": "2026-09-30T23:28:55.368917+00:00",
-      "last_mark": 0.04335
+      "last_mark": 0.04375
     }
   },
   "history": [
@@ -1562,6 +1551,22 @@
       "closed_at": "2026-09-30T23:28:55.368418+00:00",
       "cash_after": 16.8045,
       "equity": 99.6699
+    },
+    {
+      "ts": "2026-10-01T09:15:52.745088+00:00",
+      "action": "SELL",
+      "symbol": "HUMAUSDT",
+      "price": 0.032928,
+      "stop_loss": 0.030419,
+      "take_profit": 0.032928,
+      "reason": "take-profit",
+      "pnl": 0.7682,
+      "return_pct": 4.7901,
+      "entry_price": 0.03136,
+      "opened_at": "2026-09-30T14:51:48.079215+00:00",
+      "closed_at": "2026-10-01T09:15:52.745107+00:00",
+      "cash_after": 16.8045,
+      "equity": 100.0451
     }
   ],
   "events": [
@@ -4256,11 +4261,44 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.6699
+    },
+    {
+      "ts": "2026-10-01T09:15:52.745088+00:00",
+      "action": "SELL",
+      "symbol": "HUMAUSDT",
+      "price": 0.032928,
+      "stop_loss": 0.030419,
+      "take_profit": 0.032928,
+      "reason": "take-profit",
+      "pnl": 0.7682,
+      "return_pct": 4.7901,
+      "entry_price": 0.03136,
+      "opened_at": "2026-09-30T14:51:48.079215+00:00",
+      "closed_at": "2026-10-01T09:15:52.745107+00:00",
+      "cash_after": 16.8045,
+      "equity": 100.0451
     }
   ],
-  "last_run_events": [],
-  "runs": 1349,
-  "updated_at": "2026-10-01T02:19:33.086925+00:00",
-  "equity": 98.9619,
-  "total_return_pct": -1.0381
+  "last_run_events": [
+    {
+      "ts": "2026-10-01T09:15:52.745088+00:00",
+      "action": "SELL",
+      "symbol": "HUMAUSDT",
+      "price": 0.032928,
+      "stop_loss": 0.030419,
+      "take_profit": 0.032928,
+      "reason": "take-profit",
+      "pnl": 0.7682,
+      "return_pct": 4.7901,
+      "entry_price": 0.03136,
+      "opened_at": "2026-09-30T14:51:48.079215+00:00",
+      "closed_at": "2026-10-01T09:15:52.745107+00:00",
+      "cash_after": 16.8045,
+      "equity": 100.0451
+    }
+  ],
+  "runs": 1350,
+  "updated_at": "2026-10-01T09:15:52.747146+00:00",
+  "equity": 100.0451,
+  "total_return_pct": 0.0451
 }
