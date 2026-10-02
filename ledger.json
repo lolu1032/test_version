@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 16.385155839722557,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00015
+      "last_mark": 1.00012
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99978
+      "last_mark": 0.99955
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,29 +33,18 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0005
+      "last_mark": 0.9999
     },
-    "0GUSDT": {
+    "SPCXBUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.3004,
-      "units": 55.88442494485067,
-      "notional": 16.804485739172314,
-      "stop_loss": 0.291388,
-      "take_profit": 0.31542000000000003,
+      "entry_price": 158.82,
+      "units": 0.10306492056342298,
+      "notional": 16.385155839722557,
+      "stop_loss": 154.0554,
+      "take_profit": 166.761,
       "usdt_rate": 1.0,
-      "opened_at": "2026-10-01T16:37:31.025434+00:00",
-      "last_mark": 0.3078
-    },
-    "SUIUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 1.208,
-      "units": 14.097651377764395,
-      "notional": 17.047009874213604,
-      "stop_loss": 1.17176,
-      "take_profit": 1.2684,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-10-02T13:34:05.237959+00:00",
-      "last_mark": 1.208
+      "opened_at": "2026-10-02T18:42:17.746201+00:00",
+      "last_mark": 158.82
     }
   },
   "history": [
@@ -1610,6 +1599,38 @@
       "closed_at": "2026-10-02T13:34:05.237891+00:00",
       "cash_after": 17.047,
       "equity": 100.5185
+    },
+    {
+      "ts": "2026-10-02T18:42:17.745914+00:00",
+      "action": "SELL",
+      "symbol": "0GUSDT",
+      "price": 0.291388,
+      "stop_loss": 0.291388,
+      "take_profit": 0.31542,
+      "reason": "stop-loss",
+      "pnl": -0.5367,
+      "return_pct": -3.1939,
+      "entry_price": 0.3004,
+      "opened_at": "2026-10-01T16:37:31.025434+00:00",
+      "closed_at": "2026-10-02T18:42:17.745939+00:00",
+      "cash_after": 16.2678,
+      "equity": 99.0216
+    },
+    {
+      "ts": "2026-10-02T18:42:17.745967+00:00",
+      "action": "SELL",
+      "symbol": "SUIUSDT",
+      "price": 1.17176,
+      "stop_loss": 1.17176,
+      "take_profit": 1.2684,
+      "reason": "stop-loss",
+      "pnl": -0.5445,
+      "return_pct": -3.1939,
+      "entry_price": 1.208,
+      "opened_at": "2026-10-02T13:34:05.237959+00:00",
+      "closed_at": "2026-10-02T18:42:17.745972+00:00",
+      "cash_after": 32.7703,
+      "equity": 99.0216
     }
   ],
   "events": [
@@ -4388,40 +4409,100 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 100.5185
+    },
+    {
+      "ts": "2026-10-02T18:42:17.745914+00:00",
+      "action": "SELL",
+      "symbol": "0GUSDT",
+      "price": 0.291388,
+      "stop_loss": 0.291388,
+      "take_profit": 0.31542,
+      "reason": "stop-loss",
+      "pnl": -0.5367,
+      "return_pct": -3.1939,
+      "entry_price": 0.3004,
+      "opened_at": "2026-10-01T16:37:31.025434+00:00",
+      "closed_at": "2026-10-02T18:42:17.745939+00:00",
+      "cash_after": 16.2678,
+      "equity": 99.0216
+    },
+    {
+      "ts": "2026-10-02T18:42:17.745967+00:00",
+      "action": "SELL",
+      "symbol": "SUIUSDT",
+      "price": 1.17176,
+      "stop_loss": 1.17176,
+      "take_profit": 1.2684,
+      "reason": "stop-loss",
+      "pnl": -0.5445,
+      "return_pct": -3.1939,
+      "entry_price": 1.208,
+      "opened_at": "2026-10-02T13:34:05.237959+00:00",
+      "closed_at": "2026-10-02T18:42:17.745972+00:00",
+      "cash_after": 32.7703,
+      "equity": 99.0216
+    },
+    {
+      "ts": "2026-10-02T18:42:17.746205+00:00",
+      "action": "BUY",
+      "symbol": "SPCXBUSDT",
+      "price": 158.82,
+      "stop_loss": 154.0554,
+      "take_profit": 166.761,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 16.3852,
+      "equity": 99.0216
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-10-02T13:34:05.237864+00:00",
+      "ts": "2026-10-02T18:42:17.745914+00:00",
       "action": "SELL",
-      "symbol": "SKYUSDT",
-      "price": 0.088861,
-      "stop_loss": 0.082091,
-      "take_profit": 0.088861,
-      "reason": "take-profit",
-      "pnl": 0.7792,
-      "return_pct": 4.7901,
-      "entry_price": 0.08463,
-      "opened_at": "2026-10-01T21:22:30.755468+00:00",
-      "closed_at": "2026-10-02T13:34:05.237891+00:00",
-      "cash_after": 17.047,
-      "equity": 100.5185
+      "symbol": "0GUSDT",
+      "price": 0.291388,
+      "stop_loss": 0.291388,
+      "take_profit": 0.31542,
+      "reason": "stop-loss",
+      "pnl": -0.5367,
+      "return_pct": -3.1939,
+      "entry_price": 0.3004,
+      "opened_at": "2026-10-01T16:37:31.025434+00:00",
+      "closed_at": "2026-10-02T18:42:17.745939+00:00",
+      "cash_after": 16.2678,
+      "equity": 99.0216
     },
     {
-      "ts": "2026-10-02T13:34:05.237961+00:00",
-      "action": "BUY",
+      "ts": "2026-10-02T18:42:17.745967+00:00",
+      "action": "SELL",
       "symbol": "SUIUSDT",
-      "price": 1.208,
+      "price": 1.17176,
       "stop_loss": 1.17176,
       "take_profit": 1.2684,
+      "reason": "stop-loss",
+      "pnl": -0.5445,
+      "return_pct": -3.1939,
+      "entry_price": 1.208,
+      "opened_at": "2026-10-02T13:34:05.237959+00:00",
+      "closed_at": "2026-10-02T18:42:17.745972+00:00",
+      "cash_after": 32.7703,
+      "equity": 99.0216
+    },
+    {
+      "ts": "2026-10-02T18:42:17.746205+00:00",
+      "action": "BUY",
+      "symbol": "SPCXBUSDT",
+      "price": 158.82,
+      "stop_loss": 154.0554,
+      "take_profit": 166.761,
       "reason": "donchian_breakout",
       "pnl": null,
-      "cash_after": 0.0,
-      "equity": 100.5185
+      "cash_after": 16.3852,
+      "equity": 99.0216
     }
   ],
-  "runs": 1355,
-  "updated_at": "2026-10-02T13:34:05.237976+00:00",
-  "equity": 100.5185,
-  "total_return_pct": 0.5185
+  "runs": 1356,
+  "updated_at": "2026-10-02T18:42:17.748495+00:00",
+  "equity": 99.0216,
+  "total_return_pct": -0.9784
 }
