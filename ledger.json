@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00011
+      "last_mark": 1.00014
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99972
+      "last_mark": 0.99977
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 166.761,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-02T18:42:17.746201+00:00",
-      "last_mark": 159.08
+      "last_mark": 159.0
     },
     "NEARUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 4.980150000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-03T19:26:24.432698+00:00",
-      "last_mark": 4.743
+      "last_mark": 4.768
     }
   },
   "history": [
@@ -4566,38 +4566,9 @@
       "equity": 100.6552
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-10-03T19:26:24.432619+00:00",
-      "action": "SELL",
-      "symbol": "PUMPUSDT",
-      "price": 0.006263,
-      "stop_loss": 0.005786,
-      "take_profit": 0.006263,
-      "reason": "take-profit",
-      "pnl": 0.8225,
-      "return_pct": 4.7901,
-      "entry_price": 0.005965,
-      "opened_at": "2026-10-03T16:35:08.923351+00:00",
-      "closed_at": "2026-10-03T19:26:24.432638+00:00",
-      "cash_after": 17.9925,
-      "equity": 100.6552
-    },
-    {
-      "ts": "2026-10-03T19:26:24.432701+00:00",
-      "action": "BUY",
-      "symbol": "NEARUSDT",
-      "price": 4.743,
-      "stop_loss": 4.60071,
-      "take_profit": 4.98015,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 100.6552
-    }
-  ],
-  "runs": 1362,
-  "updated_at": "2026-10-03T19:26:24.432714+00:00",
-  "equity": 100.6552,
-  "total_return_pct": 0.6552
+  "last_run_events": [],
+  "runs": 1363,
+  "updated_at": "2026-10-03T22:20:31.319238+00:00",
+  "equity": 100.7435,
+  "total_return_pct": 0.7435
 }
