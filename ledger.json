@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 16.6216281608173,
+  "cash": 0.0,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00014
+      "last_mark": 1.00027
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99971
+      "last_mark": 0.99964
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0004
+      "last_mark": 1.0005
     },
     "ZECUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,18 @@
       "take_profit": 1409.4569999999999,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-04T17:50:49.656629+00:00",
-      "last_mark": 1316.64
+      "last_mark": 1320.9
+    },
+    "QNTUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 246.53,
+      "units": 0.06735491231353784,
+      "notional": 16.6216281608173,
+      "stop_loss": 239.1341,
+      "take_profit": 258.85650000000004,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-10-07T16:46:42.742376+00:00",
+      "last_mark": 246.53
     }
   },
   "history": [
@@ -4673,28 +4684,36 @@
       "closed_at": "2026-10-07T09:17:34.726328+00:00",
       "cash_after": 16.6216,
       "equity": 101.3798
+    },
+    {
+      "ts": "2026-10-07T16:46:42.742392+00:00",
+      "action": "BUY",
+      "symbol": "QNTUSDT",
+      "price": 246.53,
+      "stop_loss": 239.1341,
+      "take_profit": 258.8565,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.4263
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-10-07T09:17:34.726306+00:00",
-      "action": "SELL",
-      "symbol": "MSTRBUSDT",
-      "price": 160.535,
-      "stop_loss": 160.535,
-      "take_profit": 173.775,
-      "reason": "stop-loss",
-      "pnl": -0.5484,
-      "return_pct": -3.1939,
-      "entry_price": 165.5,
-      "opened_at": "2026-10-05T19:42:58.103688+00:00",
-      "closed_at": "2026-10-07T09:17:34.726328+00:00",
-      "cash_after": 16.6216,
-      "equity": 101.3798
+      "ts": "2026-10-07T16:46:42.742392+00:00",
+      "action": "BUY",
+      "symbol": "QNTUSDT",
+      "price": 246.53,
+      "stop_loss": 239.1341,
+      "take_profit": 258.8565,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.4263
     }
   ],
-  "runs": 1379,
-  "updated_at": "2026-10-07T09:17:34.728668+00:00",
-  "equity": 101.3798,
-  "total_return_pct": 1.3798
+  "runs": 1380,
+  "updated_at": "2026-10-07T16:46:42.742423+00:00",
+  "equity": 101.4263,
+  "total_return_pct": 1.4263
 }
