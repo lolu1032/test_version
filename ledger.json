@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00056
+      "last_mark": 1.00067
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99973
+      "last_mark": 0.99994
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0007
+      "last_mark": 1.0008
     },
     "TSTUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 0.0181965,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-08T07:59:44.569246+00:00",
-      "last_mark": 0.01742
+      "last_mark": 0.01735
     },
     "AMPUSDT": {
       "signal": "donchian_breakout",
@@ -4786,38 +4786,9 @@
       "equity": 100.7025
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-10-08T15:30:21.077866+00:00",
-      "action": "SELL",
-      "symbol": "QNTUSDT",
-      "price": 239.1341,
-      "stop_loss": 239.1341,
-      "take_profit": 258.8565,
-      "reason": "stop-loss",
-      "pnl": -0.5309,
-      "return_pct": -3.1939,
-      "entry_price": 246.53,
-      "opened_at": "2026-10-07T16:46:42.742376+00:00",
-      "closed_at": "2026-10-08T15:30:21.077887+00:00",
-      "cash_after": 16.0907,
-      "equity": 100.7025
-    },
-    {
-      "ts": "2026-10-08T15:30:21.078958+00:00",
-      "action": "BUY",
-      "symbol": "AMPUSDT",
-      "price": 0.000635,
-      "stop_loss": 0.000616,
-      "take_profit": 0.000667,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 100.7025
-    }
-  ],
-  "runs": 1384,
-  "updated_at": "2026-10-08T15:30:21.078981+00:00",
-  "equity": 100.7025,
-  "total_return_pct": 0.7025
+  "last_run_events": [],
+  "runs": 1385,
+  "updated_at": "2026-10-08T20:47:33.563504+00:00",
+  "equity": 100.6382,
+  "total_return_pct": 0.6382
 }
