@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00067
+      "last_mark": 1.00066
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99994
+      "last_mark": 0.99986
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 0.0181965,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-08T07:59:44.569246+00:00",
-      "last_mark": 0.01735
+      "last_mark": 0.01736
     },
-    "AMPUSDT": {
+    "QNTUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.000635,
-      "units": 25314.42319820436,
-      "notional": 16.09074948034011,
-      "stop_loss": 0.00061595,
-      "take_profit": 0.00066675,
+      "entry_price": 242.26,
+      "units": 0.06953129597316776,
+      "notional": 16.861513275735355,
+      "stop_loss": 234.9922,
+      "take_profit": 254.373,
       "usdt_rate": 1.0,
-      "opened_at": "2026-10-08T15:30:21.078951+00:00",
-      "last_mark": 0.000635
+      "opened_at": "2026-10-09T00:58:39.583643+00:00",
+      "last_mark": 242.26
     }
   },
   "history": [
@@ -1754,6 +1754,22 @@
       "closed_at": "2026-10-08T15:30:21.077887+00:00",
       "cash_after": 16.0907,
       "equity": 100.7025
+    },
+    {
+      "ts": "2026-10-09T00:58:39.583487+00:00",
+      "action": "SELL",
+      "symbol": "AMPUSDT",
+      "price": 0.000667,
+      "stop_loss": 0.000616,
+      "take_profit": 0.000667,
+      "reason": "take-profit",
+      "pnl": 0.7708,
+      "return_pct": 4.7901,
+      "entry_price": 0.000635,
+      "opened_at": "2026-10-08T15:30:21.078951+00:00",
+      "closed_at": "2026-10-09T00:58:39.583510+00:00",
+      "cash_after": 16.8615,
+      "equity": 101.4167
     }
   ],
   "events": [
@@ -4784,11 +4800,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 100.7025
+    },
+    {
+      "ts": "2026-10-09T00:58:39.583487+00:00",
+      "action": "SELL",
+      "symbol": "AMPUSDT",
+      "price": 0.000667,
+      "stop_loss": 0.000616,
+      "take_profit": 0.000667,
+      "reason": "take-profit",
+      "pnl": 0.7708,
+      "return_pct": 4.7901,
+      "entry_price": 0.000635,
+      "opened_at": "2026-10-08T15:30:21.078951+00:00",
+      "closed_at": "2026-10-09T00:58:39.583510+00:00",
+      "cash_after": 16.8615,
+      "equity": 101.4167
+    },
+    {
+      "ts": "2026-10-09T00:58:39.583646+00:00",
+      "action": "BUY",
+      "symbol": "QNTUSDT",
+      "price": 242.26,
+      "stop_loss": 234.9922,
+      "take_profit": 254.373,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.4167
     }
   ],
-  "last_run_events": [],
-  "runs": 1385,
-  "updated_at": "2026-10-08T20:47:33.563504+00:00",
-  "equity": 100.6382,
-  "total_return_pct": 0.6382
+  "last_run_events": [
+    {
+      "ts": "2026-10-09T00:58:39.583487+00:00",
+      "action": "SELL",
+      "symbol": "AMPUSDT",
+      "price": 0.000667,
+      "stop_loss": 0.000616,
+      "take_profit": 0.000667,
+      "reason": "take-profit",
+      "pnl": 0.7708,
+      "return_pct": 4.7901,
+      "entry_price": 0.000635,
+      "opened_at": "2026-10-08T15:30:21.078951+00:00",
+      "closed_at": "2026-10-09T00:58:39.583510+00:00",
+      "cash_after": 16.8615,
+      "equity": 101.4167
+    },
+    {
+      "ts": "2026-10-09T00:58:39.583646+00:00",
+      "action": "BUY",
+      "symbol": "QNTUSDT",
+      "price": 242.26,
+      "stop_loss": 234.9922,
+      "take_profit": 254.373,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 101.4167
+    }
+  ],
+  "runs": 1386,
+  "updated_at": "2026-10-09T00:58:39.583661+00:00",
+  "equity": 101.4167,
+  "total_return_pct": 1.4167
 }
