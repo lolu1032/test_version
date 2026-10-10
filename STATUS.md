@@ -1,6 +1,6 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-10-09 23:31 UTC** · run #1390 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-10-10 02:46 UTC** · run #1391 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
@@ -14,11 +14,11 @@ _Updated **2026-10-09 23:31 UTC** · run #1390 · strategy `donchian_breakout` �
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `USDCUSDT` | 1.00088 | 1.00076 | 🔴 -0.01% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 1.00019 | 🟢 +0.03% | 0.969913 | 1.04991 |
-| `XUSDUSDT` | 1.0014 | 1.001 | 🔴 -0.04% | 0.971358 | 1.05147 |
-| `TSTUSDT` | 0.01733 | 0.01758 | 🟢 +1.44% | 0.0168101 | 0.0181965 |
-| `AMZNBUSDT` | 262.75 | 262.7 | 🔴 -0.02% | 254.868 | 275.887 |
+| `USDCUSDT` | 1.00088 | 1.00081 | 🔴 -0.01% | 0.970854 | 1.05092 |
+| `USD1USDT` | 0.99991 | 1.00011 | 🟢 +0.02% | 0.969913 | 1.04991 |
+| `XUSDUSDT` | 1.0014 | 1.0009 | 🔴 -0.05% | 0.971358 | 1.05147 |
+| `TSTUSDT` | 0.01733 | 0.01759 | 🟢 +1.50% | 0.0168101 | 0.0181965 |
+| `AMZNBUSDT` | 262.75 | 262.6 | 🔴 -0.06% | 254.868 | 275.887 |
 
 ## Recent closed trades (109 total)
 
