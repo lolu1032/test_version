@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00105
+      "last_mark": 1.00093
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.0
+      "last_mark": 1.00009
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0012
+      "last_mark": 1.0011
     },
     "TSTUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 0.0181965,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-08T07:59:44.569246+00:00",
-      "last_mark": 0.01748
+      "last_mark": 0.01736
     },
     "AMZNBUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 275.8875,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-09T19:40:11.690132+00:00",
-      "last_mark": 263.38
+      "last_mark": 263.17
     }
   },
   "history": [
@@ -4919,8 +4919,8 @@
     }
   ],
   "last_run_events": [],
-  "runs": 1401,
-  "updated_at": "2026-10-12T02:03:47.518819+00:00",
-  "equity": 101.8475,
-  "total_return_pct": 1.8475
+  "runs": 1402,
+  "updated_at": "2026-10-12T09:11:44.577171+00:00",
+  "equity": 101.7048,
+  "total_return_pct": 1.7048
 }
