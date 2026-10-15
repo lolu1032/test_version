@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00031
+      "last_mark": 1.00034
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 85.2705,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-14T19:24:54.535153+00:00",
-      "last_mark": 80.89
+      "last_mark": 80.9
     },
     "XAUTUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 4313.6939999999995,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-14T22:29:25.934475+00:00",
-      "last_mark": 4108.28
+      "last_mark": 4141.19
     }
   },
   "history": [
@@ -5182,38 +5182,9 @@
       "equity": 99.5909
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-10-14T22:29:25.934365+00:00",
-      "action": "SELL",
-      "symbol": "SOXSBUSDT",
-      "price": 42.8925,
-      "stop_loss": 39.6245,
-      "take_profit": 42.8925,
-      "reason": "take-profit",
-      "pnl": 0.7678,
-      "return_pct": 4.7901,
-      "entry_price": 40.85,
-      "opened_at": "2026-10-14T15:11:37.819739+00:00",
-      "closed_at": "2026-10-14T22:29:25.934387+00:00",
-      "cash_after": 16.7975,
-      "equity": 99.5909
-    },
-    {
-      "ts": "2026-10-14T22:29:25.934480+00:00",
-      "action": "BUY",
-      "symbol": "XAUTUSDT",
-      "price": 4108.28,
-      "stop_loss": 3985.0316,
-      "take_profit": 4313.694,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 99.5909
-    }
-  ],
-  "runs": 1413,
-  "updated_at": "2026-10-14T22:29:25.934499+00:00",
-  "equity": 99.5909,
-  "total_return_pct": -0.4091
+  "last_run_events": [],
+  "runs": 1414,
+  "updated_at": "2026-10-15T00:46:52.049981+00:00",
+  "equity": 99.728,
+  "total_return_pct": -0.272
 }
