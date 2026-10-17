@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00116
+      "last_mark": 1.00114
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.0003
+      "last_mark": 1.00028
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -35,17 +35,6 @@
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
       "last_mark": 1.0012
     },
-    "HYPEUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 81.21,
-      "units": 0.20369399384078815,
-      "notional": 16.558547787598002,
-      "stop_loss": 78.77369999999999,
-      "take_profit": 85.2705,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-10-14T19:24:54.535153+00:00",
-      "last_mark": 79.32
-    },
     "XAUTUSDT": {
       "signal": "donchian_breakout",
       "entry_price": 4108.28,
@@ -55,7 +44,18 @@
       "take_profit": 4313.6939999999995,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-14T22:29:25.934475+00:00",
-      "last_mark": 4159.73
+      "last_mark": 4149.45
+    },
+    "GTCUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 0.23404,
+      "units": 68.42272324910452,
+      "notional": 16.029683833053475,
+      "stop_loss": 0.2270188,
+      "take_profit": 0.24574200000000002,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-10-17T22:17:51.555751+00:00",
+      "last_mark": 0.23404
     }
   },
   "history": [
@@ -1898,6 +1898,22 @@
       "closed_at": "2026-10-14T22:29:25.934387+00:00",
       "cash_after": 16.7975,
       "equity": 99.5909
+    },
+    {
+      "ts": "2026-10-17T22:17:51.555483+00:00",
+      "action": "SELL",
+      "symbol": "HYPEUSDT",
+      "price": 78.7737,
+      "stop_loss": 78.7737,
+      "take_profit": 85.2705,
+      "reason": "stop-loss",
+      "pnl": -0.5289,
+      "return_pct": -3.1939,
+      "entry_price": 81.21,
+      "opened_at": "2026-10-14T19:24:54.535153+00:00",
+      "closed_at": "2026-10-17T22:17:51.555503+00:00",
+      "cash_after": 16.0297,
+      "equity": 99.2977
     }
   ],
   "events": [
@@ -5180,11 +5196,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.5909
+    },
+    {
+      "ts": "2026-10-17T22:17:51.555483+00:00",
+      "action": "SELL",
+      "symbol": "HYPEUSDT",
+      "price": 78.7737,
+      "stop_loss": 78.7737,
+      "take_profit": 85.2705,
+      "reason": "stop-loss",
+      "pnl": -0.5289,
+      "return_pct": -3.1939,
+      "entry_price": 81.21,
+      "opened_at": "2026-10-14T19:24:54.535153+00:00",
+      "closed_at": "2026-10-17T22:17:51.555503+00:00",
+      "cash_after": 16.0297,
+      "equity": 99.2977
+    },
+    {
+      "ts": "2026-10-17T22:17:51.555755+00:00",
+      "action": "BUY",
+      "symbol": "GTCUSDT",
+      "price": 0.23404,
+      "stop_loss": 0.227019,
+      "take_profit": 0.245742,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.2977
     }
   ],
-  "last_run_events": [],
-  "runs": 1432,
-  "updated_at": "2026-10-17T20:08:31.536190+00:00",
-  "equity": 99.4839,
-  "total_return_pct": -0.5161
+  "last_run_events": [
+    {
+      "ts": "2026-10-17T22:17:51.555483+00:00",
+      "action": "SELL",
+      "symbol": "HYPEUSDT",
+      "price": 78.7737,
+      "stop_loss": 78.7737,
+      "take_profit": 85.2705,
+      "reason": "stop-loss",
+      "pnl": -0.5289,
+      "return_pct": -3.1939,
+      "entry_price": 81.21,
+      "opened_at": "2026-10-14T19:24:54.535153+00:00",
+      "closed_at": "2026-10-17T22:17:51.555503+00:00",
+      "cash_after": 16.0297,
+      "equity": 99.2977
+    },
+    {
+      "ts": "2026-10-17T22:17:51.555755+00:00",
+      "action": "BUY",
+      "symbol": "GTCUSDT",
+      "price": 0.23404,
+      "stop_loss": 0.227019,
+      "take_profit": 0.245742,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 99.2977
+    }
+  ],
+  "runs": 1433,
+  "updated_at": "2026-10-17T22:17:51.555774+00:00",
+  "equity": 99.2977,
+  "total_return_pct": -0.7023
 }
