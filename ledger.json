@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00111
+      "last_mark": 1.00114
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 1.00027
+      "last_mark": 1.00023
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 4313.6939999999995,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-14T22:29:25.934475+00:00",
-      "last_mark": 4153.32
+      "last_mark": 4157.64
     },
-    "GTCUSDT": {
+    "WBETHETH": {
       "signal": "donchian_breakout",
-      "entry_price": 0.23404,
-      "units": 68.42272324910452,
-      "notional": 16.029683833053475,
-      "stop_loss": 0.2270188,
-      "take_profit": 0.24574200000000002,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-10-17T22:17:51.555751+00:00",
-      "last_mark": 0.23349
+      "entry_price": 2683.7117550000003,
+      "units": 0.006252804521961389,
+      "notional": 16.79752251982476,
+      "stop_loss": 2603.2004023500003,
+      "take_profit": 2817.8973427500005,
+      "usdt_rate": 2421.03,
+      "opened_at": "2026-10-18T04:32:57.655659+00:00",
+      "last_mark": 2683.7117550000003
     }
   },
   "history": [
@@ -1914,6 +1914,22 @@
       "closed_at": "2026-10-17T22:17:51.555503+00:00",
       "cash_after": 16.0297,
       "equity": 99.2977
+    },
+    {
+      "ts": "2026-10-18T04:32:57.655323+00:00",
+      "action": "SELL",
+      "symbol": "GTCUSDT",
+      "price": 0.245742,
+      "stop_loss": 0.227019,
+      "take_profit": 0.245742,
+      "reason": "take-profit",
+      "pnl": 0.7678,
+      "return_pct": 4.7901,
+      "entry_price": 0.23404,
+      "opened_at": "2026-10-17T22:17:51.555751+00:00",
+      "closed_at": "2026-10-18T04:32:57.655344+00:00",
+      "cash_after": 16.7975,
+      "equity": 100.0971
     }
   ],
   "events": [
@@ -5224,11 +5240,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.2977
+    },
+    {
+      "ts": "2026-10-18T04:32:57.655323+00:00",
+      "action": "SELL",
+      "symbol": "GTCUSDT",
+      "price": 0.245742,
+      "stop_loss": 0.227019,
+      "take_profit": 0.245742,
+      "reason": "take-profit",
+      "pnl": 0.7678,
+      "return_pct": 4.7901,
+      "entry_price": 0.23404,
+      "opened_at": "2026-10-17T22:17:51.555751+00:00",
+      "closed_at": "2026-10-18T04:32:57.655344+00:00",
+      "cash_after": 16.7975,
+      "equity": 100.0971
+    },
+    {
+      "ts": "2026-10-18T04:32:57.655665+00:00",
+      "action": "BUY",
+      "symbol": "WBETHETH",
+      "price": 2683.711755,
+      "stop_loss": 2603.200402,
+      "take_profit": 2817.897343,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 100.0971
     }
   ],
-  "last_run_events": [],
-  "runs": 1434,
-  "updated_at": "2026-10-18T00:09:12.307503+00:00",
-  "equity": 99.2751,
-  "total_return_pct": -0.7249
+  "last_run_events": [
+    {
+      "ts": "2026-10-18T04:32:57.655323+00:00",
+      "action": "SELL",
+      "symbol": "GTCUSDT",
+      "price": 0.245742,
+      "stop_loss": 0.227019,
+      "take_profit": 0.245742,
+      "reason": "take-profit",
+      "pnl": 0.7678,
+      "return_pct": 4.7901,
+      "entry_price": 0.23404,
+      "opened_at": "2026-10-17T22:17:51.555751+00:00",
+      "closed_at": "2026-10-18T04:32:57.655344+00:00",
+      "cash_after": 16.7975,
+      "equity": 100.0971
+    },
+    {
+      "ts": "2026-10-18T04:32:57.655665+00:00",
+      "action": "BUY",
+      "symbol": "WBETHETH",
+      "price": 2683.711755,
+      "stop_loss": 2603.200402,
+      "take_profit": 2817.897343,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 100.0971
+    }
+  ],
+  "runs": 1435,
+  "updated_at": "2026-10-18T04:32:57.655684+00:00",
+  "equity": 100.0971,
+  "total_return_pct": 0.0971
 }
