@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99971
+      "last_mark": 0.99974
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 4313.6939999999995,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-14T22:29:25.934475+00:00",
-      "last_mark": 4147.15
+      "last_mark": 4138.85
     },
     "WBETHETH": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 2817.8973427500005,
       "usdt_rate": 2421.03,
       "opened_at": "2026-10-18T04:32:57.655659+00:00",
-      "last_mark": 2658.0137240000004
+      "last_mark": 2660.3484280000002
     }
   },
   "history": [
@@ -5271,8 +5271,8 @@
     }
   ],
   "last_run_events": [],
-  "runs": 1444,
-  "updated_at": "2026-10-19T14:20:10.903307+00:00",
-  "equity": 99.8777,
-  "total_return_pct": -0.1223
+  "runs": 1445,
+  "updated_at": "2026-10-19T20:04:29.855285+00:00",
+  "equity": 99.8591,
+  "total_return_pct": -0.1409
 }
