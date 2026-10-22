@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-10-22 10:25 UTC** · run #1460 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-10-22 15:29 UTC** · run #1461 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🔴 **$99.82**  (-0.18%) |
+| **Equity** | 🔴 **$99.52**  (-0.48%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -14,11 +14,11 @@ _Updated **2026-10-22 10:25 UTC** · run #1460 · strategy `donchian_breakout` �
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `USDCUSDT` | 1.00088 | 1.00099 | 🟢 +0.01% | 0.970854 | 1.05092 |
+| `USDCUSDT` | 1.00088 | 1.00093 | 🟢 +0.00% | 0.970854 | 1.05092 |
 | `USD1USDT` | 0.99991 | 0.99984 | 🔴 -0.01% | 0.969913 | 1.04991 |
 | `XUSDUSDT` | 1.0014 | 1.0011 | 🔴 -0.03% | 0.971358 | 1.05147 |
-| `XAUTUSDT` | 4108.28 | 4093.94 | 🔴 -0.35% | 3985.03 | 4313.69 |
-| `WBETHETH` | 2683.71 | 2683.95 | 🟢 +0.01% | 2603.2 | 2817.9 |
+| `XAUTUSDT` | 4108.28 | 4055.77 | 🔴 -1.28% | 3985.03 | 4313.69 |
+| `WBETHETH` | 2683.71 | 2659.89 | 🔴 -0.89% | 2603.2 | 2817.9 |
 
 ## Recent closed trades (117 total)
 
