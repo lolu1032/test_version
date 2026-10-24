@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00111
+      "last_mark": 1.00117
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99989
+      "last_mark": 0.99996
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 4313.6939999999995,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-14T22:29:25.934475+00:00",
-      "last_mark": 3993.87
+      "last_mark": 3988.99
     },
-    "WBETHETH": {
+    "ZBTUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 2683.7117550000003,
-      "units": 0.006252804521961389,
-      "notional": 16.79752251982476,
-      "stop_loss": 2603.2004023500003,
-      "take_profit": 2817.8973427500005,
-      "usdt_rate": 2421.03,
-      "opened_at": "2026-10-18T04:32:57.655659+00:00",
-      "last_mark": 2626.062766
+      "entry_price": 0.0792,
+      "units": 205.11066815901847,
+      "notional": 16.261025944138403,
+      "stop_loss": 0.076824,
+      "take_profit": 0.08316000000000001,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-10-24T17:27:12.386314+00:00",
+      "last_mark": 0.0792
     }
   },
   "history": [
@@ -1930,6 +1930,22 @@
       "closed_at": "2026-10-18T04:32:57.655344+00:00",
       "cash_after": 16.7975,
       "equity": 100.0971
+    },
+    {
+      "ts": "2026-10-24T17:27:12.385835+00:00",
+      "action": "SELL",
+      "symbol": "WBETHETH",
+      "price": 2603.200402,
+      "stop_loss": 2603.200402,
+      "take_profit": 2817.897343,
+      "reason": "stop-loss",
+      "pnl": -0.5365,
+      "return_pct": -3.1939,
+      "entry_price": 2683.7117550000003,
+      "opened_at": "2026-10-18T04:32:57.655659+00:00",
+      "closed_at": "2026-10-24T17:27:12.385855+00:00",
+      "cash_after": 16.261,
+      "equity": 98.8668
     }
   ],
   "events": [
@@ -5268,11 +5284,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 100.0971
+    },
+    {
+      "ts": "2026-10-24T17:27:12.385835+00:00",
+      "action": "SELL",
+      "symbol": "WBETHETH",
+      "price": 2603.200402,
+      "stop_loss": 2603.200402,
+      "take_profit": 2817.897343,
+      "reason": "stop-loss",
+      "pnl": -0.5365,
+      "return_pct": -3.1939,
+      "entry_price": 2683.7117550000003,
+      "opened_at": "2026-10-18T04:32:57.655659+00:00",
+      "closed_at": "2026-10-24T17:27:12.385855+00:00",
+      "cash_after": 16.261,
+      "equity": 98.8668
+    },
+    {
+      "ts": "2026-10-24T17:27:12.386319+00:00",
+      "action": "BUY",
+      "symbol": "ZBTUSDT",
+      "price": 0.0792,
+      "stop_loss": 0.076824,
+      "take_profit": 0.08316,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.8668
     }
   ],
-  "last_run_events": [],
-  "runs": 1473,
-  "updated_at": "2026-10-24T14:04:59.166090+00:00",
-  "equity": 99.0594,
-  "total_return_pct": -0.9406
+  "last_run_events": [
+    {
+      "ts": "2026-10-24T17:27:12.385835+00:00",
+      "action": "SELL",
+      "symbol": "WBETHETH",
+      "price": 2603.200402,
+      "stop_loss": 2603.200402,
+      "take_profit": 2817.897343,
+      "reason": "stop-loss",
+      "pnl": -0.5365,
+      "return_pct": -3.1939,
+      "entry_price": 2683.7117550000003,
+      "opened_at": "2026-10-18T04:32:57.655659+00:00",
+      "closed_at": "2026-10-24T17:27:12.385855+00:00",
+      "cash_after": 16.261,
+      "equity": 98.8668
+    },
+    {
+      "ts": "2026-10-24T17:27:12.386319+00:00",
+      "action": "BUY",
+      "symbol": "ZBTUSDT",
+      "price": 0.0792,
+      "stop_loss": 0.076824,
+      "take_profit": 0.08316,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.8668
+    }
+  ],
+  "runs": 1474,
+  "updated_at": "2026-10-24T17:27:12.386336+00:00",
+  "equity": 98.8668,
+  "total_return_pct": -1.1332
 }
