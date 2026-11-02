@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.001
+      "last_mark": 1.0012
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99913
+      "last_mark": 0.99813
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 417.30150000000003,
       "usdt_rate": 1.0,
       "opened_at": "2026-10-30T14:14:32.651515+00:00",
-      "last_mark": 402.93
+      "last_mark": 404.25
     },
-    "OPUSDT": {
+    "UVXYBUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 0.1137,
-      "units": 147.0276239155856,
-      "notional": 16.733774613815896,
-      "stop_loss": 0.110289,
-      "take_profit": 0.119385,
+      "entry_price": 19.19,
+      "units": 0.8433097848008119,
+      "notional": 16.19931408441199,
+      "stop_loss": 18.6143,
+      "take_profit": 20.149500000000003,
       "usdt_rate": 1.0,
-      "opened_at": "2026-10-30T19:26:51.480888+00:00",
-      "last_mark": 0.1123
+      "opened_at": "2026-11-02T19:43:15.900381+00:00",
+      "last_mark": 19.19
     }
   },
   "history": [
@@ -2026,6 +2026,22 @@
       "closed_at": "2026-10-30T19:26:51.480466+00:00",
       "cash_after": 16.7338,
       "equity": 99.3662
+    },
+    {
+      "ts": "2026-11-02T19:43:15.897972+00:00",
+      "action": "SELL",
+      "symbol": "OPUSDT",
+      "price": 0.110289,
+      "stop_loss": 0.110289,
+      "take_profit": 0.119385,
+      "reason": "stop-loss",
+      "pnl": -0.5345,
+      "return_pct": -3.1939,
+      "entry_price": 0.1137,
+      "opened_at": "2026-10-30T19:26:51.480888+00:00",
+      "closed_at": "2026-11-02T19:43:15.897999+00:00",
+      "cash_after": 16.1993,
+      "equity": 98.9806
     }
   ],
   "events": [
@@ -5532,11 +5548,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.3662
+    },
+    {
+      "ts": "2026-11-02T19:43:15.897972+00:00",
+      "action": "SELL",
+      "symbol": "OPUSDT",
+      "price": 0.110289,
+      "stop_loss": 0.110289,
+      "take_profit": 0.119385,
+      "reason": "stop-loss",
+      "pnl": -0.5345,
+      "return_pct": -3.1939,
+      "entry_price": 0.1137,
+      "opened_at": "2026-10-30T19:26:51.480888+00:00",
+      "closed_at": "2026-11-02T19:43:15.897999+00:00",
+      "cash_after": 16.1993,
+      "equity": 98.9806
+    },
+    {
+      "ts": "2026-11-02T19:43:15.900394+00:00",
+      "action": "BUY",
+      "symbol": "UVXYBUSDT",
+      "price": 19.19,
+      "stop_loss": 18.6143,
+      "take_profit": 20.1495,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.9806
     }
   ],
-  "last_run_events": [],
-  "runs": 1519,
-  "updated_at": "2026-11-02T09:29:12.636134+00:00",
-  "equity": 99.2732,
-  "total_return_pct": -0.7268
+  "last_run_events": [
+    {
+      "ts": "2026-11-02T19:43:15.897972+00:00",
+      "action": "SELL",
+      "symbol": "OPUSDT",
+      "price": 0.110289,
+      "stop_loss": 0.110289,
+      "take_profit": 0.119385,
+      "reason": "stop-loss",
+      "pnl": -0.5345,
+      "return_pct": -3.1939,
+      "entry_price": 0.1137,
+      "opened_at": "2026-10-30T19:26:51.480888+00:00",
+      "closed_at": "2026-11-02T19:43:15.897999+00:00",
+      "cash_after": 16.1993,
+      "equity": 98.9806
+    },
+    {
+      "ts": "2026-11-02T19:43:15.900394+00:00",
+      "action": "BUY",
+      "symbol": "UVXYBUSDT",
+      "price": 19.19,
+      "stop_loss": 18.6143,
+      "take_profit": 20.1495,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.9806
+    }
+  ],
+  "runs": 1520,
+  "updated_at": "2026-11-02T19:43:15.900425+00:00",
+  "equity": 98.9806,
+  "total_return_pct": -1.0194
 }
