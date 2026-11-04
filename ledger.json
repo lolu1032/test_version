@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 32.716942787012904,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.00126
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99968
+      "last_mark": 0.99959
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,29 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.001
-    },
-    "TSLABUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 397.43,
-      "units": 0.040874531158176935,
-      "notional": 16.2610259441384,
-      "stop_loss": 385.5071,
-      "take_profit": 417.30150000000003,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-10-30T14:14:32.651515+00:00",
-      "last_mark": 398.04
-    },
-    "UVXYBUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 19.19,
-      "units": 0.8433097848008119,
-      "notional": 16.19931408441199,
-      "stop_loss": 18.6143,
-      "take_profit": 20.149500000000003,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-11-02T19:43:15.900381+00:00",
-      "last_mark": 18.93
+      "last_mark": 1.0014
     }
   },
   "history": [
@@ -2042,6 +2020,38 @@
       "closed_at": "2026-11-02T19:43:15.897999+00:00",
       "cash_after": 16.1993,
       "equity": 98.9806
+    },
+    {
+      "ts": "2026-11-04T02:33:06.658071+00:00",
+      "action": "SELL",
+      "symbol": "TSLABUSDT",
+      "price": 385.5071,
+      "stop_loss": 385.5071,
+      "take_profit": 417.3015,
+      "reason": "stop-loss",
+      "pnl": -0.5194,
+      "return_pct": -3.1939,
+      "entry_price": 397.43,
+      "opened_at": "2026-10-30T14:14:32.651515+00:00",
+      "closed_at": "2026-11-04T02:33:06.658092+00:00",
+      "cash_after": 15.7417,
+      "equity": 99.0436
+    },
+    {
+      "ts": "2026-11-04T02:33:06.658116+00:00",
+      "action": "SELL",
+      "symbol": "UVXYBUSDT",
+      "price": 20.1495,
+      "stop_loss": 18.6143,
+      "take_profit": 20.1495,
+      "reason": "take-profit",
+      "pnl": 0.776,
+      "return_pct": 4.7901,
+      "entry_price": 19.19,
+      "opened_at": "2026-11-02T19:43:15.900381+00:00",
+      "closed_at": "2026-11-04T02:33:06.658122+00:00",
+      "cash_after": 32.7169,
+      "equity": 99.0436
     }
   ],
   "events": [
@@ -5576,11 +5586,76 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 98.9806
+    },
+    {
+      "ts": "2026-11-04T02:33:06.658071+00:00",
+      "action": "SELL",
+      "symbol": "TSLABUSDT",
+      "price": 385.5071,
+      "stop_loss": 385.5071,
+      "take_profit": 417.3015,
+      "reason": "stop-loss",
+      "pnl": -0.5194,
+      "return_pct": -3.1939,
+      "entry_price": 397.43,
+      "opened_at": "2026-10-30T14:14:32.651515+00:00",
+      "closed_at": "2026-11-04T02:33:06.658092+00:00",
+      "cash_after": 15.7417,
+      "equity": 99.0436
+    },
+    {
+      "ts": "2026-11-04T02:33:06.658116+00:00",
+      "action": "SELL",
+      "symbol": "UVXYBUSDT",
+      "price": 20.1495,
+      "stop_loss": 18.6143,
+      "take_profit": 20.1495,
+      "reason": "take-profit",
+      "pnl": 0.776,
+      "return_pct": 4.7901,
+      "entry_price": 19.19,
+      "opened_at": "2026-11-02T19:43:15.900381+00:00",
+      "closed_at": "2026-11-04T02:33:06.658122+00:00",
+      "cash_after": 32.7169,
+      "equity": 99.0436
     }
   ],
-  "last_run_events": [],
-  "runs": 1524,
-  "updated_at": "2026-11-03T22:18:09.075707+00:00",
-  "equity": 98.5456,
-  "total_return_pct": -1.4544
+  "last_run_events": [
+    {
+      "ts": "2026-11-04T02:33:06.658071+00:00",
+      "action": "SELL",
+      "symbol": "TSLABUSDT",
+      "price": 385.5071,
+      "stop_loss": 385.5071,
+      "take_profit": 417.3015,
+      "reason": "stop-loss",
+      "pnl": -0.5194,
+      "return_pct": -3.1939,
+      "entry_price": 397.43,
+      "opened_at": "2026-10-30T14:14:32.651515+00:00",
+      "closed_at": "2026-11-04T02:33:06.658092+00:00",
+      "cash_after": 15.7417,
+      "equity": 99.0436
+    },
+    {
+      "ts": "2026-11-04T02:33:06.658116+00:00",
+      "action": "SELL",
+      "symbol": "UVXYBUSDT",
+      "price": 20.1495,
+      "stop_loss": 18.6143,
+      "take_profit": 20.1495,
+      "reason": "take-profit",
+      "pnl": 0.776,
+      "return_pct": 4.7901,
+      "entry_price": 19.19,
+      "opened_at": "2026-11-02T19:43:15.900381+00:00",
+      "closed_at": "2026-11-04T02:33:06.658122+00:00",
+      "cash_after": 32.7169,
+      "equity": 99.0436
+    }
+  ],
+  "runs": 1525,
+  "updated_at": "2026-11-04T02:33:06.660544+00:00",
+  "equity": 99.0436,
+  "total_return_pct": -0.9564
 }
