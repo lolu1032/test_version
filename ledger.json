@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 16.59455860182011,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00087
+      "last_mark": 1.00124
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99908
+      "last_mark": 0.99889
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.0012
     },
     "XAUTUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,7 @@
       "take_profit": 4256.3535,
       "usdt_rate": 1.0,
       "opened_at": "2026-11-04T17:44:57.631356+00:00",
-      "last_mark": 4110.58
-    },
-    "SOLUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 96.15,
-      "units": 0.17810626406969032,
-      "notional": 17.142059349650378,
-      "stop_loss": 93.2655,
-      "take_profit": 100.95750000000001,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-11-04T22:54:47.032295+00:00",
-      "last_mark": 96.65
+      "last_mark": 4092.71
     }
   },
   "history": [
@@ -2090,6 +2079,22 @@
       "closed_at": "2026-11-04T22:54:47.032245+00:00",
       "cash_after": 17.1421,
       "equity": 99.7574
+    },
+    {
+      "ts": "2026-11-05T18:31:49.121778+00:00",
+      "action": "SELL",
+      "symbol": "SOLUSDT",
+      "price": 93.2655,
+      "stop_loss": 93.2655,
+      "take_profit": 100.9575,
+      "reason": "stop-loss",
+      "pnl": -0.5475,
+      "return_pct": -3.1939,
+      "entry_price": 96.15,
+      "opened_at": "2026-11-04T22:54:47.032295+00:00",
+      "closed_at": "2026-11-05T18:31:49.121802+00:00",
+      "cash_after": 16.5946,
+      "equity": 99.3999
     }
   ],
   "events": [
@@ -5708,11 +5713,44 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 99.7574
+    },
+    {
+      "ts": "2026-11-05T18:31:49.121778+00:00",
+      "action": "SELL",
+      "symbol": "SOLUSDT",
+      "price": 93.2655,
+      "stop_loss": 93.2655,
+      "take_profit": 100.9575,
+      "reason": "stop-loss",
+      "pnl": -0.5475,
+      "return_pct": -3.1939,
+      "entry_price": 96.15,
+      "opened_at": "2026-11-04T22:54:47.032295+00:00",
+      "closed_at": "2026-11-05T18:31:49.121802+00:00",
+      "cash_after": 16.5946,
+      "equity": 99.3999
     }
   ],
-  "last_run_events": [],
-  "runs": 1529,
-  "updated_at": "2026-11-05T10:55:05.982668+00:00",
-  "equity": 100.0811,
-  "total_return_pct": 0.0811
+  "last_run_events": [
+    {
+      "ts": "2026-11-05T18:31:49.121778+00:00",
+      "action": "SELL",
+      "symbol": "SOLUSDT",
+      "price": 93.2655,
+      "stop_loss": 93.2655,
+      "take_profit": 100.9575,
+      "reason": "stop-loss",
+      "pnl": -0.5475,
+      "return_pct": -3.1939,
+      "entry_price": 96.15,
+      "opened_at": "2026-11-04T22:54:47.032295+00:00",
+      "closed_at": "2026-11-05T18:31:49.121802+00:00",
+      "cash_after": 16.5946,
+      "equity": 99.3999
+    }
+  ],
+  "runs": 1530,
+  "updated_at": "2026-11-05T18:31:49.123773+00:00",
+  "equity": 99.3999,
+  "total_return_pct": -0.6001
 }
