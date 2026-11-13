@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00095
+      "last_mark": 1.00089
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99946
+      "last_mark": 0.99941
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,7 @@
       "take_profit": 0.1490265,
       "usdt_rate": 1.0,
       "opened_at": "2026-11-06T05:10:37.747045+00:00",
-      "last_mark": 0.14654
+      "last_mark": 0.14631
     },
     "GPSUSDT": {
       "signal": "donchian_breakout",
@@ -55,7 +55,7 @@
       "take_profit": 0.008484,
       "usdt_rate": 1.0,
       "opened_at": "2026-11-12T22:23:04.033542+00:00",
-      "last_mark": 0.00808
+      "last_mark": 0.00792
     }
   },
   "history": [
@@ -5842,38 +5842,9 @@
       "equity": 98.7394
     }
   ],
-  "last_run_events": [
-    {
-      "ts": "2026-11-12T22:23:04.031905+00:00",
-      "action": "SELL",
-      "symbol": "SOXLBUSDT",
-      "price": 66.1346,
-      "stop_loss": 66.1346,
-      "take_profit": 71.589,
-      "reason": "stop-loss",
-      "pnl": -0.5058,
-      "return_pct": -3.1939,
-      "entry_price": 68.18,
-      "opened_at": "2026-11-12T16:16:54.093118+00:00",
-      "closed_at": "2026-11-12T22:23:04.031927+00:00",
-      "cash_after": 15.3302,
-      "equity": 98.7394
-    },
-    {
-      "ts": "2026-11-12T22:23:04.033549+00:00",
-      "action": "BUY",
-      "symbol": "GPSUSDT",
-      "price": 0.00808,
-      "stop_loss": 0.007838,
-      "take_profit": 0.008484,
-      "reason": "donchian_breakout",
-      "pnl": null,
-      "cash_after": 0.0,
-      "equity": 98.7394
-    }
-  ],
-  "runs": 1558,
-  "updated_at": "2026-11-12T22:23:04.033571+00:00",
-  "equity": 98.7394,
-  "total_return_pct": -1.2606
+  "last_run_events": [],
+  "runs": 1559,
+  "updated_at": "2026-11-13T02:46:57.690737+00:00",
+  "equity": 98.4069,
+  "total_return_pct": -1.5931
 }

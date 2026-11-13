@@ -1,10 +1,10 @@
 # 📊 Paper Trading — Live Status
 
-_Updated **2026-11-12 22:23 UTC** · run #1558 · strategy `donchian_breakout` · SL −3% / TP +5%_
+_Updated **2026-11-13 02:46 UTC** · run #1559 · strategy `donchian_breakout` · SL −3% / TP +5%_
 
 | | |
 |---|---|
-| **Equity** | 🔴 **$98.74**  (-1.26%) |
+| **Equity** | 🔴 **$98.41**  (-1.59%) |
 | Starting cash | $100.00 |
 | Idle cash | $0.00 |
 | Open positions | 5 / 5 |
@@ -14,11 +14,11 @@ _Updated **2026-11-12 22:23 UTC** · run #1558 · strategy `donchian_breakout` �
 
 | Symbol | Entry | Current | Unreal. PnL | Stop-loss | Take-profit |
 |---|---|---|---|---|---|
-| `USDCUSDT` | 1.00088 | 1.00095 | 🟢 +0.01% | 0.970854 | 1.05092 |
-| `USD1USDT` | 0.99991 | 0.99946 | 🔴 -0.05% | 0.969913 | 1.04991 |
+| `USDCUSDT` | 1.00088 | 1.00089 | 🟢 +0.00% | 0.970854 | 1.05092 |
+| `USD1USDT` | 0.99991 | 0.99941 | 🔴 -0.05% | 0.969913 | 1.04991 |
 | `XUSDUSDT` | 1.0014 | 1.001 | 🔴 -0.04% | 0.971358 | 1.05147 |
-| `JSTUSDT` | 0.14193 | 0.14654 | 🟢 +3.25% | 0.137672 | 0.149027 |
-| `GPSUSDT` | 0.00808 | 0.00808 | 🟢 +0.00% | 0.0078376 | 0.008484 |
+| `JSTUSDT` | 0.14193 | 0.14631 | 🟢 +3.09% | 0.137672 | 0.149027 |
+| `GPSUSDT` | 0.00808 | 0.00792 | 🔴 -1.98% | 0.0078376 | 0.008484 |
 
 ## Recent closed trades (130 total)
 
