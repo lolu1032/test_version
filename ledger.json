@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 0.0,
+  "cash": 14.840579201805546,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.00083
+      "last_mark": 1.0007
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99913
+      "last_mark": 0.99906
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.0008
     },
     "JSTUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,7 @@
       "take_profit": 0.1490265,
       "usdt_rate": 1.0,
       "opened_at": "2026-11-06T05:10:37.747045+00:00",
-      "last_mark": 0.14421
-    },
-    "GPSUSDT": {
-      "signal": "donchian_breakout",
-      "entry_price": 0.00808,
-      "units": 1895.406072833774,
-      "notional": 15.330211279776671,
-      "stop_loss": 0.0078376,
-      "take_profit": 0.008484,
-      "usdt_rate": 1.0,
-      "opened_at": "2026-11-12T22:23:04.033542+00:00",
-      "last_mark": 0.00786
+      "last_mark": 0.14464
     }
   },
   "history": [
@@ -2138,6 +2127,22 @@
       "closed_at": "2026-11-12T22:23:04.031927+00:00",
       "cash_after": 15.3302,
       "equity": 98.7394
+    },
+    {
+      "ts": "2026-11-14T03:34:17.947008+00:00",
+      "action": "SELL",
+      "symbol": "GPSUSDT",
+      "price": 0.007838,
+      "stop_loss": 0.007838,
+      "take_profit": 0.008484,
+      "reason": "stop-loss",
+      "pnl": -0.4896,
+      "return_pct": -3.1939,
+      "entry_price": 0.00808,
+      "opened_at": "2026-11-12T22:23:04.033542+00:00",
+      "closed_at": "2026-11-14T03:34:17.947030+00:00",
+      "cash_after": 14.8406,
+      "equity": 98.0244
     }
   ],
   "events": [
@@ -5840,11 +5845,44 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 98.7394
+    },
+    {
+      "ts": "2026-11-14T03:34:17.947008+00:00",
+      "action": "SELL",
+      "symbol": "GPSUSDT",
+      "price": 0.007838,
+      "stop_loss": 0.007838,
+      "take_profit": 0.008484,
+      "reason": "stop-loss",
+      "pnl": -0.4896,
+      "return_pct": -3.1939,
+      "entry_price": 0.00808,
+      "opened_at": "2026-11-12T22:23:04.033542+00:00",
+      "closed_at": "2026-11-14T03:34:17.947030+00:00",
+      "cash_after": 14.8406,
+      "equity": 98.0244
     }
   ],
-  "last_run_events": [],
-  "runs": 1562,
-  "updated_at": "2026-11-13T23:32:09.509209+00:00",
-  "equity": 98.0381,
-  "total_return_pct": -1.9619
+  "last_run_events": [
+    {
+      "ts": "2026-11-14T03:34:17.947008+00:00",
+      "action": "SELL",
+      "symbol": "GPSUSDT",
+      "price": 0.007838,
+      "stop_loss": 0.007838,
+      "take_profit": 0.008484,
+      "reason": "stop-loss",
+      "pnl": -0.4896,
+      "return_pct": -3.1939,
+      "entry_price": 0.00808,
+      "opened_at": "2026-11-12T22:23:04.033542+00:00",
+      "closed_at": "2026-11-14T03:34:17.947030+00:00",
+      "cash_after": 14.8406,
+      "equity": 98.0244
+    }
+  ],
+  "runs": 1563,
+  "updated_at": "2026-11-14T03:34:17.949392+00:00",
+  "equity": 98.0244,
+  "total_return_pct": -1.9756
 }
