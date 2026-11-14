@@ -1,6 +1,6 @@
 {
   "starting_cash": 100.0,
-  "cash": 14.840579201805546,
+  "cash": 0.0,
   "positions": {
     "USDCUSDT": {
       "signal": "donchian_breakout",
@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.0007
+      "last_mark": 1.00073
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99906
+      "last_mark": 0.9991
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -33,7 +33,7 @@
       "take_profit": 1.0514700000000001,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-28T07:16:59.042459+00:00",
-      "last_mark": 1.0008
+      "last_mark": 1.0007
     },
     "JSTUSDT": {
       "signal": "donchian_breakout",
@@ -44,7 +44,18 @@
       "take_profit": 0.1490265,
       "usdt_rate": 1.0,
       "opened_at": "2026-11-06T05:10:37.747045+00:00",
-      "last_mark": 0.14464
+      "last_mark": 0.1463
+    },
+    "MRNABUSDT": {
+      "signal": "donchian_breakout",
+      "entry_price": 221.79,
+      "units": 0.0668458389584911,
+      "notional": 14.840579201805546,
+      "stop_loss": 215.13629999999998,
+      "take_profit": 232.8795,
+      "usdt_rate": 1.0,
+      "opened_at": "2026-11-14T10:56:57.975526+00:00",
+      "last_mark": 221.79
     }
   },
   "history": [
@@ -5861,28 +5872,36 @@
       "closed_at": "2026-11-14T03:34:17.947030+00:00",
       "cash_after": 14.8406,
       "equity": 98.0244
+    },
+    {
+      "ts": "2026-11-14T10:56:57.975541+00:00",
+      "action": "BUY",
+      "symbol": "MRNABUSDT",
+      "price": 221.79,
+      "stop_loss": 215.1363,
+      "take_profit": 232.8795,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.2027
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-11-14T03:34:17.947008+00:00",
-      "action": "SELL",
-      "symbol": "GPSUSDT",
-      "price": 0.007838,
-      "stop_loss": 0.007838,
-      "take_profit": 0.008484,
-      "reason": "stop-loss",
-      "pnl": -0.4896,
-      "return_pct": -3.1939,
-      "entry_price": 0.00808,
-      "opened_at": "2026-11-12T22:23:04.033542+00:00",
-      "closed_at": "2026-11-14T03:34:17.947030+00:00",
-      "cash_after": 14.8406,
-      "equity": 98.0244
+      "ts": "2026-11-14T10:56:57.975541+00:00",
+      "action": "BUY",
+      "symbol": "MRNABUSDT",
+      "price": 221.79,
+      "stop_loss": 215.1363,
+      "take_profit": 232.8795,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 98.2027
     }
   ],
-  "runs": 1563,
-  "updated_at": "2026-11-14T03:34:17.949392+00:00",
-  "equity": 98.0244,
-  "total_return_pct": -1.9756
+  "runs": 1564,
+  "updated_at": "2026-11-14T10:56:57.975573+00:00",
+  "equity": 98.2027,
+  "total_return_pct": -1.7973
 }
