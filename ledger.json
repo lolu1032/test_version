@@ -11,7 +11,7 @@
       "take_profit": 1.050924,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-03T20:38:04.540809+00:00",
-      "last_mark": 1.0009
+      "last_mark": 1.00093
     },
     "USD1USDT": {
       "signal": "donchian_breakout",
@@ -22,7 +22,7 @@
       "take_profit": 1.0499055,
       "usdt_rate": 1.0,
       "opened_at": "2026-07-10T15:20:28.286215+00:00",
-      "last_mark": 0.99983
+      "last_mark": 0.99994
     },
     "XUSDUSDT": {
       "signal": "donchian_breakout",
@@ -44,18 +44,18 @@
       "take_profit": 0.1490265,
       "usdt_rate": 1.0,
       "opened_at": "2026-11-06T05:10:37.747045+00:00",
-      "last_mark": 0.14368
+      "last_mark": 0.14497
     },
-    "NVDABUSDT": {
+    "RESOLVUSDT": {
       "signal": "donchian_breakout",
-      "entry_price": 159.34,
-      "units": 0.09438750638682807,
-      "notional": 15.054760027704889,
-      "stop_loss": 154.5598,
-      "take_profit": 167.30700000000002,
+      "entry_price": 0.01384,
+      "units": 1051.9762767298905,
+      "notional": 14.57392559553722,
+      "stop_loss": 0.013424799999999999,
+      "take_profit": 0.014532,
       "usdt_rate": 1.0,
-      "opened_at": "2026-11-18T07:07:56.725856+00:00",
-      "last_mark": 159.34
+      "opened_at": "2026-11-18T16:26:53.064680+00:00",
+      "last_mark": 0.01384
     }
   },
   "history": [
@@ -2186,6 +2186,22 @@
       "closed_at": "2026-11-18T07:07:56.725798+00:00",
       "cash_after": 15.0548,
       "equity": 98.1375
+    },
+    {
+      "ts": "2026-11-18T16:26:53.063195+00:00",
+      "action": "SELL",
+      "symbol": "NVDABUSDT",
+      "price": 154.5598,
+      "stop_loss": 154.5598,
+      "take_profit": 167.307,
+      "reason": "stop-loss",
+      "pnl": -0.4808,
+      "return_pct": -3.1939,
+      "entry_price": 159.34,
+      "opened_at": "2026-11-18T07:07:56.725856+00:00",
+      "closed_at": "2026-11-18T16:26:53.063218+00:00",
+      "cash_after": 14.5739,
+      "equity": 97.811
     }
   ],
   "events": [
@@ -5972,40 +5988,68 @@
       "pnl": null,
       "cash_after": 0.0,
       "equity": 98.1375
+    },
+    {
+      "ts": "2026-11-18T16:26:53.063195+00:00",
+      "action": "SELL",
+      "symbol": "NVDABUSDT",
+      "price": 154.5598,
+      "stop_loss": 154.5598,
+      "take_profit": 167.307,
+      "reason": "stop-loss",
+      "pnl": -0.4808,
+      "return_pct": -3.1939,
+      "entry_price": 159.34,
+      "opened_at": "2026-11-18T07:07:56.725856+00:00",
+      "closed_at": "2026-11-18T16:26:53.063218+00:00",
+      "cash_after": 14.5739,
+      "equity": 97.811
+    },
+    {
+      "ts": "2026-11-18T16:26:53.064686+00:00",
+      "action": "BUY",
+      "symbol": "RESOLVUSDT",
+      "price": 0.01384,
+      "stop_loss": 0.013425,
+      "take_profit": 0.014532,
+      "reason": "donchian_breakout",
+      "pnl": null,
+      "cash_after": 0.0,
+      "equity": 97.811
     }
   ],
   "last_run_events": [
     {
-      "ts": "2026-11-18T07:07:56.725774+00:00",
+      "ts": "2026-11-18T16:26:53.063195+00:00",
       "action": "SELL",
-      "symbol": "ZILUSDT",
-      "price": 0.001017,
-      "stop_loss": 0.00094,
-      "take_profit": 0.001017,
-      "reason": "take-profit",
-      "pnl": 0.6882,
-      "return_pct": 4.7901,
-      "entry_price": 0.000969,
-      "opened_at": "2026-11-17T17:45:36.279288+00:00",
-      "closed_at": "2026-11-18T07:07:56.725798+00:00",
-      "cash_after": 15.0548,
-      "equity": 98.1375
-    },
-    {
-      "ts": "2026-11-18T07:07:56.725860+00:00",
-      "action": "BUY",
       "symbol": "NVDABUSDT",
-      "price": 159.34,
+      "price": 154.5598,
       "stop_loss": 154.5598,
       "take_profit": 167.307,
+      "reason": "stop-loss",
+      "pnl": -0.4808,
+      "return_pct": -3.1939,
+      "entry_price": 159.34,
+      "opened_at": "2026-11-18T07:07:56.725856+00:00",
+      "closed_at": "2026-11-18T16:26:53.063218+00:00",
+      "cash_after": 14.5739,
+      "equity": 97.811
+    },
+    {
+      "ts": "2026-11-18T16:26:53.064686+00:00",
+      "action": "BUY",
+      "symbol": "RESOLVUSDT",
+      "price": 0.01384,
+      "stop_loss": 0.013425,
+      "take_profit": 0.014532,
       "reason": "donchian_breakout",
       "pnl": null,
       "cash_after": 0.0,
-      "equity": 98.1375
+      "equity": 97.811
     }
   ],
-  "runs": 1578,
-  "updated_at": "2026-11-18T07:07:56.725877+00:00",
-  "equity": 98.1375,
-  "total_return_pct": -1.8625
+  "runs": 1579,
+  "updated_at": "2026-11-18T16:26:53.064706+00:00",
+  "equity": 97.811,
+  "total_return_pct": -2.189
 }
